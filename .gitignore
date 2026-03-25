@@ -1,0 +1,48 @@
+# --- REGLAS GENERALES ---
+node_modules/
+dist/
+dist-ssr/
+vendor/
+.env
+.env.*
+!.env.example
+*.log
+.vscode/
+.idea
+.DS_Store
+
+# --- FILTROS DE COPIAS Y ORIGINALES ---
+# Ignora cualquier archivo o carpeta que contenga estas palabras
+*copia*
+*copy*
+*original*
+
+# --- CARPETAS PERSONALES / RESPALDOS ---
+/documentacion/
+/chat_gemini/
+/respaldo-wordpress/
+
+# --- REGLAS LARAVEL (backend_ofiliaria) ---
+/backend_ofiliaria/storage/*.key
+/backend_ofiliaria/public/storage
+/backend_ofiliaria/public/build
+/backend_ofiliaria/public/hot
+/backend_ofiliaria/.phpunit.result.cache
+
+# --- REGLAS WORDPRESS (redetron) ---
+# Ignoramos todo el directorio de WordPress por defecto
+/redetron/*
+
+# Excluimos de la ignorancia (permitimos) tu tema hijo
+!/redetron/wp-content/
+!/redetron/wp-content/themes/
+!/redetron/wp-content/themes/wpresidence-child/
+
+# Excluimos tu plugin
+!/redetron/wp-content/plugins/
+!/redetron/wp-content/plugins/ofiliaria/
+
+# --- REGLAS INTERNAS DEL PLUGIN (REACT Y JQUERY-VITE) ---
+/redetron/wp-content/plugins/ofiliaria/**/node_modules/
+/redetron/wp-content/plugins/ofiliaria/**/dist/
+/redetron/wp-content/plugins/ofiliaria/**/*.local

@@ -1,0 +1,1 @@
+export { indexAniadirNuevaPropiedad } from "./indexAniadirNuevaPropiedad";

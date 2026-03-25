@@ -1,0 +1,1 @@
+export { indexInfocasas } from "./indexInfocasas";

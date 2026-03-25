@@ -1,0 +1,740 @@
+{ 
+    "No se encontraron garantías" : "No se encontraron garantías",
+
+    "Hubo un error en el servidor" : "Hubo un error en el servidor",
+    
+    "No se pudo eliminar la garantía" : "No se pudo eliminar la garantía",
+    
+    "La garantía fue eliminada exitosamente" : "La garantía fue eliminada exitosamente",
+    
+    "No se puede conectar con Wordpress" : "No se puede conectar con Wordpress",
+    
+    "No se pudo eliminar el registro de la persona" : "No se pudo eliminar el registro de la persona",
+    
+    "Error al guardar los datos" : "Error al guardar los datos",
+    
+    "Salir del formulario" : "Salir del formulario",
+        
+    "El inquilino No puede estar en el Clearing ni Seguro de Paro para solicitar esta garantía. Si el inquilino estuvo en seguro de paro parcial o total, debe tener un (1) mes completo trabajado fuera del seguro de paro y presentar además los recibos de cobro emitidos por BPS, éstos deben ir adjuntos en el mismo campo de adjuntar los recibos de sueldo." : "El inquilino No puede estar en el Clearing ni Seguro de Paro para solicitar esta garantía. Si el inquilino estuvo en seguro de paro parcial o total, debe tener un (1) mes completo trabajado fuera del seguro de paro y presentar además los recibos de cobro emitidos por BPS, éstos deben ir adjuntos en el mismo campo de adjuntar los recibos de sueldo.",
+    
+    "Estimado usuario el costo del alquiler de la propiedad es de: costoAlquiler  monedaPropiedad, la sumatoria del porcentaje de los ingresos del arrendatario y el (los) codeudor(es) es de limitePago y existe un faltante de faltante. Por favor agregue uno o más codeudores" : "Estimado usuario el costo del alquiler de la propiedad es de: {{ costoAlquiler }} {{ monedaPropiedad }}, la sumatoria del porcentaje de los ingresos del arrendatario y el (los) codeudor(es) es de {{ limitePago }} y existe un faltante de {{ faltante }}. Por favor agregue uno o más codeudores",
+
+    "Registrar garantía" : "Registrar garantía",
+
+    "Personas adicionales (codeudores)" : "Personas adicionales (codeudores)",
+
+    "Los datos de la garantía se registraron exitosamente" : "Los datos de la garantía se registraron exitosamente",
+
+    "Agregarlo más tarde" : "Agregarlo más tarde",
+
+    "Los datos de la garantía se registraron exitosamente, pero más tarde debe agregar uno o más codeudores" : "Los datos de la garantía se registraron exitosamente, pero más tarde debe agregar uno o más codeudores",
+
+    "Paso 4, Borrador, ingresos insuficientes" : "Paso 4, Borrador, ingresos insuficientes",
+
+    "Recibos de sueldo o de cobro de jubilación o pensión *" : "Recibos de sueldo o de cobro de jubilación o pensión *",
+
+    "Recibos de sueldo" : "Recibos de sueldo",
+
+    "Últimos tres recibos de sueldo *" : "Últimos tres recibos de sueldo *",
+
+    "Últimos seis recibos de sueldo *" : "Últimos seis recibos de sueldo *",
+
+    "Último recibo de sueldo *" : "Último recibo de sueldo *",
+
+    "Últimos tres recibos de cobro de jubilación o pensión emitidos por la caja oficial correspondiente *" : "Últimos tres recibos de cobro de jubilación o pensión emitidos por la caja oficial correspondiente *",
+
+    "Certificado de ingresos *" : "Certificado de ingresos *",
+
+    "Los archivos de la certificación de ingresos son requeridos" : "Los archivos de la certificación de ingresos son requeridos",
+
+    "Última declaración jurada ante DGI o (IRPF / IRAE / IPAT / ICOSA / IVA, etc) presentada en el último año *" : "Última declaración jurada ante DGI o (IRPF / IRAE / IPAT / ICOSA / IVA, etc) presentada en el último año *",
+
+    "Los archivos de la DGI son requeridos" : "Los archivos de la DGI son requeridos",
+
+    "Certificados vigentes de BPS y DGI *" : "Certificados vigentes de BPS y DGI *",
+
+    "Certificado de estar al día con la Caja Notarial o CJPPU o Profesional según corresponda *" : "Certificado de estar al día con la Caja Notarial o CJPPU o Profesional según corresponda *",
+
+    "Paso 5, Enviado" : "Paso 5, Enviado",
+
+    "Certificado(s) requerido(s)" : "Certificado(s) requerido(s)",
+
+    "Último balance con informe de compilacion *" : "Último balance con informe de compilacion *",
+
+    "Tarjeta RUT *" : "Tarjeta RUT *",
+
+    "Contrato social certificado notarial (si hay socios) *" : "Contrato social certificado notarial (si hay socios) *",
+
+    "Certificado de universidad emitido oficialmente por la universidad *" : "Certificado de universidad emitido oficialmente por la universidad *",
+
+    "Balance(s) requerido(s)" : "Balance(s) requerido(s)",
+
+    "La tarjeta RUT es requerida" : "La tarjeta RUT es requerida",
+
+    "El contrato es requerido" : "El contrato es requerido",
+
+    "Tipo de persona:" : "Tipo de persona:",
+
+    "Último recibo de cobro de jubilación o pensión emitido por la caja oficial correspondiente *" : "Último recibo de cobro de jubilación o pensión emitido por la caja oficial correspondiente *",
+
+    "El número de cédula es requerido" : "El número de cédula es requerido",
+
+    "Los nombres son requeridos" : "Los nombres son requeridos",
+
+    "Los apellidos son requeridos" : "Los apellidos son requeridos",
+
+    "El RUT de la empresa es requerido" : "El RUT de la empresa es requerido",
+
+    "El nombre de la empresa es requerido" : "El nombre de la empresa es requerido",
+
+    "El email es requerido" : "El email es requerido",
+
+    "El número de teléfono es requerido" : "El número de teléfono es requerido",
+
+    "La moneda del ingreso es requerida" : "La moneda del ingreso es requerida",
+
+    "El monto de los ingresos es requerido" : "El monto de los ingresos es requerido",
+
+    "Número de cédula *" : "Número de cédula *",
+
+    "texto_51" : "Nombres del arrendatario *",
+
+    "texto_52" : "Apellidos del arrendatario *",
+
+    "texto_53" : "Número de RUT *",
+
+    "texto_54" : "Nombre de la empresa *",
+
+    "texto_55" : "Email del arrendatario *",
+
+    "texto_56" : "Teléfono móvil del arrendatario *",
+
+    "texto_57" : "Moneda *",
+
+    "texto_58" : "Monto líquido de ingresos *",
+
+    "texto_59" : "Tipo de ingreso *",
+
+    "texto_60" : "Empleado (trabajador dependiente)",
+
+    "texto_61" : "Jubilado o pensionista",
+
+    "texto_62" : "Documento de identidad *",
+
+    "texto_63" : "El costo del alquiler es requerido",
+
+    "texto_64" : "Certificado de ingresos con modelo especifico *",
+
+    "texto_65" : "Número de documento de identidad:",
+
+    "texto_66" : "Persona física",
+
+    "texto_67" : "Persona con rentas de alquileres",
+
+    "texto_68" : "Universitario",
+
+    "texto_69" : "Profesional independiente",
+
+    "texto_70" : "Unipersonal",
+
+    "texto_71" : "Micro-empresario",
+
+    "texto_72" : "Empresa",
+
+    "texto_73" : "Socios o accionistas de sociedades comerciales",
+
+    "texto_74" : "Recibo de alquiler del último mes o estado de cuenta bancaria donde lo percibe (la misma debe estar a nombre del solicitante)",
+
+    "texto_75" : "Contrato de arrendamiento *",
+
+    "texto_76" : "Dos últimos balances contables auditados, certificados o con revisión limitada",
+
+    "texto_77" : "Cargar contrato",
+
+    "texto_78" : "Recibo o estado de cuenta requerido",
+
+    "texto_79" : "Nombres:",
+
+    "texto_80" : "Descargar modelo de certificación de ingresos",
+
+    "texto_81" : "Fijo",
+
+    "texto_82" : "Variable",
+
+    "texto_83" : "Cargo",
+
+    "texto_84" : "Administrador",
+
+    "texto_85" : "Apoderado",
+
+    "Propietario" : "Propietario",
+
+    "texto_87" : "Socio",
+
+    "texto_88" : "El cargo que ocupa en la empresa es requerido",
+
+    "texto_89" : "Nombre de referencia o título de la propiedad *",
+
+    "texto_90" : "Este nombre o título no aparecerá en el contrato",
+
+    "texto_91" : "El nombre de la propiedad es requerido",
+
+    "texto_92" : "Número de padrón de la propiedad",
+
+    "texto_93" : "Dirección de la propiedad *",
+
+    "texto_94" : "La dirección de la propiedad es requerida",
+
+    "texto_95" : "Moneda *",
+
+    "texto_96" : "El tipo de moneda es requerido",
+
+    "texto_97" : "$UYU",
+
+    "texto_98" : "$USD",
+
+    "texto_99" : "El tipo de moneda es requerido",
+
+    "texto_100" : "Tipo de propiedad *",
+
+    "texto_101" : "El tipo de propiedad es requerido",
+
+    "texto_102" : "Apartamento",
+
+    "texto_103" : "Casa",
+
+    "texto_104" : "Edificio",
+
+    "texto_105" : "Local comercial",
+
+    "texto_106" : "Oficina",
+
+    "texto_107" : "Precio de alquiler",
+
+    "texto_108" : "Datos de propiedad para garantía",
+
+    "Aseguradora" : "Aseguradora",
+
+    "texto_110" : "seleccionada",
+
+    "texto_111" : "Eliminar Garantía",
+
+    "texto_112" : "¿Está seguro de que desea eliminar la garantía de {{arrendatario}} ?",
+
+    "texto_113" : "Sí",
+
+    "texto_114" : "No",
+
+    "texto_115" : "Login",
+
+    "texto_116" : "Estimado usuario debe primero acceder a la aplicación con su usuario y clave",
+
+    "texto_117" : "Hubo un error al verificar el usuario",
+
+    "texto_118" : "Permisos",
+
+    "texto_119" : "Su usuario no tiene los permisos suficiente para acceder a la aplicación",
+
+    "texto_120" : "Datos del contrato",
+
+    "texto_121" : "No se pudo verificar si el usuario está conectado",
+
+    "texto_122" : "Tipo de persona *",
+
+    "texto_123" : "El tipo de persona es requerido",
+
+    "texto_124" : "El tipo de ingreso es requerido",
+
+    "texto_125" : "Tipo de sueldo *",
+
+    "texto_126" : "El tipo de sueldo es requerido",
+
+    "texto_127" : "Cargar documento de identidad",
+
+    "texto_128" : "Cargar RUT",
+
+    "texto_129" : "Cargar declaración jurada",
+
+    "texto_130" : "Cargar recibo(s)",
+
+    "texto_131" : "Cargar certificado(s)",
+
+    "texto_132" : "Cargar balance(s)",
+
+    "texto_133" : "Apellidos:",
+
+    "texto_134" : "Cargar recibo o estado de cuenta",
+
+    "texto_135" : "Recibo(s) requerido(s)",
+
+    "texto_136" : "Recuerde que puede sumar hasta {{cantidadPersonasAdicionales}} personas a los ingresos para poder registrar la solicitud.",
+
+    "texto_137" : "Monto líquido faltante para alquiler: ",
+
+    "texto_138" : "Porcentaje de ingresos actuales: UYU $",
+
+    "texto_139" : "Costo de alquiler mensual: UYU $",
+
+    "texto_140" : "Nombres del codeudor *",
+
+    "texto_141" : "Apellidos del codeudor *",
+
+    "texto_142" : "Email del codeudor *",
+
+    "texto_143" : "Teléfono móvil del codeudor *",
+
+    "texto_144" : "Eliminar Codeudor",
+
+    "texto_145" : "¿Está seguro de que desea eliminar al codeudor {{codeudor}} ?",
+
+    "texto_146" : "Codeudor eliminado satisfactoriamente",
+
+    "texto_147" : "Editar Codeudor",
+
+    "Agregar codeudor" : "Agregar codeudor",
+
+    "texto_149" : "El codeudor se agregó exitosamente",
+
+    "texto_150" : "Los datos y/o archivos del codeudor se modificaron exitosamente",
+
+    "texto_151" : "Guardar codeudor",
+
+    "texto_152" : "Siguiente",
+
+    "texto_153" : "El token para las pruebas de desarrollo se generó exitosamente",
+
+    "texto_154" : "No se pudo obtener el token para las pruebas de desarrollo",
+
+    "texto_155" : "Error en el servidor, no se pudo generar el token para las pruebas de desarrollo",
+
+    "texto_156" : "Ingresos Insuficientes",
+
+    "Límite Personas adicionales" : "Límite Personas adicionales",
+
+    "Estimado usuario usted ya alcanzó el límite para agregar personas adicionales" : "Estimado usuario usted ya alcanzó el límite para agregar personas adicionales",
+
+    "texto_159" : "Estimado usuario el costo del alquiler de la propiedad es de: {{ costoAlquiler }} {{ monedaPropiedad }}, la sumatoria del porcentaje de los ingresos del arrendatario y el (los) codeudor(es) es de {{ limitePago }} y existe un faltante de {{ faltante }}. Por favor sustituya uno o más deudores por otro(s) con mayores ingresos",
+
+    "Ok" : "Ok",
+
+    "texto_161" : "Editar",
+
+    "texto_162" : "Ver detalle",
+
+    "texto_163" : "Eliminar",
+
+    "texto_164" : "En revisión",
+
+    "texto_165" : "No se encontró la garantía",
+
+    "texto_166" : "Tramitar",
+
+    "texto_167" : "Datos de la propiedad",
+
+    "texto_168" : "Moneda ingreso:",
+
+    "texto_169" : "Monto ingresos:",
+
+    "texto_170" : "Número de RUT:",
+
+    "texto_171" : "Empresa:",
+
+    "texto_172" : "Cargo ocupado en la empresa:",
+
+    "texto_173" : "Tipo de ingreso:",
+
+    "texto_174" : "Tipo de sueldo:",
+
+    "texto_175" : "Documento de identidad:",
+
+    "texto_176" : "Recibos de sueldo o cobro de pensiones:",
+
+    "texto_177" : "Última declaración jurada ante DGI o (IRPF / IRAE / IPAT / ICOSA / IVA, etc) presentada en el último año",
+
+    "texto_178" : "Certificados vigentes de BPS y DGI:",
+
+    "texto_179" : "Tarjeta RUT:",
+
+    "Volver" : "Volver",
+
+    "texto_181" : "Detalle de la garantía",
+
+    "texto_182" : "Garantia enviada",
+
+    "texto_183" : "Para continuar es obligatario hacer clic en la casilla * En Revisión *",
+
+    "texto_184" : "Error al actualizar la garantía",
+
+    "texto_185" : "Revisión de la garantía",
+
+    "texto_186" : "Aprobar garantía ?",
+
+    "texto_187" : "Para continuar debe seleccionar si aprueba la garantía o no",
+
+    "texto_188" : "Usuario no autorizado",
+
+    "texto_189" : "Garantía No Enviada",
+
+    "texto_190" : "La garantía aún no se ha enviado",
+
+    "texto_191" : "Su usuario no tiene permisos suficientes para tramitar la garantía",
+
+    "Ingresos suficientes" : "Ingresos suficientes",
+
+    "Los ingresos registrados son suficientes para contratar la garantía, no requiere personas adicionales" : "Los ingresos registrados son suficientes para contratar la garantía, no requiere personas adicionales",
+
+    "texto_194" : "Agregar propietario",
+
+    "texto_195" : "Datos del(los) propietario(s)/arrendador(es)",
+
+    "texto_196" : "Propietario/Arrendador",
+
+    "texto_197" : "Tipo de persona",
+
+    "texto_198" : "Documento",
+
+    "texto_199" : "Teléfono",
+    
+    "texto_200" : "Guardar propietario",
+    
+    "texto_201" : "Anterior",
+    
+    "texto_202" : "Puedes añadir hasta un máximo de {{cantidadPropietarios}} propietarios para el contrato.",
+    
+    "texto_203" : "Límite Propietarios",
+    
+    "texto_204" : "Estimado usuario usted ya alcanzó el límite para agregar propietarios",
+    
+    "texto_205" : "Editando propietario",
+    
+    "texto_206" : "Propietario eliminado satisfactoriamente",
+    
+    "texto_207" : "Nombres *",
+    
+    "texto_208" : "Apellidos *",
+    
+    "texto_209" : "Email *",
+    
+    "texto_210" : "Número de teléfono *",
+    
+    "texto_211" : "En Revisión",
+    
+    "texto_212" : "Estimado usuario debe indicar si desea colocar el estatus de la garantía EN REVISIÓN",
+    
+    "texto_213" : "Indicarlo ahora",
+    
+    "texto_214" : "Más tarde",
+    
+    "texto_215" : "Aprobación o Rechazo de la Garantía",
+    
+    "texto_216" : "Estimado usuario debe indicar si la aseguradora aprobó o rechazó la garantía",
+    
+    "texto_217" : "Garantía Rechazada",
+    
+    "texto_218" : "Estimado usuario la garantía fue rechazada por la aseguradora por el siguiente motivo: {{ motivoRechazoGarantia }}. Si desea hacer cambios en la garantía seleccione la opción EDITAR",
+    
+    "texto_219" : "Motivo del rechazo de la garantía *",
+    
+    "texto_220" : "El motivo del rechazo de la garantía es requerido",
+    
+    "texto_221" : "Enviar",
+
+    "Guardar" : "Guardar",
+
+    "texto_223" : "Física",
+    
+    "texto_224" : "Jurídica",
+    
+    "texto_225" : "Residencial",
+    
+    "texto_226" : "Comercial",
+    
+    "texto_227" : "Tipo de contrato *",
+    
+    "texto_228" : "El tipo de contrato es requerido",
+    
+    "texto_229" : "El propietario se agregó exitosamente",
+    
+    "texto_230" : "Los datos y/o archivos del propietario se modificaron exitosamente",
+    
+    "texto_231" : "Fecha de inicio alquiler *",
+    
+    "texto_232" : "La fecha es inválida",
+    
+    "texto_233" : "Plazo del alquiler *",
+    
+    "texto_234" : "El plazo es requerido",
+    
+    "texto_235" : "Tipo de pago de alquiler *",
+    
+    "texto_236" : "El tipo de pago es requerido",
+    
+    "texto_237" : "Régimen de ajuste de alquiler *",
+    
+    "texto_238" : "El regimen de ajuste es requerido",
+    
+    "texto_239" : "Departamento donde se firmará el documento *",
+
+    "texto_240" : "El departamento es requerido",
+
+    "texto_241" : "Ciudad donde se firmará el documento",
+
+    "texto_242" : "La ciudad es requerida",
+
+    "Términos y condiciones adicionales para mencionar en el contrato" : "Términos y condiciones adicionales para mencionar en el contrato",
+
+    "Los términos y condiciones son requeridos" : "Los términos y condiciones son requeridos",
+
+    "texto_245" : "Banco *",
+
+    "texto_246" : "El banco es requerido",
+
+    "texto_247" : "Nombres del titular de la cuenta *",
+
+    "texto_248" : "Los nombres del titular son requeridos",
+
+    "texto_249" : "Apellidos del titular de la cuenta *",
+
+    "texto_250" : "Los apellidos del titular son requeridos",
+
+    "texto_251" : "Moneda *",
+
+    "texto_252" : "El tipo de moneda es requerido",
+
+    "texto_253" : "Número de cuenta *",
+
+    "texto_254" : "El número de cuenta es requerido",
+
+    "texto_255" : "Tipo de cuenta *",
+
+    "texto_256" : "El tipo de cuenta es requerido",
+
+    "texto_257" : "Semanas",
+
+    "texto_258" : "Meses",
+
+    "texto_259" : "Años",
+
+    "texto_260" : "Mes adelantado",
+
+    "texto_261" : "Mes vencido",
+
+    "texto_262" : "Contrato regido por ley 14.219 (permiso de construcción anterior al 02/06/68)",
+
+    "texto_263" : "Libre contratación (permiso de construcción posterior al 02/06/68)",
+
+    "texto_264" : "Caja de ahorros pesos UYU",
+
+    "texto_265" : "Caja de ahorros dólares USD",
+
+    "texto_266" : "Cuenta corriente en pesos UYU",
+
+    "texto_267" : "Cuenta corriente en dólares USD",
+
+    "texto_268" : "Número de sucursal del banco",
+
+    "texto_269" : "El número de sucursal es requerido",
+
+    "texto_270" : "Tipo de documento de identidad *",
+
+    "texto_271" : "El tipo de documento es requerido",
+
+    "texto_272" : "Tipo de propietario del inmueble *",
+
+    "texto_273" : "El tipo de propietario es requerido",
+
+    "texto_274" : "Tipo de propietario de la empresa *",
+
+    "texto_275" : "El tipo de propietario es requerido",
+
+    "texto_276" : "Domicilio *",
+
+    "texto_277" : "El domicilio es requerido",
+
+    "texto_278" : "Cédula de identidad",
+
+    "texto_279" : "Pasaporte",
+
+    "texto_280" : "Eliminar Propietario",
+
+    "texto_281" : "¿Está seguro de que desea eliminar al propietario {{propietario}} ?",
+
+    "texto_282" : "Datos Bancarios",
+
+    "texto_283" : "Editar propietario",
+
+    "texto_284" : "Imprimir",
+
+    "Previsualizar contrato" : "Previsualizar contrato",
+
+    "Edición del contrato" : "Edición del contrato",
+
+    "Estimado usuario, ya existe un contrato guardado para esta garantía. Desea editarlo ?" : "Estimado usuario, ya existe un contrato guardado para esta garantía. Desea editarlo ?",
+
+    "texto_288" : "Archivos faltantes",
+
+    "texto_289" : "Estimado usuario faltan algunos archivos adjuntos del solicitante o codeudor(es).",
+
+    "texto_290" : "Agregando persona",
+
+    "texto_291" : "Adjuntarlos ahora",
+
+    "texto_292" : "Verificá tu contrato",
+
+    "texto_293" : "Antes de guardar, revisá tu contrato y confirmá que los datos estén correctos",
+
+    "Inventario del Inmueble" : "Inventario del Inmueble",
+
+    "*" : "*",
+
+    "Poder notariado" : "Poder notariado *",
+
+    "Cargar poder notariado" : "Cargar poder notariado",
+
+    "El poder es requerido" : "El poder es requerido",
+
+    "Estimado usuario uno de los tipos de codeudores no está permitido por la aseguradora, por favor cámbielo por otro" : "Estimado usuario uno de los tipos de codeudores no está permitido por la aseguradora, por favor cámbielo por otro",
+
+    "Tipo de codeudor no permitido" : "Tipo de codeudor no permitido",
+
+    "¿Querés editar/descargar algún dato?" : "¿Querés editar/descargar algún dato?",
+
+    "Descargar formulario" : "Descargar formulario",
+
+    "Editar contrato" : "Editar contrato",
+
+    "Descripción *" : "Descripción *",
+
+    "Adjuntar fotos *" : "Adjuntar fotos *",
+
+    "Seleccionar medios" : "Seleccionar medios",
+
+    "Guardar inventario" : "Guardar inventario",
+
+    "texto_308" : "Las fotos del inventario son requeridas",
+
+    "texto_309" : "Descargar contrato de alquiler",
+
+    "texto_310" : "Seleccione el tipo de inventario *",
+
+    "texto_311" : "Foto inventario",
+
+    "texto_312" : "Formulario PDF",
+
+    "texto_313" : "El tipo de inventario es requerido",
+
+    "texto_314" : "Ingresá descripción o detalles importantes del inmueble...",
+
+    "texto_315" : "La descripción es requerida",
+
+    "texto_316" : "Observaciones",
+
+    "texto_317" : "Ingresa observaciones (opcional)",
+
+    "texto_318" : "Descargar formulario PDF",
+
+    "texto_319" : "Continuar a la firma",
+
+    "texto_320" : "- El tamaño mínimo en resolución de la imagen debe ser al menos de 500 X 500 px o superior.",
+
+    "texto_321" : "- El tamaño máximo de cada archivo no debe ser mayor a 10Mb.",
+
+    "texto_322" : "- Sólo se admiten los formatos: .JPG, .JPEG, .PNG, .Webp.",
+
+    "texto_323" : "Estimado usuario debe agregar uno o más propietario para visualizar el contrato",
+
+    "texto_324" : "Datos del propietario",
+
+    "texto_325" : "Datos de la empresa",
+
+    "texto_326" : "Departamento *",
+
+    "texto_327" : "El departamento es requerido",
+
+    "texto_328" : "Ciudad",
+
+    "texto_329" : "La ciudad es requerida",
+
+    "texto_330" : "Carga de Documentos Firmados",
+
+    "texto_331" : "Cargar del Comprobante de Pago",
+
+    "texto_332" : "Cargar documentos",
+
+    "texto_333" : "Cargar comprobante",
+
+    "texto_334" : "Descargar foto-inventario",
+
+    "texto_335" : "Editar foto-inventario",
+
+    "texto_336" : "El contrato firmado es requerido",
+
+    "texto_337" : "Contrato de alquiler firmado *",
+
+    "texto_338" : "El inventario firmado es requerido",
+
+    "texto_339" : "Inventario del inmueble firmado *",
+
+    "texto_340" : "Cargando archivo {{archivo}} de {{total}}...",
+
+    "texto_341" : "El archivo PDF foto inventario se generó exitosamente",
+
+    "texto_342" : "No se pudo generar el archivo PDF foto inventario",
+
+    "texto_343" : "El archivo PDF del foto inventario aún no se ha terminado de generar, por favor intente nuevamente en un minuto",
+
+    "texto_344" : "Garantía no encontrada",
+
+    "texto_345" : "Paso 3, Borrador",
+
+    "texto_346" : "Formulario de la aseguradora firmado *",
+
+    "texto_347" : "El formulario firmado de la aseguradora es requerido",
+
+    "texto_348" : "Comprobante de pago *",
+
+    "texto_349" : "El comprobante de pago es requerido",
+
+    "texto_350" : "ID Solicitud de garantía: {{ idGarantia}}",
+
+    "texto_351" : "Utilizá el contrato de alquiler generado en tu proceso de garantía en Ofiliaria en los pasos anteriores, debe estar firmado a mano y en buena resolución claro y legible.",
+
+    "texto_352" : "Utilizá el inventario generado en tu proceso de garantía en Ofiliaria en los pasos anteriores, debe estar firmado a mano y en buena resolución claro y legible.",
+
+    "texto_353" : "Utilizá el formulario de alquiler correspondiente a tu aseguradora, descargado en tu proceso de garantía en Ofiliaria en los pasos anteriores, debe estar firmado a mano y en buena resolución claro y legible.",
+
+    "texto_354" : "Email duplicado",
+
+    "texto_355" : "Por favor ingrese un email diferente, el email {{ email }} ya está registrado por otro usuario en el módulo de garantías.",
+
+    "Filtrar" : "Filtrar",
+
+    "Nueva garantía" : "Nueva garantía",
+
+    "ID de la Garantía" : "ID de la Garantía",
+
+    "Agencia/Agente" : "Agencia/Agente",
+
+    "Arrendatario" : "Arrendatario",
+
+    "Estatus" : "Estatus",
+
+    "Cancelar" : "Cancelar",
+
+    "Aplicar Filtros" : "Aplicar Filtros",
+
+    "ID" : "ID",
+
+    "Agencia/ agente" : "Agencia/ agente",
+
+    "Arrendatario/ Propietario" : "Arrendatario/ Propietario",
+
+    "Propiedad" : "Propiedad",
+
+    "Monto" : "Monto",
+
+    "Estado" : "Estado",
+
+    "Acciones" : "Acciones"
+
+}

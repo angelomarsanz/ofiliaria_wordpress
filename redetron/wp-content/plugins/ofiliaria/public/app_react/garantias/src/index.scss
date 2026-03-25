@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'react-date-picker/dist/DatePicker.css';
+@import 'react-calendar/dist/Calendar.css';
+@import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+
+.ra_garantias {
+  // Variables de colores 
+  $color_primario: #296eb3;
+  $color_ligero: #f3f3f3;
+  $color_oscuro: #022f64;
+  $color_libre: #7dbaff;
+  $color_bronce: #b85a24;  
+  $color_plata: #8a8a8a;
+  $color_plata_2: silver;
+  $color_oro: #e2a922;
+  $color_violeta: #6C5DD3;
+  $color_azul:#586bedff;
+  $color_negro: #434356;
+  $color_negro_2: #4E4E4E;
+  $color_morado: #9127ff;
+  $color_cacaca: #cacaca;
+  $color_naranja: #ff6d00;
+  $color_gris : #e4e4e4;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  
+  @media screen
+  { 
+    box-sizing: border-box;
+    padding: 1em;
+
+    // Inicio previo imágenes
+    .ra_flex_imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    
+    .ra_flex_imagenes > div {
+      width: 100px;
+      margin: 10px;
+    }
+
+    // Fin previo imágenes
+    // Inicio Editor de texto Draft.js
+
+    .ra-App-header {
+      background-color: white;
+      min-height: 5vh;
+      display: flex;
+      flex-direction: column;
+      font-size: calc(10px + 2vmin);
+      color: #282c34;
+      margin-bottom: 5vh;
+      padding: 12px;
+    }
+    
+    
+    .ra-wrapper-class {
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+    
+    .ra-editor-class {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      line-height : 150%;
+    }
+    
+    .ra-toolbar-class {
+      border: 1px solid #ccc;
+    }
+     
+    .ra_vista_previa_contrato {
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+
+    // Fin Editor de texto Draft.js
+
+    // Inicio date picker
+
+    .react-date-picker__wrapper {
+      border-radius: 3px;
+      height: 4.5rem;
+      border-color: rgb(182, 179, 179);
+    }
+    
+    .react-date-picker__inputGroup__input {
+      height: 50%;
+    }   
+    
+    // Fin date picker  
+
+    .ra_borde_redondeado {
+      border: 2px solid $color_morado;
+      border-bottom: 15px solid $color_morado;
+      border-radius: 30px;
+      padding: 5px;  
+    }
+
+    .ra_gris
+    {
+      filter: grayscale(100%);
+      opacity: 0.5;
+    }
+
+    .ra_margen_completo
+    {
+      margin: 1% 1% 2% 1%;
+    }
+    .ra_manito
+    {
+      cursor:pointer;
+    }
+    .ra_fondo {
+      background-color: lightblue;
+    }
+  
+    .ra_centrado {
+      text-align: center;
+    }
+
+    .ra_derecho {
+      text-align: right;
+    }
+
+    .ra_azul
+    {
+      color: $color_azul;
+    }
+
+    .ra_h3 {
+      font-weight: bold;
+      margin: 2% 0%;
+    }
+
+    .ra_icono {
+      margin: 0 1rem 0 0;
+    }
+
+    .ra_informacion {
+      margin-top: 2rem;
+      max-width: 70%;
+    }
+
+    .ra_package {
+      border-radius: 12px;
+      background: white;
+      overflow: hidden;
+      position: relative;
+
+      h2 {
+        margin: 0;
+        background: $color_ligero;
+        font-size: 1.2em;
+        text-align: center;
+        color: $color_negro_2;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 0.4rem;
+          left: 0;
+          bottom: 0;
+        }
+      }
+      
+      .ra_ul {
+        padding: 0 0 1rem 0;
+        margin: 0;
+        list-style: none; 
+      }
+
+      .ra_ul_2 {
+        padding: 0 0 0 4rem;
+        margin: 0;
+      }
+
+      .ra_ul_3 {
+        padding: 0;
+        margin: 0;
+        list-style: none; 
+      }
+
+      .ra_li {
+        color: black;
+        padding: 0.8em 1em;
+        font-size: 12px;
+        &:nth-child(odd) {
+          background: $color_ligero;
+        }
+      }
+      
+      .ra_li_2 {
+        color: black;
+        padding: 1em 0 0 0;
+        margin: 0;
+        font-size: 0.9em;
+      }
+
+      .ra_price {
+        padding: 3rem 1rem 1rem 1rem;
+        background: $color_ligero;
+        color: $color_negro_2;
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      .ra_p {
+        color: $color_negro_2;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.9em;
+        background: $color_ligero;
+      }  
+
+      .ra_p2 {
+        padding: 3rem 1rem 1rem 1rem;
+        background: $color_ligero;
+        color: $color_negro_2;
+        text-align: center;
+      }
+
+      .ra_p3 {
+        font-size: 0.8em;
+        color: black;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .ra_p4 {
+        padding: 3rem 1rem 3rem 1rem;
+        background: $color_ligero;
+        color: $color_negro_2;
+        text-align: center;
+      }
+
+      .ra_p5 {
+        margin: 0;
+        padding: 1rem 0 ;
+      }
+
+      .ra_big {
+        display: inline;
+        font-size: 3.5rem; 
+        font-weight: 700;
+      }
+
+      .ra_banner {
+        // background: linear-gradient(90deg, #33a530 0%, #4eee49 50%, #33a530 100%);
+        background: linear-gradient(90deg, $color_violeta 0%, $color_libre 50%, $color_violeta 100%);
+        transform: rotate(-45deg);
+        position: absolute;
+        z-index: 1;
+        padding: 0.5rem 4rem;
+        top: 2rem;
+        left: -4rem;
+        border: 2px solid $color_violeta;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .ra_package_free h2::after {
+      background: $color_libre;
+      background: linear-gradient(
+        90deg,
+        $color_libre 0%,
+        white 50%,
+        $color_libre 100%
+      );
+    }
+
+    .ra_package_bronze h2::after {
+      background: linear-gradient(
+        90deg,
+        $color_bronce 0%,
+        white 50%,
+        $color_bronce 100%
+      );
+    }
+
+    .ra_package_silver h2::after {
+      background: linear-gradient(
+        90deg,
+        $color_plata 0%,
+        white 50%,
+        $color_plata 100%
+      );
+    }
+
+    .ra_package_gold h2::after {
+      background: linear-gradient(
+        90deg,
+        $color_violeta 0%,
+        $color_libre 50%,
+        $color_violeta 100%
+      );
+    }
+    .ra_container{
+      max-width: 650px;
+      width: 100%;
+    }
+
+    /* plus glyph for showing collapsible panels */
+    .panel-heading .accordion-plus-toggle:before {
+      font-family: FontAwesome;
+      content: "\f068";
+      float: right;
+      color: $color_plata_2;
+    }
+
+    .panel-heading .accordion-plus-toggle.collapsed:before {
+      content: "\f067";
+      color: $color_plata_2;
+    }
+
+    /* arrow glyph for showing collapsible panels */
+    .panel-heading .accordion-arrow-toggle:before {
+      font-family: FontAwesome;
+      content: "\f078";
+      float: right;
+      color: $color_plata_2;
+    }
+
+    .panel-heading .accordion-arrow-toggle.collapsed:before {
+      content: "\f054";
+      color: $color_plata_2;
+    }
+
+    /* sets the link to the width of the entire panel title */
+    .panel-title > a {
+      display: block;
+    }
+
+    .ra_tilde {
+      top: 5px;
+      left: 7px;
+      color: white;
+    }
+
+    // Formulario multi-step                       
+    .error {
+      display: flex;
+      width: 100%;
+      margin-top: 0.25rem;
+      font-size: 14px;
+      color: #d32f2f;
+    }
+    .input_busqueda {
+      width: 70%;
+    }
+    .ra_nav_anterior
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      left: 40%; 
+      text-align: left;
+    }    
+    .ra_nav_siguiente
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      right: 20%;
+      text-align: right;
+    }
+
+    .ra_alerta_fija {
+      width: 68%;
+      display:scroll;
+      position:fixed;
+      bottom: 15%;
+      right: 7%;
+      text-align: center;
+      z-index: 1;
+      // opacity: 0.75;
+    } 
+    .ra_alerta_opacidad_50 {
+      opacity: 0.50;
+    }
+    .ra_alerta_opacidad_75 {
+      opacity: 0.75;
+    }
+    .ra_gif_espere {
+      display:scroll;
+      position:fixed;
+      bottom: 50%;
+      right: 45%;
+      text-align: center;
+      z-index: 1;
+      opacity: 0.50;
+    }   
+    // Inicio estilos modal original
+    #contenedor-popup {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 65vh;
+      margin: 0;
+    }
+    .ventana-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+      background-color: white;
+      border: 2px solid rgb(240, 240, 240);
+      border-radius: 12px;
+      // padding: 120px 180px;
+    }
+    
+    .contenido-popup {
+      text-align: center;
+    }
+    // Fin estilos modal original
+
+    .ra_flex_contenedor 
+    {
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .ra_flex_contenedor > div 
+    {
+      width: 100px;
+      margin: 10px;
+    }
+
+    .ra_tabla_escritorio {
+      display: block;
+    }
+
+    .ra_tabla_movil {
+      display: none;
+    }
+
+    .ra_escritorio {
+      display: block;
+    }
+
+    .ra_movil {
+      display: none;
+    }
+
+    .ra_mostrar {
+      display : block;
+    }
+
+    .ra_ocultar {
+      display : none;
+    }
+
+    .ra_tarjeta_aseguradora {
+      width: 150px;
+      border-radius: 15px;
+    }
+    
+    .ra_fuente_16 {
+      font-size: 16px;
+    }
+
+    .ra_fuente_14 {
+      font-size: 14px;
+    }
+    // Inicio estilos personalizados Paso a Paso
+    .css-gpiflz-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+      color: $color_naranja;
+    }
+
+    .css-1wv1604.Mui-active {
+      color: $color_naranja;
+    }
+
+    // Fin estilos personalizados Paso a Paso
+
+    // Inicio estilos personalizados Acordion
+
+    .css-xfz27b-MuiTypography-root {
+      font-size: 1.2rem;
+    }
+
+    .css-1ivlf0x-MuiTypography-root {
+      font-size: 1.2rem
+    }
+
+    .css-1gj1h1s { 
+      font-size:  1.2rem;
+    }
+    
+    // Fin estilos personalizados Acordion
+
+    .ra_texto_izquierda {
+      text-align: left;
+    }
+
+  }
+  @media (max-width: 1200px) {
+    .ra_alerta_fija {
+      width: 68%;
+      display:scroll;
+      position:fixed;
+      bottom: 15%;
+      right: 17%;
+      text-align: center;
+      z-index: 1;
+      // opacity: 0.50;
+    }       
+  }
+  // En este breakpoints desaparece el menú lateral de Wordpress
+  @media (max-width: 1022px) {
+    .ra_nav_anterior
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      left: 20%; 
+      text-align: left;
+    }    
+    .ra_nav_siguiente
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      right: 20%;
+      text-align: right;
+    }  
+  }
+
+  @media (max-width: 900px) {
+    .ra_nav_anterior
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      left: 15%; 
+      text-align: left;
+    }    
+    .ra_nav_siguiente
+    {
+      width: 10%;
+      display:scroll;
+      position:fixed;
+      bottom: 5%;
+      right: 25%;
+      text-align: right;
+    }  
+  
+    .ra_tabla_escritorio {
+      display: none;
+    }
+
+    .ra_tabla_movil {
+      display: block;
+      h4 {
+        padding-left: 10px;
+      }
+      .ra_fila_garantia {
+        border-top: solid 1px $color_cacaca;
+        border-bottom: solid 1px $color_cacaca;
+      }
+      .ra_flex_tabla_movil {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+      .ra_flex_tabla_movil > div.ra_flex_simple {
+        flex: 0 0 100%;
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+      .ra_flex_tabla_movil > div.ra_flex_doble {
+        flex: 0 0 50%;
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .ra_escritorio {
+      display : none;
+    }
+
+    .ra_movil {
+      display : block;
+    }
+
+    .ra_informacion {
+      margin-top: 2rem;
+      max-width: 90%;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+    .ra_nav_anterior
+    {
+        width: 10%;
+        display:scroll;
+        position:fixed;
+        bottom: 5%;
+        left: 15%; 
+        text-align: left;
+    }    
+    .ra_nav_siguiente
+    {
+        width: 10%;
+        display:scroll;
+        position:fixed;
+        bottom: 5%;
+        right: 35%;
+        text-align: right;
+    }    
+
+    .input_busqueda {
+      width: 300px
+    }    
+    .ra_tarjeta_aseguradora {
+      width: 110px;
+      border-radius: 15px;
+    }
+  }
+}

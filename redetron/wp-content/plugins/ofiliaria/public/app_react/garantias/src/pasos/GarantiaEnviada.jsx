@@ -1,0 +1,41 @@
+import { useState, useEffect, useRef } from 'react';
+import { useAppState } from "../state";
+import { useTranslation } from 'react-i18next';
+import axios from 'axios';
+import { useParams, useNavigate, Link } from "react-router-dom";
+import { GifEspere, AlertPelSC, AlertPelFij } from "../varios";
+import {
+  Container,
+  Paper,
+  Stack,
+  Box,
+  Typography,
+  Button,
+} from '@mui/material';
+import Grid from '@mui/material/Grid2';
+import { DatosGarantia } from '../formularios';
+
+export const GarantiaEnviada = () => {
+  const [state, setState] = useAppState();
+  const { t } = useTranslation();
+  const [gifEspere, setGifEspere] = useState('');
+  const [alertaFija, setAlertaFija] = useState('');
+  const { idGarantia } = useParams();
+
+  useEffect(() => {( async () => {
+    // ;
+  })();},[]);
+
+  console.log('DetalleGarantia, state', state);
+
+  return (
+    <>
+      <Box component={Paper} elevation={12} sx={{ marginTop : '14rem', p : 2, borderRadius : 3 }}>
+        <DatosGarantia idGarantia={idGarantia} origen={'GarantiaEnviada'} tituloVista={t('texto_182')} />
+        {gifEspere}
+        {alertaFija} 
+        <br /><br /><br />
+      </Box>
+    </>
+  );
+};

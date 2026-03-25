@@ -1,0 +1,1 @@
+export { indexListaPropiedades } from "./indexListaPropiedades";

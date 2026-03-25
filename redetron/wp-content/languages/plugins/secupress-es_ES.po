@@ -1,0 +1,3911 @@
+# Translation of Plugins - SecuPress Free with Simple SSL – Simple and Performant Security - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - SecuPress Free with Simple SSL – Simple and Performant Security - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-06-26 10:59:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - SecuPress Free with Simple SSL – Simple and Performant Security - Stable (latest release)\n"
+
+#: free/functions/common.php:553
+msgid "Support ID: %s"
+msgstr "ID de soporte: %s"
+
+#: free/functions/common.php:552
+msgid "Reason: %s"
+msgstr "Razón: %s"
+
+#: free/admin/scanner-step-2.php:265
+msgid "Please grab a cup of water, open a book and just wait a few minutes."
+msgstr "Toma un vaso de agua, abre un libro y espera unos minutos."
+
+#: free/admin/scanner-step-2.php:264 free/admin/settings.php:245
+msgid "Currently fixing&hellip;"
+msgstr "Actualmente corrigiendo&hellip;"
+
+#: free/classes/scanners/class-secupress-scan-wporg.php:75
+msgid "https://wordpress.org/support"
+msgstr "https://es.wordpress.org/support"
+
+#: free/functions/modules.php:189
+msgctxt "post type general name"
+msgid "Logs and IPs"
+msgstr "Registros e IPs"
+
+#: free/common.php:41
+msgid "Unlock link expired."
+msgstr "Desbloquear enlace caducado."
+
+#: free/classes/scanners/class-secupress-scan-https.php:78
+msgid "Your website is using an active HTTPS/SSL connection."
+msgstr "Tu web está utilizando una conexión HTTPS/SSL activa."
+
+#: free/classes/scanners/class-secupress-scan-https.php:48
+msgid "An HTTPS connection is needed for many features on the web today, it also gains the trust of your visitors by helping to protecting their online privacy."
+msgstr "Se necesita una conexión HTTPS para muchas características en la web hoy en día, también se gana la confianza de sus visitantes al ayudar a proteger su privacidad en línea."
+
+#: free/classes/scanners/class-secupress-scan-https.php:47
+msgid "Check if your website is using an active HTTPS connection."
+msgstr "Comprueba si tu web está utilizando una conexión HTTPS activa."
+
+#: free/classes/scanners/class-secupress-scan-wporg.php:86
+msgid "Get help resolving this issue."
+msgstr "Obtén ayuda para resolver este problema."
+
+#: free/classes/scanners/class-secupress-scan-wporg.php:49
+msgid "Communicating with the WordPress servers is used to check for new versions, and to both install and update WordPress core, themes or plugins."
+msgstr "La comunicación con los servidores de WordPress se usa para comprobar nuevas versiones, y también para instalar y actualizar el núcleo de WordPress, los temas o los plugins."
+
+#: free/classes/scanners/class-secupress-scan-wporg.php:48
+msgid "Check if your installation can communicate with WordPress.org."
+msgstr "Comprueba si tu instalación puede comunicarse con WordPress.org."
+
+#: free/classes/settings/class-secupress-settings-modules.php:569
+#: free/classes/settings/class-secupress-settings-modules.php:664
+msgid "Do a search to find more."
+msgstr "Haz una búsqueda para encontrar más."
+
+#: free/classes/settings/class-secupress-settings-modules.php:660
+msgid "Remove"
+msgstr "Eliminar"
+
+#: free/classes/settings/class-secupress-settings-modules.php:539
+#: free/classes/settings/class-secupress-settings-modules.php:636
+msgid "Cancel search"
+msgstr "Cancelar búsqueda"
+
+#: free/modules/firewall/tools.php:313
+msgid "Bad GeoIP"
+msgstr "GeoIP mala"
+
+#: free/modules/firewall/settings/geoip-system.php:77
+msgid "Not installed yet"
+msgstr "No instalado todavía"
+
+#: free/modules/logs/settings/banned-ips.php:7
+msgid "IP Adresses"
+msgstr "Direcciones IP"
+
+#: free/modules/users-login/settings/move-login.php:140
+msgid "Custom Message"
+msgstr "Mensaje personalizado"
+
+#: free/modules/firewall/tools.php:311
+msgid "Bad Referer Contents"
+msgstr "Contenidos de referencia malos"
+
+#: free/classes/scanners/class-secupress-scan-https.php:84
+msgid "Cannot be fixed automatically. You have to contact you host provider to ask him to <strong>upgrade your site with HTTPS/SSL</strong>."
+msgstr "No se puede corregir automáticamente. Debes ponerte en contacto con tu proveedor de hosting para pedirle que <strong> actualice tu sitio con HTTPS/SSL </strong>."
+
+#: free/classes/settings/class-secupress-settings-modules.php:564
+msgid "<strong>%s</strong> <em>(Banned until %s)</em>"
+msgstr "<strong>%s </strong> <em> (Baneado hasta %s) </em>"
+
+#: free/modules/users-login/settings/move-login.php:149
+msgid "Clean HTML allowed. The recovery form will be automatically added at the end of your content."
+msgstr "HTML limpio permitido. El formulario de recuperación se añadirá automáticamente al final de tu contenido."
+
+#: free/modules/users-login/settings/move-login.php:165
+msgid "A custom page from your site, only."
+msgstr "Una página personalizada de tu sitio, nada más."
+
+#: free/classes/scanners/class-secupress-scan-wporg.php:80
+msgid "Your site could not reach WordPress.org."
+msgstr "Tu sitio no pudo conectar con WordPress.org."
+
+#: free/modules/firewall/tools.php:310
+msgid "Bad Host Contents"
+msgstr "Malos contenidos del host"
+
+#: free/classes/settings/class-secupress-settings-modules.php:611
+msgid "You can use <a href=\"https://docs.secupress.me/article/161-ip-range\">IP ranges</a>."
+msgstr "Puedes usar <a href=\"https://docs.secupress.me/article/161-ip-range\">rangos de IP</a> ."
+
+#: free/modules/users-login/settings/move-login.php:135
+msgid "secupress-movelogin-error-preview-en_US.png"
+msgstr "secupress-movelogin-error-preview-en_US.png"
+
+#: free/modules/users-login/settings/move-login.php:133
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: free/modules/users-login/settings/move-login.php:127
+#: free/modules/users-login/settings/move-login.php:155
+msgid "Custom Page"
+msgstr "Página personalizada"
+
+#: free/modules/users-login/settings/move-login.php:126
+msgid "Custom Error Message"
+msgstr "Mensaje de error personalizado"
+
+#: free/modules/users-login/settings/move-login.php:125
+msgid "Standard Error Message"
+msgstr "Mensaje de error estándar"
+
+#: free/modules/users-login/settings/move-login.php:119
+msgid "What to do when the old page is triggered?"
+msgstr "¿Qué hacer cuando se activa la página anterior?"
+
+#. translators: accessibility text
+#: free/classes/scanners/class-secupress-scan-wporg.php:88
+msgid "(opens in a new tab)"
+msgstr "(se abre en una nueva pestaña)"
+
+#: free/admin/ajax-post-callbacks.php:510
+msgid "Some of the IP address list has been banned."
+msgstr "Parte de la lista de direcciones IP ha sido prohibida."
+
+#: free/admin/ajax-post-callbacks.php:504
+msgid "The IP address list has been banned."
+msgstr "La lista de direcciones IP ha sido prohibida."
+
+#: free/admin/ajax-post-callbacks.php:457
+msgid "This IP is already banned."
+msgstr "Esta IP ya está prohibida."
+
+#: free/admin/ajax-post-callbacks.php:437
+msgid "You cannot ban your own IP address."
+msgstr "No puedes prohibir tu propia dirección IP."
+
+#: free/admin/ajax-post-callbacks.php:236
+#: free/admin/ajax-post-callbacks.php:446
+msgid "The list does not contains any valid IP address."
+msgstr "La lista no contiene ninguna dirección IP válida."
+
+#: free/functions/modules.php:48
+#: free/modules/users-login/settings/login-protection.php:82
+msgid "Login Errors"
+msgstr "Errores de acceso"
+
+#: free/modules/firewall/settings/geoip-system.php:79
+#: free/modules/plugins-themes/settings/plugins.php:150
+#: free/modules/plugins-themes/settings/themes.php:64
+msgid "Manual Update"
+msgstr "Actualización manual"
+
+#: free/modules/firewall/settings/geoip-system.php:59
+msgid "If you block like the USA, any SEO bots will be blocked (Google?), keep this in mind."
+msgstr "Si bloqueas  EE.UU., se bloquearán los robots de SEO (¿Google?), Ten esto en cuenta."
+
+#: free/modules/firewall/settings/geoip-system.php:55
+msgid "Yes, still block SEO bots with GeoIP blocking"
+msgstr "Sí, sigo bloqueando bots SEO con bloqueo GeoIP"
+
+#: free/classes/scanners/class-secupress-scan-bad-config-files.php:159
+msgid "a safe file extension"
+msgstr "una extensión de archivo segura"
+
+#: free/admin/scanner-step-1.php:99
+msgid "What’s this speed thing?"
+msgstr "¿Qué es esto de la velocidad?"
+
+#: free/modules/welcome/callbacks.php:242
+msgid "Plugin has been renamed correctly."
+msgstr "El plugin ha sido renombrado correctamente."
+
+#: free/modules/firewall/settings/geoip-system.php:49
+msgid "SEO bots are allowed to visit your website even if they are coming from a blocked country."
+msgstr "Los robots de SEO pueden visitar tu sitio incluso si provienen de un país bloqueado."
+
+#: free/admin/scanner-step-1.php:99
+msgid "https://docs.secupress.me/article/156-whats-this-speed-thing"
+msgstr "https://docs.secupress.me/article/156-whats-this-speed-thing"
+
+#: free/admin/scanner-step-3.php:301
+msgid "I did the job, continue"
+msgstr "Hice el trabajo, continúa"
+
+#: free/functions/common.php:2007
+msgid "Fix done."
+msgstr "Corrección hecha."
+
+#: free/admin/scanner-step-2.php:215
+msgid "This feature and its fix are available in <a href=\"%s\" target=\"_blank\">Pro Version</a>"
+msgstr "Esta característica y su corrección están disponibles en la <a href=\"%s\" target=\"_blank\">Versión Pro</a>"
+
+#: free/admin/scanner-step-2.php:172
+msgid "The <a href=\"%s\" target=\"_blank\">Pro Version</a> is required to autofix issues, fix it manually on next step."
+msgstr "La <a href=\"%s\" target=\"_blank\">Versión Pro</a> es obligatoria para corregir problemas automáticamente, corrígelo manualmente en el siguiente paso."
+
+#: free/modules/welcome/settings/wl.php:41
+msgid "Plugin description"
+msgstr "Descripción del plugin"
+
+#: free/modules/welcome/settings/wl.php:34
+msgid "Plugin author URL"
+msgstr "URL del autor del plugin"
+
+#: free/modules/welcome/settings/wl.php:27
+msgid "Plugin author"
+msgstr "Autor del plugin"
+
+#: free/modules/welcome/settings/wl.php:20
+msgid "Plugin URL"
+msgstr "URL del plugin"
+
+#: free/modules/welcome/settings/wl.php:13
+msgid "Plugin name"
+msgstr "Nombre del plugin"
+
+#: free/modules/welcome/settings/settings-manager.php:29
+msgid "Reset All Settings"
+msgstr "Restablecer todos los ajustes"
+
+#: free/classes/settings/class-secupress-settings.php:956
+msgid "Reset Settings"
+msgstr "Restablecer ajustes"
+
+#: free/admin-bar.php:148 free/admin/settings.php:301
+#: free/admin/settings.php:340
+msgid "Add my license"
+msgstr "Añadir mi licencia"
+
+#: free/admin/ajax-post-callbacks.php:794
+msgid "All modules settings reset"
+msgstr "Restablecimiento los ajustes de todos los módulos"
+
+#: free/admin/ajax-post-callbacks.php:636
+msgid "Module settings reset."
+msgstr "Restablecer ajustes del módulo"
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:45
+#: free/classes/scanners/class-secupress-scan-php-404.php:63
+msgid "Block 404 on .php"
+msgstr "Bloquear 404 en .php"
+
+#: free/admin/upgrader.php:639
+msgid "Average Rating"
+msgstr "Valoración media"
+
+#: free/functions/modules.php:218
+msgid "Database Backup"
+msgstr "Copia de seguridad de la base de datos"
+
+#: free/functions/modules.php:201
+msgid "404 Logs Activation"
+msgstr "Activación de registros 404"
+
+#: free/functions/modules.php:200
+msgid "Action Logs Activation"
+msgstr "Activación de registros de acción"
+
+#: free/functions/modules.php:147
+msgid "GeoIP Management"
+msgstr "Gestión de GeoIP"
+
+#: free/classes/scanners/class-secupress-scan-sqli.php:45
+#: free/classes/scanners/class-secupress-scan-sqli.php:63
+#: free/functions/modules.php:145
+#: free/modules/firewall/settings/bbq-url-content.php:12
+msgid "Block Bad Content"
+msgstr "Bloquear contenido inadecuado"
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:48
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:74
+#: free/functions/modules.php:128 free/modules/discloses/plugins/readmes.php:35
+#: free/modules/discloses/plugins/readmes.php:51
+#: free/modules/sensitive-data/settings/content-protect.php:351
+msgid "Protect Readme Files"
+msgstr "Proteger archivos léeme"
+
+#: free/functions/modules.php:119
+msgid "XML-RPC Management"
+msgstr "Gestión de XML-RPC"
+
+#: free/functions/modules.php:42
+msgid "Move Login Page"
+msgstr "Mover la página de acceso"
+
+#: free/functions/modules.php:51
+msgid "Strong Password"
+msgstr "Contraseña segura"
+
+#: free/functions/modules.php:50
+msgid "Captcha"
+msgstr "Captcha"
+
+#: free/admin-bar.php:137
+msgid "404 Logs"
+msgstr "Registros 404"
+
+#: free/admin-bar.php:131
+msgid "Actions Logs"
+msgstr "Registros de acciones"
+
+#: free/admin-bar.php:66
+msgid "Step 4 – Resolution Report"
+msgstr "Paso 4 - Informe de resolución"
+
+#: free/admin-bar.php:60
+msgid "Step 3 – Manual Operations"
+msgstr "Paso 3 - Operaciones manuales"
+
+#: free/admin-bar.php:53
+msgid "Step 2 – Auto-Fix"
+msgstr "Paso 2 - Corrección automática"
+
+#: free/admin/upgrader.php:641
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "(basado en %s valoración)"
+msgstr[1] "(basado en %s valoraciones)"
+
+#: free/admin/upgrader.php:634
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Menos de 10"
+
+#: free/admin/upgrader.php:632 free/modules/addons/tools.php:40
+msgctxt "Active plugin installations"
+msgid "1+ Million"
+msgstr "Más de 1 millón"
+
+#: free/admin/upgrader.php:629
+msgid "Active Installations:"
+msgstr "Instalaciones activas:"
+
+#: free/admin/upgrader.php:626 free/modules/addons/tools.php:151
+msgid "Compatible up to:"
+msgstr "Compatible hasta:"
+
+#: free/admin/upgrader.php:620 free/admin/upgrader.php:623
+msgid "%s or higher"
+msgstr "%s o superior"
+
+#: free/admin/upgrader.php:618
+msgid "Requires WordPress Version:"
+msgstr "Requiere la versión de WordPress:"
+
+#: free/admin/upgrader.php:611
+msgid "Get SecuPress Pro Now!"
+msgstr "¡Obtén SecuPress Pro ahora!"
+
+#: free/admin/upgrader.php:607
+msgid "Install Update Now"
+msgstr "Instalar la actualización ahora"
+
+#: free/admin/upgrader.php:599
+msgid "Full Changelog"
+msgstr "Registro de cambios completo"
+
+#: free/admin/upgrader.php:470
+msgid "Plugin Installation"
+msgstr "Instalación de plugin"
+
+#: free/functions/modules.php:29 free/modules/welcome/settings/wl.php:10
+msgid "White Label"
+msgstr "Marca blanca"
+
+#: free/modules/wordpress-core/settings/wp-config.php:283
+msgid "These options are disabled because the %1$s file is not writable. Please apply %2$s write rights to the file. <a href=\"https://docs.secupress.me/article/152-apply-write-rights-to-files\">Need help?</a>"
+msgstr "Estas opciones están desactivadas porque el archivo %1$s no tiene permisos de escritura. Por favor, aplica permisos de escritura %2$s al archivo. <a href=\"https://docs.secupress.me/article/152-apply-write-rights-to-files\">¿Necesitas ayuda?</a>"
+
+#: free/functions/modules.php:142
+#: free/modules/firewall/settings/bbq-headers.php:23
+msgid "Block Fake SEO Bots"
+msgstr "Bloquear robots SEO falsos"
+
+#: free/modules/firewall/settings/bbq-headers.php:30
+msgid "Yes, protect my site from fake SEO Bots"
+msgstr "Sí, proteger mi sitio de robots SEO falsos"
+
+#: free/modules/users-login/plugins/stop-user-enumeration.php:69
+msgid "Sorry, you are not allowed to do that."
+msgstr "Lo siento, no tienes permiso para hacer eso."
+
+#: free/modules/firewall/settings/bbq-url-content.php:28
+msgid "Yes, protect my site from 404 on .php files"
+msgstr "Sí, proteger mi sitio de 404 en archivos .php"
+
+#: free/functions/modules.php:146
+#: free/modules/firewall/settings/bbq-url-content.php:22
+msgid "Block 404 requests on PHP files"
+msgstr "Bloquear solicitudes 404 en archivos PHP"
+
+#: free/modules/antispam/plugins/fightspam.php:62
+msgid "You may want to copy your message before logging in:"
+msgstr "Es posible que quieras copiar tu mensaje antes de acceder:"
+
+#: free/modules/antispam/plugins/fightspam.php:58
+msgid "please log in"
+msgstr "por favor, accede"
+
+#. translators: %s is a "please log in" link
+#: free/modules/antispam/plugins/fightspam.php:57
+msgid "Can’t process because this username or email belongs to a registered user. If it’s you, %s."
+msgstr "No se puede procesar porque este nombre de usuario o correo electrónico pertenece a un usuario registrado. Si eres tú,%s."
+
+#: free/classes/settings/class-secupress-settings.php:1733
+msgid "Read the docs"
+msgstr "Leer la documentación"
+
+#: free/classes/settings/class-secupress-settings.php:1697
+msgid "Pro Config"
+msgstr "Configuración Pro"
+
+#: free/classes/settings/class-secupress-settings.php:1744
+msgid "Got an issue? Ask for support."
+msgstr "¿Tienes un problema? Pide soporte."
+
+#: free/classes/settings/class-secupress-settings.php:1730
+msgid "We already have some solutions for you."
+msgstr "Ya tenemos algunas soluciones para ti."
+
+#: free/classes/settings/class-secupress-settings.php:1719
+msgid "Read the FAQ"
+msgstr "Leer las FAQ"
+
+#: free/classes/settings/class-secupress-settings.php:1716
+msgid "All the answers to your questions."
+msgstr "Todas las respuestas a tus preguntas."
+
+#: free/classes/settings/class-secupress-settings.php:1713
+msgid "FAQ"
+msgstr "FAQ"
+
+#: free/classes/settings/class-secupress-settings.php:1700
+msgid "Need an Expert to Set-Up SecuPress for You?"
+msgstr "¿Necesitas un experto para configurar SecuPress para ti?"
+
+#: free/classes/settings/class-secupress-settings.php:1689
+#: free/classes/settings/class-secupress-settings.php:1703
+msgid "Ask an Expert"
+msgstr "Pregunta a un experto"
+
+#: free/classes/settings/class-secupress-settings.php:1686
+msgid "Well, this is not a good day for you, we will try to make you smile while we’re working on it!"
+msgstr "Bueno, este no es un buen día para ti, ¡trataremos de hacerte sonreír mientras trabajamos en ello!"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:74
+msgid "Your Database password is <strong>empty</strong>, this is not secure!"
+msgstr "La contraseña de tu base de datos está <strong>vacía</strong>, ¡esto no es seguro!"
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:70
+msgid "The login page is protected by double authentication with %s."
+msgstr "La página de acceso está protegida por doble identificación con %s."
+
+#: free/admin-bar.php:144 free/admin/settings.php:338
+msgid "More Security"
+msgstr "Más seguridad"
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:95
+msgid "https://docs.secupress.me/article/150-ban-404-on-php-files"
+msgstr "https://docs.secupress.me/article/150-ban-404-on-php-files"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:80
+msgid "Your FTP password is only <strong>%d character length</strong>, this is not secure"
+msgid_plural "Your FTP password is only <strong>%d characters length</strong>, this is not secure"
+msgstr[0] "Tu contraseña FTP solo tiene <strong>%d carácter de longitud</strong>, esto no es seguro"
+msgstr[1] "Tu contraseña FTP solo tiene <strong>%d caracteres de longitud</strong>, esto no es seguro"
+
+#: free/classes/settings/class-secupress-settings.php:1683
+msgid "Hacked Website?"
+msgstr "¿Web hackeada?"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:81
+msgid "Your FTP password is not <strong>complex</strong> enough, this is not secure"
+msgstr "Tu contraseña FTP no es lo suficientemente <strong>compleja</strong>, esto no es seguro"
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:42
+msgid "Do not let attackers find hidden PHP files by guessing it, ban them!"
+msgstr "No permitas que los atacantes encuentren archivos PHP ocultos adivinándolo, ¡prohíbelos!"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:79
+msgid "Your FTP password is known to be <strong>too common</strong>, this is not secure"
+msgstr "Se sabe que tu contraseña FTP es <strong>demasiado común</strong>, esto no es seguro"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:78
+msgid "Your FTP password is <strong>empty</strong>, this is not secure!"
+msgstr "Tu contraseña FTP está <strong>vacía</strong>, ¡esto no es seguro!"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:77
+msgid "Your Database password is not <strong>complex</strong> enough, this is not secure"
+msgstr "La contraseña de tu base de datos no es lo suficientemente <strong>compleja</strong>, esto no es seguro"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:75
+msgid "Your Database password is known to be <strong>too common</strong>, this is not secure"
+msgstr "Se sabe que la contraseña de tu base de datos es <strong>demasiado común</strong>, esto no es seguro"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:76
+msgid "Your Database password is only <strong>%d character length</strong>, this is not secure"
+msgid_plural "Your Database password is only <strong>%d characters length</strong>, this is not secure"
+msgstr[0] "La contraseña de tu base de datos solo tiene <strong>%d carácter de longitud</strong>, esto no es seguro"
+msgstr[1] "La contraseña de tu base de datos solo tiene <strong>%d caracteres de longitud</strong>, esto no es seguro"
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:41
+msgid "Check if your site is allowing 404 on PHP files."
+msgstr "Comprueba si tu sitio permite 404 en archivos PHP."
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:72
+msgid "Unable to determine if your homepage is blocking 404 on .php files."
+msgstr "No se puede determinar si tu página de inicio está bloqueando 404 en archivos .php."
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:69
+msgid "You are currently blocking 404 requests on .php files."
+msgstr "Actualmente estás bloqueando solicitudes 404 en archivos .php."
+
+#: free/classes/scanners/class-secupress-scan-php-404.php:74
+msgid "Your website should block <strong>404 on .php files</strong>."
+msgstr "Tu web debe bloquear <strong>404 en archivos .php</strong> ."
+
+#: free/admin/ajax-post-callbacks.php:744
+msgid "Email not sent, please contact the support."
+msgstr "Correo electrónico no enviado, por favor, contacta con soporte."
+
+#: free/admin/ajax-post-callbacks.php:744
+msgid "Email sent, check your mailbox."
+msgstr "Correo electrónico enviado. Comprueba tu buzón de entrada."
+
+#: free/modules/users-login/settings/move-login.php:7
+msgid "Login Pages"
+msgstr "Páginas de acceso"
+
+#: free/modules/users-login/settings/double-auth.php:124
+msgid "This module will not work until validated by a link sent to your email address when you activated it."
+msgstr "Este módulo no funcionará hasta que sea validado por un enlace que se envió a tu dirección de correo electrónico cuando lo activaste."
+
+#: free/modules/users-login/callbacks.php:458
+msgid "New registration page"
+msgstr "Nueva página de registro"
+
+#: free/modules/users-login/callbacks.php:456
+msgid "New login page"
+msgstr "Nueva página de acceso"
+
+#: free/common.php:244 free/modules/users-login/settings/move-login.php:145
+msgid "If you are Administrator and have been accidentally locked out, enter your email address here to unlock yourself."
+msgstr "Si eres administrador y has sido bloqueado accidentalmente, introduce tu dirección de correo electrónico aquí para desbloquearte."
+
+#: free/admin/functions/modules.php:124
+msgid "Open the %s settings page"
+msgstr "Abrir la página de ajustes %s"
+
+#: free/modules/users-login/settings/move-login.php:198
+msgid "You need to add the following code from your %1$s file, inside the %2$s block:"
+msgstr "Debes añadir el siguiente código desde tu archivo %1$s, dentro del bloque %2$s:"
+
+#: free/common.php:198
+msgid "Too bad"
+msgstr "Demasiado malo"
+
+#: free/common.php:199
+msgid "The message could not be sent. Sorry"
+msgstr "El mensaje no se pudo enviar. Lo siento"
+
+#: free/modules/users-login/settings/move-login.php:27
+#: free/modules/users-login/settings/move-login.php:52
+#: free/modules/users-login/settings/move-login.php:70
+msgid "Yes, move the login and admin pages"
+msgstr "Sí, mover las páginas acceso y administración"
+
+#: free/modules/users-login/settings/move-login.php:21
+#: free/modules/users-login/settings/move-login.php:46
+#: free/modules/users-login/settings/move-login.php:65
+#: free/modules/users-login/settings/move-login.php:75
+msgid "Move the login and admin pages"
+msgstr "Mueve las páginas de acceso y administración"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:46
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:46
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:53
+msgid "Not fixable on Multisite."
+msgstr "No reparable en multisitio."
+
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:108
+msgctxt "verb"
+msgid "upgrade"
+msgstr "actualizar"
+
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:107
+msgid "You can now %s to the Pro version."
+msgstr "Ahora puedes %s a la versión Pro."
+
+#. Author of the plugin
+#: secupress.php
+msgid "SecuPress"
+msgstr "SecuPress"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:114
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:154
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:183
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:223
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: free/functions/files.php:644
+msgid "The temporary file could not be created."
+msgstr "El archivo temporal no se pudo crear."
+
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:233
+msgid "Congratulations, your Pro version has been installed 🎉."
+msgstr "Felicidades, tu versión Pro ha sido instalada 🎉."
+
+#: free/modules/welcome/callbacks.php:489
+msgid "your account"
+msgstr "tu cuenta"
+
+#: free/modules/welcome/callbacks.php:475
+msgid "to upgrade your license"
+msgstr "para actualizar tu licencia"
+
+#: free/modules/welcome/callbacks.php:470
+msgid "to renew your subscription"
+msgstr "para renovar tu suscripción"
+
+#: free/modules/welcome/callbacks.php:469
+msgid "This license key expired. You may want %s."
+msgstr "Esta clave de licencia caducó. Es posible que desees %s."
+
+#: free/modules/welcome/callbacks.php:488
+msgid "Something may be wrong with your license, please take a look at %1$s or contact %2$s."
+msgstr "Algo puede estar mal con tu licencia, echa un vistazo a %1$s o contacta con %2$s."
+
+#: free/modules/welcome/callbacks.php:466
+msgid "This license key has been revoked. If you think there is a mistake, you should contact %s."
+msgstr "Esta clave de licencia ha sido revocada. Si crees que hay un error, debes contactar con %s."
+
+#: free/modules/welcome/callbacks.php:462
+#: free/modules/welcome/callbacks.php:464
+msgid "There is a problem with your license key, please verify it. If you think there is a mistake, you should contact %s."
+msgstr "Hay un problema con tu clave de licencia, verifícalo. Si crees que hay un error, debes contactar con %s."
+
+#: free/modules/welcome/callbacks.php:450
+msgid "This email address is not in our database. You may want %s."
+msgstr "Esta dirección de correo electrónico no está en nuestra base de datos. Es posible que desees %s."
+
+#: free/modules/welcome/callbacks.php:447
+msgid "The license key is invalid."
+msgstr "La clave de licencia no es válida."
+
+#: free/modules/welcome/callbacks.php:445
+msgid "There is a problem with your license key, please contact %s."
+msgstr "Hay un problema con tu clave de licencia, contacta con %s."
+
+#: free/modules/welcome/callbacks.php:436
+msgid "Your license key seems invalid. You may want %s."
+msgstr "Tu clave de licencia parece no válida. Es posible que quieras %s."
+
+#: free/modules/welcome/callbacks.php:427
+msgid "our support team"
+msgstr "nuestro equipo de soporte"
+
+#: free/modules/welcome/callbacks.php:437
+#: free/modules/welcome/callbacks.php:451
+msgid "to verify these infos"
+msgstr "para verificar estas informaciones"
+
+#: free/admin/ajax-post-callbacks.php:669
+#: free/modules/users-login/settings/move-login.php:101
+msgid "Choose your login URL"
+msgstr "Elige tu URL de acceso"
+
+#: free/admin/functions/ajax-post.php:40
+msgid "Please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: free/admin/functions/ajax-post.php:45
+msgid "WordPress Failure Notice"
+msgstr "Aviso de fallo de WordPress"
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:75
+msgid "Our module %s could fix this."
+msgstr "Nuestro módulo %s podría corregir esto."
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:93
+#: free/modules/wordpress-core/plugins/minor-updates.php:61
+msgid "The %1$s file is not writable. Please remove the following code from the file: %2$s"
+msgstr "El archivo %1$s no tiene permisos de escritura. Por favor, elimina el siguiente código del archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:105
+msgid "Unable to apply new permissions to the file or folder %s."
+msgid_plural "Unable to apply new permissions to the files or folders %s."
+msgstr[0] "No ha sido posible aplicar nuevos permisos al archivo o carpeta %s."
+msgstr[1] "No ha sido posible aplicar nuevos permisos a los archivos o carpetas %s."
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:99
+msgctxt "1: chmod required, 2: folder path(s)"
+msgid "File permissions for the following file <strong>should be %1$s</strong>: %2$s."
+msgid_plural "File permissions for the following files <strong>should be %1$s</strong>: %2$s."
+msgstr[0] "Los permisos de archivo para el siguiente archivo <strong>deben ser %1$s</strong>:%2$s"
+msgstr[1] "Los permisos de archivo para los siguientes archivos <strong>deben ser %1$s</strong>:%2$s"
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:93
+msgctxt "1: chmod required, 2: folder path(s)"
+msgid "File permissions for the following folder <strong>should be %1$s</strong>: %2$s."
+msgid_plural "File permissions for the following folders <strong>should be %1$s</strong>: %2$s."
+msgstr[0] "Los permisos de archivo para la siguiente carpeta <strong>%1$s</strong> deben ser: %2$s."
+msgstr[1] "Los permisos de archivo para las siguientes carpetas <strong>%1$s</strong> deben ser: %2$s."
+
+#: free/modules/sensitive-data/settings/content-protect.php:7
+msgid "Content Protection"
+msgstr "Protección del contenido"
+
+#: free/functions/modules.php:123
+#: free/modules/sensitive-data/settings/content-protect.php:57
+msgid "Blackhole"
+msgstr "Agujero negro"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: secupress.php
+msgid "https://secupress.me"
+msgstr "https://secupress.me"
+
+#: secupress.php:536
+msgid "Protect your WordPress with SecuPress, analyze and ensure the safety of your website daily."
+msgstr "Protege tu WordPress con SecuPress, analiza y garantiza la seguridad de tu sitio web diariamente."
+
+#: free/modules/users-login/settings/password-policy.php:9
+msgid "Force Strong Passwords"
+msgstr "Forzar contraseñas seguras"
+
+#: free/modules/users-login/settings/password-policy.php:24
+msgid "days"
+msgstr "días"
+
+#: free/functions/modules.php:52 free/modules/users-login/callbacks.php:152
+#: free/modules/users-login/settings/password-policy.php:19
+msgid "Password Lifespan"
+msgstr "Vida útil de la contraseña"
+
+#: free/modules/users-login/settings/password-policy.php:6
+msgid "Password Policy"
+msgstr "Política de contraseñas"
+
+#: free/modules/users-login/settings/move-login.php:204
+msgid "Rules"
+msgstr "Reglas"
+
+#: free/modules/users-login/settings/move-login.php:113
+msgid "URL"
+msgstr "URL"
+
+#: free/modules/sensitive-data/settings/wp-endpoints.php:5
+msgid "WordPress Endpoints"
+msgstr "Variables de WordPress"
+
+#: free/modules/sensitive-data/settings/content-protect.php:127
+msgid "Yes, disable Directory Listing"
+msgstr "Sí, desactivar el listado de directorios"
+
+#: free/modules/users-login/settings/double-auth.php:120
+msgid "Users will just have to enter their email address when log in, then click on a link in the email they receive."
+msgstr "Los usuarios solo tendrán que introducir su dirección de correo electrónico al acceder, luego hacer clic en un enlace en el correo electrónico que reciben."
+
+#: free/modules/users-login/settings/double-auth.php:9
+msgid "Authentication"
+msgstr "Identificación"
+
+#: free/modules/users-login/settings/double-auth.php:8
+msgid "Two-Factor Authentication is a way to enforce another layer of login verification, like an additional password, a secret key, a special link sent by email etc. Not just your login and password."
+msgstr "La identificación de dos factores es una forma de aplicar otra capa de verificación de acceso, como una contraseña adicional, una clave secreta, un enlace especial enviado por correo electrónico, etc. No solo tu nombre de usuario y contraseña."
+
+#: free/modules/users-login/plugins/blacklist-logins.php:83
+#: free/modules/users-login/plugins/blacklist-logins.php:479
+#: free/modules/users-login/plugins/blacklist-logins.php:498
+msgid "Sorry, that username is not allowed."
+msgstr "Lo sentimos, ese nombre de usuario no está permitido."
+
+#. Translators: 1 is a blog name.
+#: free/modules/users-login/plugins/blacklist-logins.php:357
+msgid "[%s] Your username info"
+msgstr "[%s] Información de tu nombre de usuario"
+
+#: free/modules/users-login/callbacks.php:385
+#: free/modules/users-login/callbacks.php:391
+#: free/modules/users-login/callbacks.php:397
+#: free/modules/users-login/settings/move-login.php:82
+msgid "Move Login"
+msgstr "Mover acceso"
+
+#: free/admin/scanner-step-3.php:284
+#: free/classes/settings/class-secupress-settings.php:1727
+msgid "Documentation"
+msgstr "Documentación"
+
+#: free/modules/sensitive-data/settings/wp-endpoints.php:15
+msgid "<strong>Disable all</strong> the features of XML-RPC"
+msgstr "<strong>Desactivar todas</strong> las características de XML-RPC"
+
+#: free/modules/sensitive-data/settings/wp-endpoints.php:9
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: free/functions/modules.php:121
+#: free/modules/sensitive-data/settings/content-protect.php:13
+msgid "Anti Hotlink"
+msgstr "Anti hotlink"
+
+#: free/modules/sensitive-data/plugins/xmlrpc.php:31
+#: free/modules/sensitive-data/plugins/xmlrpc.php:136
+msgid "XML-RPC is disabled"
+msgstr "XML-RPC está desactivado"
+
+#: free/modules/schedules/settings/schedules-backups.php:17
+msgid "Backup Type"
+msgstr "Tipo de copia de seguridad"
+
+#: free/functions/modules.php:77
+#: free/modules/plugins-themes/settings/uploads.php:61
+#: free/modules/plugins-themes/settings/uploads.php:69
+msgid "Disallow %s uploads"
+msgstr "No permitir subidas de %s"
+
+#: free/modules/users-login/settings/double-auth.php:14
+#: free/modules/users-login/settings/double-auth.php:28
+#: free/modules/users-login/settings/double-auth.php:111
+msgid "Use a Two-Factor Authentication"
+msgstr "Usar un doble factor de identificación"
+
+#: free/modules/users-login/callbacks.php:392
+msgid "The slug %s is forbidden."
+msgid_plural "The slugs %s are forbidden."
+msgstr[0] "El slug %s está prohibido."
+msgstr[1] "Los slug %s están prohibidos."
+
+#: free/modules/sensitive-data/settings/content-protect.php:37
+#: secupress.php:412
+msgid "<strong>%1$s</strong> requires WordPress %2$s minimum, your website is actually running version %3$s."
+msgstr "<strong>%1$s</strong> requiere WordPress %2$s como mínimo, tu web en realidad está ejecutando la versión %3$s."
+
+#: secupress.php:398
+msgid "<strong>%1$s</strong> requires PHP %2$s minimum, your website is actually running version %3$s."
+msgstr "<strong>%1$s</strong> requiere PHP %2$s como mínimo, tu web está ejecutando la versión %3$s."
+
+#: free/modules/users-login/plugins/limitloginattempts.php:180
+msgid "Login failed, <strong>%d</strong> attempt left."
+msgid_plural "Login failed, <strong>%d</strong> attempts left."
+msgstr[0] "Error de acceso, <strong>%d</strong> intento restante."
+msgstr[1] "Error de acceso, <strong>%d</strong> intentos restantes."
+
+#: free/modules/wordpress-core/settings/auto-update.php:6
+msgid "WordPress Updates"
+msgstr "Actualizaciones de WordPress"
+
+#: free/modules/users-login/settings/login-protection.php:72
+msgid "Yes, control user sessions"
+msgstr "Sí, controlar sesiones de usuario"
+
+#: free/functions/modules.php:47
+#: free/modules/users-login/settings/login-protection.php:66
+msgid "Session Control"
+msgstr "Control de sesión"
+
+#: free/modules/users-login/settings/login-protection.php:57
+msgctxt "minute"
+msgid "min"
+msgstr "min"
+
+#: free/modules/users-login/settings/login-protection.php:38
+#: free/modules/users-login/settings/login-protection.php:53
+msgid "Recommended: %s"
+msgstr "Recomendado: %s"
+
+#: free/modules/users-login/settings/login-protection.php:25
+msgid "Use an attempt blocker"
+msgstr "Usa un bloqueador de intentos"
+
+#: free/modules/users-login/settings/login-protection.php:6
+msgid "Login Control"
+msgstr "Control de acceso"
+
+#: free/modules/users-login/settings/login-protection.php:37
+msgid "How many attempts before a ban?"
+msgstr "¿Cuántos intentos antes de una prohibición?"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:660
+msgid "%1$s prevented a request at %2$s"
+msgstr "%1$s impidió una solicitud en %2$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:814
+msgid "%1$s prevented a request at %2$s from the IP %3$s. Block ID: %4$s. The server configuration at the moment: %5$s Data posted: %6$s"
+msgstr "%1$s impidió una solicitud en %2$s desde la IP %3$s. ID de bloqueo: %4$s. Los ajustes del servidor en este momento: %5$s Datos publicados: %6$s"
+
+#: free/modules/logs/settings/logs.php:98
+msgid "%s error 404."
+msgid_plural "%s errors 404."
+msgstr[0] "%s error 404."
+msgstr[1] "%s errores 404."
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:53
+msgid "404 Error Log Archives"
+msgstr "Archivos de registro de errores 404"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:58
+msgid "404 Error Logs list"
+msgstr "Lista de registros de errores 404"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:57
+msgid "404 Error Logs list navigation"
+msgstr "Navegación de la lista de registros de errores 404"
+
+#: free/modules/sensitive-data/settings/content-protect.php:14
+msgid "A hotlink is when someone embeds your media directly from your website, stealing your bandwidth."
+msgstr "Un enlace activo es cuando alguien incrusta sus medios directamente desde tu sitio web, robando tu ancho de banda."
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:44
+msgid "Add New 404 Error Log"
+msgstr "Añadir nuevo registro de errores 404"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:663
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:817
+msgid "Administrator %s logged in"
+msgstr "Administrador %s ha accedido"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:42
+msgid "All 404 Error Logs"
+msgstr "Todos los registros de error 404"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:432
+msgid "All Users"
+msgstr "Todos los usuarios"
+
+#: free/modules/firewall/tools.php:303
+msgid "Antispam, Anti-Usurpation"
+msgstr "Antispam, Anti-usurpación"
+
+#: free/modules/firewall/tools.php:309
+msgid "Bad URL Contents"
+msgstr "Contenido de URL malo"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:670
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:824
+msgid "Blog %1$s created with %2$s as Administrator"
+msgstr "Blog %1$s creado con %2$s como administrador"
+
+#: free/modules/plugins-themes/settings/themes.php:6
+msgid "By using these protections, you can easily select the proper allowed actions for your themes."
+msgstr "Al usar estas protecciones, puedes seleccionar fácilmente las acciones permitidas adecuadas para tus temas."
+
+#: free/modules/users-login/plugins/blacklist-logins.php:326
+msgid "Cannot create a user with an empty login name."
+msgstr "No se puede crear un usuario con el nombre de identificación vacio."
+
+#: free/modules/schedules/settings/schedules-backups.php:20
+msgid "Database"
+msgstr "Base de datos"
+
+#: free/modules/sensitive-data/settings/content-protect.php:295
+msgid "Disclosing your WordPress version may be a useful information for attackers, it should be removed."
+msgstr "Revelar tu versión de WordPress puede ser una información útil para los atacantes, debe eliminarse."
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:45
+msgid "Edit 404 Error Log"
+msgstr "Editar registro de errores 404"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-log.php:50
+msgid "Error 404 for %1$s"
+msgstr "Error 404 para %1$s"
+
+#: free/modules/schedules/settings/schedules-backups.php:25
+#: free/modules/schedules/settings/schedules-file-monitoring.php:17
+#: free/modules/schedules/settings/schedules-scan.php:17
+msgid "Every %d days"
+msgstr "Cada %d días"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:673
+msgid "External request to %s"
+msgstr "Solicitud externa a %s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:827
+msgid "External request to: %1$s with the following arguments: %2$s The response was: %3$s"
+msgstr "Solicitud externa a: %1$s con los siguientes argumentos: %2$s La respuesta fue :%3$s"
+
+#: free/modules/schedules/settings/schedules-backups.php:20
+msgid "Files"
+msgstr "Archivos"
+
+#: free/modules/sensitive-data/settings/content-protect.php:353
+msgid "Files like %1$s or %2$s are a good source of information for attackers, they should not be accessible."
+msgstr "Los archivos como %1$s o %2$s son una buena fuente de información para los atacantes, no deberían ser accesibles."
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:56
+msgid "Filter 404 error logs list"
+msgstr "Filtrar la lista de registros de error 404"
+
+#: free/modules/schedules/settings/schedules-backups.php:31
+#: free/modules/schedules/settings/schedules-file-monitoring.php:23
+#: free/modules/schedules/settings/schedules-scan.php:23
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: free/modules/logs/settings/logs.php:32
+msgid "High criticity <span class=\"count\">(%s)</span>"
+msgid_plural "High criticity <span class=\"count\">(%s)</span>"
+msgstr[0] "Alta crítica <span class=\"count\">(%s)</span>"
+msgstr[1] "Alta crítica <span class=\"count\">(%s)</span>"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:661
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:815
+msgid "IP banned: %s"
+msgstr "IP prohibida: %s"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:54
+msgid "Insert into 404 error log"
+msgstr "Insertar en el registro de error 404"
+
+#: free/functions/modules.php:96
+#: free/modules/wordpress-core/settings/auto-update.php:31
+msgid "Major Updates"
+msgstr "Actualizaciones importantes"
+
+#: free/modules/schedules/settings/schedules-file-monitoring.php:35
+#: free/modules/schedules/settings/schedules-scan.php:35
+msgid "Maximum %d days."
+msgstr "%d días máximos."
+
+#: free/functions/modules.php:95
+#: free/modules/wordpress-core/settings/auto-update.php:13
+msgid "Minor Updates"
+msgstr "Actualizaciones menores"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:785
+msgid "Network option %1$s created with the following value: %2$s."
+msgstr "Opción de red %1$s creada con el siguiente valor: %2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:787
+msgid "Network option %1$s updated from the value %3$s to %2$s"
+msgstr "Opción de red %1$s actualizada del valor %3$s a %2$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:631
+msgid "Network option %s created"
+msgstr "Opción de red %s creada"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:633
+msgid "Network option %s updated"
+msgstr "Opción de red %s actualizada"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:46
+msgid "New 404 Error Log"
+msgstr "Añadir nuevo registro de errores 404"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:666
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:820
+msgid "New user %s created"
+msgstr "Nuevo usuario %s creado"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:645
+msgid "New user added (or not)"
+msgstr "Nuevo usuario añadido (o no)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:799
+msgid "New user added (or not) using the following data: %s"
+msgstr "Nuevo usuario añadido (o no) utilizando los siguientes datos: %s"
+
+#: free/modules/users-login/plugins/blacklist-logins.php:132
+msgid "New username:"
+msgstr "Nuevo nombre de usuario:"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:50
+msgid "No 404 error logs found."
+msgstr "No se encontraron registros de error 404."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:306
+msgid "Nobody"
+msgstr "Nadie"
+
+#: free/modules/logs/settings/logs.php:60
+#: free/modules/logs/settings/logs.php:101
+msgid "Nothing happened yet."
+msgstr "Aún no ha pasado nada."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:744
+msgid "Option %1$s created with the following value: %2$s."
+msgstr "Opción %1$s creada con el siguiente valor: %2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:746
+msgid "Option %1$s updated from the value %3$s to %2$s."
+msgstr "Opción %1$s actualizada del valor %3$s a %2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:590
+msgid "Option %s created"
+msgstr "Opción %s creada"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:592
+msgid "Option %s updated"
+msgstr "Opción %s actualizada"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:52
+msgid "Parent 404 Error Log:"
+msgstr "Registro de error 404 primario:"
+
+#: free/modules/users-login/plugins/blacklist-logins.php:150
+msgid "Please change your username"
+msgstr "Por favor cambia tu nombre de usuario"
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:48
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:66
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:48
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:66
+#: free/modules/sensitive-data/settings/content-protect.php:428
+msgid "Plugin Version Disclosure"
+msgstr "Divulgación de la versión del plugin"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:568
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:576
+msgid "Plugin(s) activated"
+msgstr "Plugin (s) activado (s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:572
+msgid "Plugin(s) activated and deactivated"
+msgstr "Plugin(s) activado(s) y desactivado(s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:584
+msgid "Plugin(s) activated and/or deactivated"
+msgstr "Plugin(s) activado(s) y/o desactivado(s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:726
+msgid "Plugin(s) activated: %1$s. Plugin(s) deactivated: %2$s."
+msgstr "Plugin (s) activado (s):%1$s. Plugin (s) desactivados:%2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:722
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:730
+msgid "Plugin(s) activated: %s."
+msgstr "Plugin (s) activado (s): %s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:580
+msgid "Plugin(s) deactivated"
+msgstr "Plugin(s) desactivado(s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:734
+msgid "Plugin(s) deactivated: %2$s."
+msgstr "Plugin(s) desactivado(s): %2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:609
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:617
+msgid "Plugin(s) network activated"
+msgstr "Plugin(s) de red activado(s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:613
+msgid "Plugin(s) network activated and network deactivated"
+msgstr "Plugin(s) red activada y red desactivada"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:625
+msgid "Plugin(s) network activated and/or network deactivated"
+msgstr "Plugin(s) red activada y/o red desactivada"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:767
+msgid "Plugin(s) network activated: %1$s. Plugin(s) network deactivated: %2$s."
+msgstr "Red de plugins activada: %1$s. Red de plugins desactivada: %2$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:763
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:771
+msgid "Plugin(s) network activated: %s."
+msgstr "Plugin(s) red activado(s): %s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:621
+msgid "Plugin(s) network deactivated"
+msgstr "Plugin(s) red desactivado(s)"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:775
+msgid "Plugin(s) network deactivated: %2$s."
+msgstr "Red de plugins desactivada: %2$s."
+
+#: free/modules/plugins-themes/settings/plugins.php:7
+msgid "Plugins Page"
+msgstr "Página del plugin"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:738
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:779
+msgid "Raw data: %1$s %2$s"
+msgstr "Datos sin procesar: %1$s %2$s"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:49
+msgid "Search 404 Error Logs"
+msgstr "Buscar registros de errores 404"
+
+#: free/modules/sensitive-data/settings/content-protect.php:238
+msgid "Some servers send a header called %s that contains the PHP version used on your site. It may be a useful information for attackers, and should be removed."
+msgstr "Algunos servidores envían un encabezado llamado %s que contiene la versión PHP utilizada en tu sitio. Puede ser una información útil para los atacantes, y debe ser eliminada."
+
+#: free/modules/discloses/tools.php:31
+#: free/modules/users-login/plugins/blacklist-logins.php:228
+#: free/modules/users-login/plugins/blacklist-logins.php:332
+msgid "Sorry, that username already exists!"
+msgstr "¡Lo siento, este usuario ya existe!"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:662
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:816
+msgid "Theme activated: %s"
+msgstr "Tema activado: %s"
+
+#: free/modules/plugins-themes/settings/themes.php:7
+msgid "Themes Page"
+msgstr "Página de temas"
+
+#: free/modules/logs/settings/logs.php:55
+msgid "Total: %s"
+msgstr "Total: %s"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:55
+msgid "Uploaded to this 404 error log"
+msgstr "Cargado a este registro de errores 404"
+
+#: free/modules/firewall/settings/geoip-system.php:22
+msgid "Use GeoIP Management"
+msgstr "Utiliza la gestión de GeoIP"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:664
+msgid "User deleted: %s"
+msgstr "Usuario borrado: %s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:667
+msgid "User meta %2$s added to %1$s"
+msgstr "Usuario meta %2$s añadido a%1$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:821
+msgid "User meta %2$s added to %1$s with the value %3$s"
+msgstr "Meta del usuario %2$s añadida a %1$s con el valor %3$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:669
+msgid "User meta %2$s deleted for %1$s"
+msgstr "Meta del usuario %2$s eliminada para %1$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:823
+msgid "User meta %2$s deleted for %1$s."
+msgstr "Se ha eliminado la meta del usuario %2$s para %1$s."
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:668
+msgid "User meta %2$s updated for %1$s"
+msgstr "Meta del usuario %2$s actualizada para %1$s"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:822
+msgid "User meta %2$s updated for %1$s with the value %3$s Previous value was: %3$s"
+msgstr "El meta del usuario %2$s actualizado para %1$s con el valor %3$s El valor anterior era: %3$s"
+
+#: free/modules/firewall/tools.php:315
+msgid "User-Agent With HTML Tags"
+msgstr "Agente de usuario con etiquetas HTML"
+
+#: free/modules/users-login/plugins/blacklist-logins.php:328
+msgid "Username may not be longer than 60 characters."
+msgstr "El nombre de usuario no puede tener más de 60 caracteres."
+
+#: free/modules/users-login/plugins/blacklist-logins.php:358
+msgid "Username: %s"
+msgstr "Usuario: %s"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:47
+msgid "View 404 Error Log"
+msgstr "Ver el registro de errores 404"
+
+#: free/modules/firewall/settings/geoip-system.php:69
+msgid "Which countries?"
+msgstr "¿Qué países?"
+
+#: free/modules/wordpress-core/settings/wp-config.php:6
+msgid "WordPress configuration file"
+msgstr "Archivo de configuración de WordPress"
+
+#: free/modules/sensitive-data/plugins/xmlrpc.php:30
+#: free/modules/sensitive-data/plugins/xmlrpc.php:135
+msgid "XML-RPC services are disabled on this site."
+msgstr "El servicio XML-RPC está desactivado en este sitio."
+
+#: free/modules/wordpress-core/settings/wp-config.php:124
+msgid "Yes, disable the file editor"
+msgstr "Sí, desactiva el editor de archivos"
+
+#: free/modules/sensitive-data/settings/content-protect.php:186
+msgid "Yes, forbid access to this PHP modules disclosure"
+msgstr "Sí, prohibir el acceso a esta divulgación de módulos PHP"
+
+#: free/modules/logs/settings/logs.php:87
+msgid "Yes, log WordPress 404s"
+msgstr "Sí, registra 404s de WordPress"
+
+#: free/modules/logs/settings/logs.php:26
+msgid "Yes, log WordPress actions"
+msgstr "Sí, registrar acciones de WordPress"
+
+#: free/modules/sensitive-data/settings/content-protect.php:243
+msgid "Yes, remove the PHP version"
+msgstr "Sí, elimina la versión de PHP"
+
+#: free/modules/sensitive-data/settings/content-protect.php:300
+msgid "Yes, remove the WordPress version"
+msgstr "Sí, elimina la versión de WordPress"
+
+#: free/modules/users-login/settings/double-auth.php:202
+msgid "Yes, use a Captcha"
+msgstr "Sí, usa un Captcha"
+
+#: free/modules/plugins-themes/plugins/plugin-installation.php:19
+#: free/modules/plugins-themes/plugins/plugin-installation.php:231
+#: free/modules/plugins-themes/plugins/plugin-installation.php:246
+#: free/modules/plugins-themes/plugins/uploads.php:17
+msgid "You do not have sufficient permissions to install plugins on this site."
+msgstr "No tienes permisos suficientes para instalar el plugin en este sitio."
+
+#: free/modules/plugins-themes/plugins/theme-installation.php:34
+#: free/modules/plugins-themes/plugins/theme-installation.php:49
+#: free/modules/plugins-themes/plugins/theme-installation.php:119
+#: free/modules/plugins-themes/plugins/uploads.php:21
+msgid "You do not have sufficient permissions to install themes on this site."
+msgstr "No tienes permisos suficientes para instalar la plantilla en este sitio."
+
+#: free/modules/sensitive-data/settings/content-protect.php:83
+msgid "You need to add the following code to your %1$s file, inside the %2$s block:"
+msgstr "Debea añadir el siguiente código a tu archivo %1$s, dentro del bloque %2$s:"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:258
+msgctxt "data"
+msgid "None"
+msgstr "Ninguna"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:39
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:41
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:48
+msgctxt "post type general name"
+msgid "404 Error Logs"
+msgstr "Registros de error 404"
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:40
+msgctxt "post type singular name"
+msgid "404 Error Log"
+msgstr "Registro de errores 404"
+
+#: free/modules/backups/settings/backups-storage.php:40
+msgid "A %s file containing the following rules:"
+msgstr "Un archivo %s que contiene las siguientes reglas:"
+
+#: free/functions/modules.php:217
+#: free/modules/backups/settings/backup-history.php:5
+#: free/modules/backups/settings/backup-history.php:9
+msgid "Backup History"
+msgstr "Historial de copias de seguridad"
+
+#: free/functions/modules.php:216
+#: free/modules/backups/settings/backups-storage.php:7
+msgid "Backup Storage"
+msgstr "Almacenamiento de copia de seguridad"
+
+#: free/modules/backups/settings/backup-db.php:5
+msgid "Database Backups"
+msgstr "Copia de seguridad de la base de datos"
+
+#: free/functions/modules.php:233
+#: free/modules/alerts/settings/event-alerts.php:6
+msgid "Event Alerts"
+msgstr "Alertas de eventos"
+
+#: free/functions/modules.php:219
+#: free/modules/backups/settings/backup-files.php:5
+msgid "Files Backup"
+msgstr "Copia de seguridad de archivos"
+
+#: free/modules/antispam/settings/antispam.php:64
+msgid "How to mark spam"
+msgstr "Cómo marcar el spam"
+
+#: free/functions/modules.php:116
+msgid "Keep your data safe"
+msgstr "Mantén tus datos seguros"
+
+#: free/modules/backups/tools.php:17
+msgid "Local"
+msgstr "Local"
+
+#: free/modules/discloses/tools.php:25 free/modules/discloses/tools.php:28
+msgid "Lost your password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: free/modules/firewall/settings/bbq-url-content.php:6
+msgid "Malicious URLs"
+msgstr "URLs maliciosas"
+
+#: free/modules/antispam/settings/antispam.php:69
+msgid "Shortcode usage"
+msgstr "Uso del shortcode"
+
+#: free/functions/modules.php:39
+msgid "Protect your users"
+msgstr "Protege a tus usuarios"
+
+#: free/functions/modules.php:238
+msgid "Schedules"
+msgstr "Horarios"
+
+#: free/modules/backups/settings/backups-storage.php:33
+msgid "Two folders with the following names: %1$s and %2$s."
+msgstr "Dos carpetas con los siguientes nombres: %1$s y %2$s."
+
+#: free/modules/antispam/settings/antispam.php:28
+msgid "Which anti-spam do you need"
+msgstr "Qué antispam necesitas"
+
+#: free/modules/antispam/settings/antispam.php:86
+msgid "You can improve the list of bad words that will flag comments as spam."
+msgstr "Puedes mejorar la lista de malas palabras que marcarán los comentarios como spam."
+
+#: free/modules/sensitive-data/settings/content-protect.php:199
+#: free/modules/sensitive-data/settings/content-protect.php:256
+#: free/modules/sensitive-data/settings/content-protect.php:313
+#: free/modules/sensitive-data/settings/content-protect.php:371
+#: free/modules/sensitive-data/settings/content-protect.php:485
+msgid "You need to add the following code to your %s file:"
+msgstr "Debes añadir el siguiente código a tu archivo %s:"
+
+#: free/modules/alerts/settings/daily-reporting.php:28
+msgid "midnight"
+msgstr "medianoche"
+
+#: free/modules/alerts/settings/daily-reporting.php:30
+msgid "noon"
+msgstr "mediodía"
+
+#: free/modules/sensitive-data/settings/content-protect.php:102
+#: free/modules/sensitive-data/settings/content-protect.php:159
+#: free/modules/sensitive-data/settings/content-protect.php:218
+#: free/modules/sensitive-data/settings/content-protect.php:275
+#: free/modules/sensitive-data/settings/content-protect.php:332
+#: free/modules/sensitive-data/settings/content-protect.php:390
+#: free/modules/sensitive-data/settings/content-protect.php:504
+msgctxt "rewrite rules"
+msgid "Rules"
+msgstr "Reglas"
+
+#: free/modules/alerts/settings/event-alerts.php:20
+msgid "Every %d minutes."
+msgstr "Cada %d minutos."
+
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:51
+msgid "No 404 error logs found in Trash."
+msgstr "No se encontraron registros de error 404 en la papelera."
+
+#: free/modules/firewall/settings/geoip-system.php:70
+msgid "Add or remove countries you want to manage for your website."
+msgstr "Añade o elimina los países que deseas gestionar para su web."
+
+#: free/modules/firewall/settings/geoip-system.php:6
+msgid "Country Management"
+msgstr "Gestión por país"
+
+#: free/modules/users-login/plugins/blacklist-logins.php:78
+msgid "Username required"
+msgstr "Nombre de usuario obligatorio"
+
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:671
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:825
+msgid "Blog %s deleted"
+msgstr "Blog %s borrado"
+
+#: free/modules/file-system/settings/file-scanner.php:6
+msgid "Malware Scanner"
+msgstr "Explorador de malware"
+
+#: free/modules/backups/settings/backups-storage.php:14
+msgid "Backups will be stored in %s. Please, delete them as soon as possible."
+msgstr "Las copias de seguridad se almacenarán en %s. Por favor, bórralas lo antes posible."
+
+#: free/modules/antispam/settings/antispam.php:115
+msgid "It will also hide all Pingbacks & Trackbacks from your post comments."
+msgstr "Esto también ocultará todos los pingbacks y trackbacks de los comentarios de tu entrada."
+
+#: free/admin/ajax-post-callbacks.php:744
+#: free/modules/schedules/settings/schedules-backups.php:45
+#: free/modules/schedules/settings/schedules-file-monitoring.php:44
+#: free/modules/schedules/settings/schedules-scan.php:44
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: free/functions/modules.php:206 free/functions/modules.php:248
+#: free/modules/schedules/settings/schedules-backups.php:6
+msgid "Backups"
+msgstr "Copias de seguridad"
+
+#: free/functions/modules.php:74
+msgid "Check your plugins &amp; themes"
+msgstr "Comprueba tus plugins y temas"
+
+#: free/functions/modules.php:70
+msgid "Plugins &amp; Themes"
+msgstr "Plugins y temas"
+
+#: free/functions/modules.php:156
+msgid "Check file permissions, run monitoring and antivirus on your installation to verify file integrity."
+msgstr "Verifica los permisos de archivo, ejecuta el seguimiento y el antivirus en tu instalación para verificar la integridad del archivo."
+
+#: free/functions/modules.php:250
+#: free/modules/schedules/settings/schedules-file-monitoring.php:6
+msgid "File Monitoring"
+msgstr "Seguimiento de archivo"
+
+#: free/modules/schedules/settings/schedules-file-monitoring.php:42
+#: free/modules/schedules/settings/schedules-scan.php:42
+msgid "Notification of result"
+msgstr "Aviso de resultado"
+
+#: free/modules/antispam/settings/antispam.php:107
+msgid "If you do not especially use Pingbacks & Trackbacks, you can disable them."
+msgstr "Si no utilizas especialmente pingbacks y trackbacks, puedes desactivarlos."
+
+#: free/modules/antispam/settings/antispam.php:106
+msgid "About Pingbacks & Trackbacks"
+msgstr "Acerca de pingbacks & trackbacks"
+
+#: free/functions/modules.php:234
+#: free/modules/alerts/settings/daily-reporting.php:6
+msgid "Daily Reports"
+msgstr "Informes diarios"
+
+#: free/functions/modules.php:81
+msgid "Detect Bad Plugins"
+msgstr "Detectar plugins malos"
+
+#: free/functions/modules.php:83
+msgid "Detect Bad Themes"
+msgstr "Detector de temas malos"
+
+#: free/modules/logs/settings/logs.php:34
+msgid "Low criticity <span class=\"count\">(%s)</span>"
+msgid_plural "Low criticity <span class=\"count\">(%s)</span>"
+msgstr[0] "Poco crítico <span class=\"count\">(%s)</span>"
+msgstr[1] "Poco críticos <span class=\"count\">(%s)</span>"
+
+#: free/modules/plugins-themes/settings/plugins.php:112
+msgid "Based on %s Daily Security Monitoring, notices will be displayed for newly detected vulnerable plugins."
+msgstr "De acuerdo seguimiento de seguridad diario de %s, se mostrarán avisos para temas recientemente detectados como vulnerables."
+
+#: free/modules/logs/settings/logs.php:81
+msgid "404 Error Page Logs"
+msgstr "Registro de páginas de error 404"
+
+#: free/modules/logs/settings/logs.php:20
+msgid "WordPress Action logs"
+msgstr "Registros de acción de WordPress"
+
+#: free/activation.php:282
+msgid "Add the following: %s"
+msgstr "Añade lo siguiente: %s"
+
+#: free/activation.php:264
+msgid "Remove all existing %s tags."
+msgstr "Elimina todas las etiquetas %s existentes."
+
+#: free/activation.php:242
+msgid "In %s:"
+msgstr "En %s:"
+
+#: free/activation.php:183
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:107
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:98
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:93
+#: free/classes/scanners/class-secupress-scan-discloses.php:102
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:91
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:96
+#: free/functions/modules.php:741
+msgid "Your %1$s file is not writable. Please add the following lines at the beginning of the file: %2$s"
+msgstr "Tu archivo %1$s no tiene permisos de escritura. Añade las siguientes líneas al comienzo del archivo: %2$s"
+
+#: free/activation.php:288
+msgid "Your %1$s file is not writable. Please edit this file, following these instructions: %2$s"
+msgstr "Tu archivo %1$s no tiene permiso de escritura. Edita este archivo siguiendo estas instrucciones: %2$s"
+
+#: free/modules/welcome/callbacks.php:431
+msgid "Please provide a valid email address and your license key."
+msgstr "Por favor, proporciona una dirección de correo electrónico válida y tu clave de licencia."
+
+#: free/admin/ajax-post-callbacks.php:547
+msgid "The IP address %s is not banned."
+msgstr "La dirección IP %s no está prohibida."
+
+#: free/admin/ajax-post-callbacks.php:484
+msgid "The IP address %s has been banned."
+msgstr "La dirección IP %s ha sido prohibida."
+
+#: free/admin/ajax-post-callbacks.php:572
+msgid "The IP address %s has been unbanned."
+msgstr "La dirección IP %s ya no está prohibida."
+
+#: free/admin/ajax-post-callbacks.php:602
+msgid "All IP addresses have been unbanned."
+msgstr "Todas las direcciones IP ya no están prohibidas."
+
+#: free/admin/ajax-post-callbacks.php:220
+#: free/admin/ajax-post-callbacks.php:428
+msgid "This is not a valid IP address."
+msgstr "Esta no es una dirección IP válida."
+
+#: free/admin/ajax-post-callbacks.php:188
+#: free/admin/ajax-post-callbacks.php:304
+#: free/admin/ajax-post-callbacks.php:395
+#: free/admin/ajax-post-callbacks.php:530
+msgid "IP address not provided."
+msgstr "Dirección IP no proporcionada."
+
+#: free/activation.php:498
+msgid "OK, got it!"
+msgstr "¡Ok lo tengo!"
+
+#: free/activation.php:449 free/functions/modules.php:687
+msgid "Your server runs <strong>Nginx</strong>. You have to edit the configuration file manually. Please remove all rules between %1$s and %2$s from the %3$s file."
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>. Tienes que editar el archivo de configuración manualmente. Elimina todas las reglas entre %1$s y %2$s del archivo %3$s."
+
+#: free/activation.php:420
+msgid "It seems your %1$s file is not writable, you have to edit the file manually. Please remove all nodes with %2$s."
+msgstr "Parece que tu archivo %1$s no tiene permisos de escritura, debes editarlo manualmente. Elimina todos los nodos con %2$s."
+
+#: free/activation.php:376
+msgid "It seems your %1$s file is not writable, you have to edit it manually. Please remove all rules between %2$s and %3$s."
+msgstr "Parece que tu archivo %1$s no tiene permisos de escritura, debes editarlo manualmente. Elimina todas las reglas entre %2$s y %3$s."
+
+#: free/activation.php:304
+msgid "Since your %1$s file cannot be edited directly, please add the following in your file: %2$s"
+msgstr "Como tu archivo %1$s no se puede editar directamente, por favor, añade lo siguiente en tu archivo: %2$s"
+
+#: free/admin/ajax-post-callbacks.php:126
+msgid "%d issue"
+msgid_plural "%d issues"
+msgstr[0] "%d conflicto"
+msgstr[1] "%d conflictos"
+
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:157
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:178
+#: free/modules/welcome/callbacks.php:579
+msgid "SecuPress account"
+msgstr "Cuenta SecuPress"
+
+#: free/modules/welcome/callbacks.php:533
+msgid "Our server is not accessible at the moment."
+msgstr "Nuestro servidor no es accesible en este momento."
+
+#: free/modules/welcome/callbacks.php:446
+msgid "The email address is invalid."
+msgstr "La dirección de correo electrónico no es válida."
+
+#: free/modules/welcome/callbacks.php:443
+msgid "Our server returned an unexpected response and might be in error, please try again later or contact %s."
+msgstr "Nuestro servidor devolvió una respuesta inesperada y podría estar en error, por favor inténtalo más tarde o contacta con %s."
+
+#: free/modules/welcome/callbacks.php:441
+msgid "Our server is not accessible at the moment, please try again later or contact %s."
+msgstr "En este momento no se puede acceder a nuestro servidor. Vuelve a intentarlo más tarde o ponte en contacto con %s."
+
+#: free/modules/welcome/callbacks.php:439
+#: free/modules/welcome/callbacks.php:525
+msgid "Something on your website is preventing the request to be sent."
+msgstr "Algo en tu web impide que se envíe la solicitud."
+
+#: free/classes/common/class-secupress-log.php:289
+#: free/classes/common/class-secupress-log.php:294
+#: free/classes/common/class-secupress-logs.php:1380
+#: free/classes/common/class-secupress-logs.php:1384
+#: free/functions/modules.php:657 free/functions/modules.php:671
+#: free/functions/modules.php:684 free/functions/modules.php:738
+#: free/functions/modules.php:767 free/functions/modules.php:798
+#: free/functions/modules.php:813
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-log.php:65
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-log.php:66
+#: free/modules/users-login/callbacks.php:385
+#: free/modules/users-login/callbacks.php:391
+#: free/modules/users-login/callbacks.php:397
+#: free/modules/users-login/plugins/blacklist-logins.php:283
+msgid "%s:"
+msgstr "%s:"
+
+#: free/modules/welcome/callbacks.php:433
+msgid "Please provide your license key."
+msgstr "Por favor, proporciona tu clave de licencia."
+
+#: free/modules/welcome/callbacks.php:432
+msgid "Please provide a valid email address."
+msgstr "Por favor, proporciona una dirección de correcto electrónico válida."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:84
+#: free/classes/scanners/class-secupress-scan-auto-update.php:103
+#: free/classes/scanners/class-secupress-scan-bad-config-files.php:70
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:113
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:72
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:107
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:95
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:104
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:78
+#: free/classes/scanners/class-secupress-scan-bad-usernames.php:76
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:110
+#: free/classes/scanners/class-secupress-scan-chmods.php:113
+#: free/classes/scanners/class-secupress-scan-core-update.php:77
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:76
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:99
+#: free/classes/scanners/class-secupress-scan-discloses.php:120
+#: free/classes/scanners/class-secupress-scan-easy-login.php:79
+#: free/classes/scanners/class-secupress-scan-https.php:91
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:85
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:66
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:89
+#: free/classes/scanners/class-secupress-scan-php-404.php:78
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:97
+#: free/classes/scanners/class-secupress-scan-phpversion.php:80
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:77
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:102
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:77
+#: free/classes/scanners/class-secupress-scan-shellshock.php:92
+#: free/classes/scanners/class-secupress-scan-sqli.php:78
+#: free/classes/scanners/class-secupress-scan-subscription.php:112
+#: free/classes/scanners/class-secupress-scan-themes-update.php:77
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:89
+#: free/classes/scanners/class-secupress-scan-wp-config.php:135
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:89
+#: free/classes/scanners/class-secupress-scan-wporg.php:93
+msgid "Unknown message"
+msgstr "Mensaje desconocido"
+
+#: free/admin/functions/admin.php:247
+msgid "All actions considered dangerous are kept in this log available at any time to check what is happening on your site."
+msgstr "Todas las acciones consideradas peligrosas se mantienen disponibles en este registro en cualquier momento para verificar lo que sucede en tu sitio."
+
+#: free/admin/functions/admin.php:229
+msgid "Get alerts via SMS, mobile notifications, or even by social networks in addition to email."
+msgstr "Recibe alertas por SMS, avisos móviles o incluso por redes sociales además del correo electrónico."
+
+#: free/admin/functions/admin.php:228
+msgid "Alerts"
+msgstr "Alertas"
+
+#: free/admin/functions/admin.php:156
+msgid "No differences"
+msgstr "Sin diferencias"
+
+#: free/admin/functions/admin.php:143
+msgid "Your file"
+msgstr "Tu archivo"
+
+#: free/admin/functions/admin.php:142
+msgid "Real file"
+msgstr "Archivo real"
+
+#: free/admin/functions/admin.php:141
+msgid "File Differences"
+msgstr "Diferencias de archivo"
+
+#: free/admin/functions/admin.php:237
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:46
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:64
+#: free/classes/scanners/class-secupress-scan-php-404.php:46
+#: free/classes/scanners/class-secupress-scan-php-404.php:64
+#: free/classes/scanners/class-secupress-scan-shellshock.php:56
+#: free/classes/scanners/class-secupress-scan-shellshock.php:74
+#: free/classes/scanners/class-secupress-scan-sqli.php:46
+#: free/classes/scanners/class-secupress-scan-sqli.php:64
+msgid "Firewall"
+msgstr "Cortafuegos"
+
+#: free/admin/settings.php:432
+msgctxt "Latest scans"
+msgid "M dS, Y \\a\\t h:ia"
+msgstr "M dS, Y \\a\\t h:ia"
+
+#: free/modules/welcome/callbacks.php:188
+msgid "Your license has been successfully activated."
+msgstr "La copia de seguridad se ha activado correctamente"
+
+#: free/modules/welcome/callbacks.php:186
+msgid "Your license has been successfully deactivated."
+msgstr "Tu licencia se ha desactivado correctamente."
+
+#: free/admin/functions/admin.php:238
+msgid "Other features of the firewall add an additional level of protection from Internet attacks."
+msgstr "Otras características del cortafuegos añaden un nivel adicional de protección contra ataques de Internet."
+
+#: free/modules/welcome/settings/settings-manager.php:9
+msgid "Settings Manager"
+msgstr "Gestor de ajustes"
+
+#: free/modules/welcome/settings/api-key.php:30
+msgid "Deactivate the license"
+msgstr "Desactivar la licencia"
+
+#: free/modules/welcome/settings/api-key.php:28
+msgid "Your License Key is inactive or invalid."
+msgstr "Tu clave de licencia está inactiva o no es válida."
+
+#: free/modules/welcome/settings/api-key.php:106
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: free/modules/welcome/settings/api-key.php:9
+msgid "License Validation"
+msgstr "Validación de licencia"
+
+#: free/admin/functions/modules.php:101
+msgid "will deactivate the plugin %s."
+msgstr "desactivará el plugin %s."
+
+#: free/admin/multisite/settings.php:253
+msgid "Back to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: free/admin/multisite/settings.php:252 free/functions/modules.php:19
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: free/admin/multisite/settings.php:97
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: free/admin/multisite/centralize-blog-options.php:204
+msgid "If this page does not refresh automatically in 2 seconds, please %s."
+msgstr "Si esta página no se actualiza automáticamente en 2 segundos, por favor, %s."
+
+#: free/admin/multisite/centralize-blog-options.php:144
+#: free/admin/multisite/centralize-blog-options.php:206
+msgid "click here"
+msgstr "haz clic aquí"
+
+#: free/admin/multisite/centralize-blog-options.php:143
+msgid "Your network is quite big. Before doing anything, some data must be set. Please %s."
+msgstr "Tu red es bastante grande. Antes de hacer algo, se deben establecer algunos datos. Por favor %s."
+
+#: free/admin/settings.php:180 free/admin/settings.php:690
+msgid "Scan my website"
+msgstr "Explorar mi web"
+
+#: free/common.php:250
+msgid "Submit"
+msgstr "Enviar"
+
+#: free/admin/notices.php:164
+msgid "The features of the following plugins are included in %1$s. You can deactivate the plugins now and enable these features later in %1$s:"
+msgstr "Las características de los siguientes plugins se incluyen en %1$s. Puedes desactivar los plugins ahora y activar estas características más adelante en %1$s:"
+
+#: free/admin/scanner-step-1.php:109 free/admin/scanner-step-1.php:159
+#: free/admin/scanner-step-2.php:58 free/admin/scanner-step-2.php:85
+#: free/admin/scanner-step-2.php:105 free/admin/scanner-step-3.php:120
+msgid "Next step"
+msgstr "Siguiente paso"
+
+#: free/admin/scanner-step-1.php:62
+msgid "List of the security items already analyzed"
+msgstr "Lista de los elementos de seguridad ya analizados."
+
+#: free/admin/notices.php:306 free/admin/scanner-step-1.php:75
+msgid "Scan website"
+msgstr "Explorar web"
+
+#: free/admin/scanner-step-1-new.php:17
+msgid "Show/Hide panel"
+msgstr "Mostrar/ocultar panel"
+
+#: free/admin/scanner-step-1-new.php:11
+msgid "These new items need to be checked: you will need to rescan your website."
+msgstr "Es necesario comprobar estos nuevos elementos: deberás volver a explorar tu web."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:109
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:100
+#: free/classes/scanners/class-secupress-scan-discloses.php:104
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:93
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:98
+#: free/functions/modules.php:781
+msgid "Your %1$s file is not writable. Please add the following lines inside the tags hierarchy %2$s (create it if does not exist): %3$s"
+msgstr "Tu archivo %1$s no tiene permisos de escritura. Añade las siguientes líneas dentro de la jerarquía de etiquetas %2$s (créalas si no existen): %3$s"
+
+#: free/admin/notices.php:255
+msgid "This module has been deactivated:"
+msgid_plural "These modules have been deactivated:"
+msgstr[0] "Este módulo se ha desactivado:"
+msgstr[1] "Estos módulos se han desactivado:"
+
+#: free/admin/notices.php:35
+msgid "Click on the field and press Ctrl+A or Cmd+A to select all."
+msgstr "Haz clic en el campo y pulsa Ctrl+A o Cmd+A para seleccionar todo."
+
+#: free/admin/scanner-step-2.php:235
+msgid "Auto-fix this item"
+msgstr "Corregir automáticamente estos elementos"
+
+#: free/admin/scanner-step-1-new.php:10
+msgid "%sNew Items"
+msgstr "%sNuevos elementos"
+
+#: free/admin/scanner-step-1-all.php:89 free/admin/scanner-step-1-new.php:87
+msgid "Learn more"
+msgstr "Aprender más"
+
+#: free/admin/scanner-step-1-all.php:71 free/admin/scanner-step-1-new.php:69
+#: free/admin/settings.php:239
+msgctxt "verb"
+msgid "Scan"
+msgstr "Explorar"
+
+#: free/admin/scanner-step-1-all.php:23 free/admin/scanner-step-4.php:160
+msgid "Show/hide panel"
+msgstr "Mostrar/ocultar panel"
+
+#: free/admin/scanner-step-1-all.php:19
+msgid "Go to module settings"
+msgstr "Ir a los ajustes del módulo"
+
+#: free/admin/notices.php:367
+msgid "Please read these special notes for this update, version %1$s - %2$s"
+msgstr "Por favor, lee estas notas especiales para esta actualización, versión %1$s - %2$s"
+
+#: free/admin/scanner-step-1-all.php:95 free/admin/scanner-step-1-new.php:93
+#: free/classes/common/class-secupress-logs-list.php:311
+msgid "Close"
+msgstr "Cerrar"
+
+#: free/admin/scanner-step-3.php:136
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: free/admin/scanner-step-3.php:132
+msgid "%d issue requires your attention"
+msgid_plural "%d issues require your attention"
+msgstr[0] "%d problema requiere tu atención"
+msgstr[1] "%d problemas requieren tu atención"
+
+#: free/admin/settings.php:245
+msgid "Please wait until fixing is complete."
+msgstr "Por favor espera hasta que se complete la corrección."
+
+#: free/admin/scanner-step-2.php:160
+msgid "Toggle group check"
+msgstr "Alternar verificación de grupo"
+
+#: free/admin/scanner-step-2.php:112
+msgid "Only checked items will be automatically fixed"
+msgstr "Solo los elementos marcados se corregirán automáticamente"
+
+#: free/admin/scanner-step-2.php:93
+msgid "Ignore this step"
+msgstr "Ignora este paso"
+
+#: free/admin/scanner-step-2.php:76 free/admin/scanner-step-2.php:225
+#: free/admin/settings.php:234
+msgid "Fix it"
+msgstr "Corregirlo"
+
+#: free/admin/scanner-step-2.php:52 free/admin/scanner-step-3.php:114
+msgid "Nothing to do here"
+msgstr "Nada que hacer aquí"
+
+#: free/admin/scanner-step-1.php:140 free/admin/scanner-step-4.php:271
+msgid "Get the Pro Version to export this report as PDF file."
+msgstr "Obtén la versión Pro para exportar este informe como archivo PDF."
+
+#: free/admin/scanner-step-1.php:136 free/admin/scanner-step-1.php:145
+#: free/admin/scanner-step-4.php:258
+msgid "Export as PDF"
+msgstr "Exportar como PDF"
+
+#: free/admin/scanner-step-1.php:131 free/admin/scanner-step-4.php:265
+msgid "Export this report as PDF file."
+msgstr "Exportar este informe como archivo PDF."
+
+#: free/admin/scanner-step-4.php:88
+msgid "%d Warning"
+msgstr "Advertencia %d"
+
+#: free/admin/scanner-step-4.php:62
+msgid "You fixed: "
+msgstr "Tu corrección:"
+
+#: free/admin/scanner-step-4.php:57
+msgid "Your grade went from %1$s to %2$s. "
+msgstr "Tu calificación pasó de %1$s a %2$s."
+
+#: free/admin/scanner-step-4.php:55
+msgid "Your grade is still %s. "
+msgstr "Tu calificación sigue siendo %s."
+
+#: free/admin/scanner-step-4.php:42
+msgid "Bravo! You fixed %1$d of %2$d."
+msgstr "¡Bravo! Arreglaste %1$d de %2$d."
+
+#: free/admin/scanner-step-3.php:315
+msgid "Fix it and continue"
+msgstr "Corregir y continuar"
+
+#: free/admin/scanner-step-3.php:293
+msgid "Ignore it"
+msgstr "Ignorarlo"
+
+#: free/admin/scanner-step-3.php:280 free/admin/scanner-step-3.php:304
+#: free/admin/settings.php:552 free/admin/settings.php:892
+#: free/admin/settings.php:895
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:157
+#: free/classes/admin/class-secupress-admin-pro-upgrade.php:178
+#: free/modules/welcome/callbacks.php:427
+#: free/modules/welcome/callbacks.php:428
+#: free/modules/welcome/callbacks.php:579
+msgid "Open in a new window."
+msgstr "Abrir en una nueva ventana"
+
+#: free/admin/scanner-step-3.php:222
+msgid "How to fix this issue"
+msgstr "Cómo corregir este problema"
+
+#: free/admin/scanner-step-4.php:315
+msgid "Schedule your recurring scans"
+msgstr "Programa tus exploraciones periódicas"
+
+#: free/admin/scanner-step-4.php:314 free/admin/settings.php:647
+msgid "Schedule Scans"
+msgstr "Programar exploraciones"
+
+#: free/admin/scanner-step-4.php:308
+msgid "Let %s scan your website when you are away by using scheduled scans."
+msgstr "Permite que %s explore tu web cuando estés fuera usando exploraciones programadas."
+
+#: free/admin/scanner-step-4.php:307 free/admin/settings.php:648
+msgid "Manage your recurring scans"
+msgstr "Gestionar tus exploraciones periódicas"
+
+#: free/admin/scanner-step-4.php:300
+msgid "Fine-tune your security"
+msgstr "Afina tu seguridad"
+
+#: free/admin/scanner-step-4.php:297
+msgid "%s modules"
+msgstr "%s módulos"
+
+#: free/admin/scanner-step-4.php:289
+msgid "Perfect the security of your website with our dedicated modules."
+msgstr "Perfecciona la seguridad de tu web con nuestros módulos dedicados."
+
+#: free/admin/scanner-step-4.php:288
+msgid "Want to go farther?"
+msgstr "¿Quieres ir más lejos?"
+
+#: free/admin/scanner-step-4.php:223 free/admin/settings.php:231
+msgid "Fixed"
+msgstr "Corregido"
+
+#: free/admin/scanner-step-4.php:218
+msgid "Pending"
+msgstr "Pendiente"
+
+#: free/admin/scanner-step-4.php:213 free/admin/settings.php:149
+#: free/admin/settings.php:230
+msgid "Error"
+msgstr "Error"
+
+#: free/admin/scanner-step-4.php:208 free/admin/settings.php:233
+msgid "Not fixed"
+msgstr "No corregido"
+
+#: free/admin/scanner-step-4.php:110
+msgid "Hide all fixed issues"
+msgstr "Ocultar todos los problemas corregidos"
+
+#: free/admin/scanner-step-4.php:107
+msgid "See all fixed issues"
+msgstr "Ver todos los problemas corregidos"
+
+#: free/admin/scanner-step-4.php:101
+msgid "Show/hide the details of scanned items in your report"
+msgstr "Mostrar/ocultar los detalles de los elementos explorados en tu informe"
+
+#: free/admin/settings.php:160
+msgid "You are about to delete a backup."
+msgstr "Estás a punto de borrar una copia de seguridad."
+
+#: free/admin/settings.php:158
+msgid "All backups deleted"
+msgstr "Borradas todas las copias de seguridad"
+
+#: free/admin/settings.php:157
+msgid "Deleting all backups&hellip;"
+msgstr "Borrando todas las copias de seguridad&hellip;"
+
+#: free/admin/settings.php:156
+msgid "Impossible to delete all backups."
+msgstr "Imposible borrar todas las copias de seguridad."
+
+#: free/admin/settings.php:155
+msgid "Yes, delete all backups"
+msgstr "Sí, borrar todas las copias de seguridad"
+
+#: free/admin/settings.php:154
+msgid "You are about to delete all your backups."
+msgstr "Estás a punto de borrar todas tus copias de seguridad."
+
+#: free/admin/settings.php:152
+msgid "Done!"
+msgstr "¡Hecho!"
+
+#: free/admin/settings.php:150
+msgid "Unknown error."
+msgstr "Error desconocido."
+
+#: free/admin/settings.php:146
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
+
+#: free/admin/settings.php:142
+#: free/classes/settings/class-secupress-settings.php:302
+msgid "Select 1 role minimum"
+msgstr "Selecciona 1 perfil mínimo"
+
+#: free/admin/scanner-step-3.php:308 free/admin/scanner-step-4.php:342
+msgid "Get Pro"
+msgstr "Consigue la Pro"
+
+#: free/admin/scanner-step-4.php:334
+msgid "Get a better score and unlock all features"
+msgstr "Obtén una mejor puntuación y desbloquea todas las características"
+
+#: free/admin/settings.php:179
+msgid "It’s an automatic process that will help you secure your website."
+msgstr "Es un proceso automático que te ayudará a proteger tu web."
+
+#: free/admin/settings.php:178
+msgid "Before setting modules,<br>launch your first scan."
+msgstr "Antes de configurar los módulos,<br>inicia tu primera exploración."
+
+#: free/admin/settings.php:175
+msgctxt "adjective"
+msgid "Search reset."
+msgstr "Búsqueda restablecida."
+
+#: free/admin/settings.php:174
+msgctxt "adjective"
+msgid "See search result below."
+msgstr "Ver el resultado de la búsqueda a continuación."
+
+#: free/admin/settings.php:172
+#: free/classes/settings/class-secupress-settings-modules.php:529
+#: free/classes/settings/class-secupress-settings-modules.php:626
+msgid "IP not found."
+msgstr "IP no encontrada."
+
+#: free/admin/settings.php:168
+msgid "Backup done"
+msgstr "Copia de seguridad hecha"
+
+#: free/admin/settings.php:167
+msgid "Backuping&hellip;"
+msgstr "Copia de seguridad&hellip;"
+
+#: free/admin/settings.php:166
+msgid "Impossible to backup."
+msgstr "Imposible hacer copia de seguridad."
+
+#: free/admin/settings.php:164
+msgid "Backup deleted"
+msgstr "Copia de seguridad borrada"
+
+#: free/admin/settings.php:163
+msgid "Deleting Backup&hellip;"
+msgstr "Borrando copia de seguridad&hellip;"
+
+#: free/admin/settings.php:162
+msgid "Impossible to delete this backup."
+msgstr "Imposible borrar esta copia de seguridad."
+
+#: free/admin/settings.php:161
+msgid "Yes, delete this backup"
+msgstr "Sí, borrar esta copia de seguridad"
+
+#: free/admin/settings.php:303
+#: free/classes/settings/class-secupress-settings-global.php:85
+#: free/classes/settings/class-secupress-settings-global.php:88
+msgid "Settings"
+msgstr "Ajustes"
+
+#: free/admin/settings.php:298
+msgid "Docs"
+msgstr "Documentos"
+
+#: free/classes/settings/class-secupress-settings.php:1741
+msgid "Support"
+msgstr "Soporte"
+
+#: free/admin/settings.php:248
+msgid "The documentation is actually under construction, thank you for your patience."
+msgstr "La documentación está actualmente en construcción, gracias por tu paciencia."
+
+#: free/admin/settings.php:247
+msgid "Coming Soon"
+msgstr "Próximamente"
+
+#: free/admin/settings.php:244
+msgid "Security scan just finished."
+msgstr "Exploración de seguridad recién terminada."
+
+#: free/admin/settings.php:237
+msgid "Some fixes require your intervention."
+msgstr "Algunas correcciones requieren tu intervención"
+
+#: free/admin/settings.php:235
+msgid "One fix requires your intervention."
+msgstr "Una corrección requiere tu intervención."
+
+#: free/admin/settings.php:232
+msgid "Partially fixed"
+msgstr "Corregido parcialmente"
+
+#: free/admin/settings.php:592 free/admin/settings.php:594
+msgctxt "Schedule date"
+msgid "Y-m-d \\a\\t h:ia"
+msgstr "Y-m-d \\a\\t h:ia"
+
+#: free/admin/settings.php:588
+msgid "Stay updated on the security of your website. With our automatic scans, there is no need to log in to your WordPress admin to run a scan."
+msgstr "Mantente actualizado sobre la seguridad de tu web. Con nuestras exploraciones automáticas, no es necesario acceder a tu administrador de WordPress para ejecutar una exploración."
+
+#: free/admin/settings.php:586
+msgid "Schedule your security analysis"
+msgstr "Programa tu análisis de seguridad"
+
+#: free/admin/settings.php:575
+msgid "You have no other reports for now."
+msgstr "No tienes otros informes por ahora."
+
+#: free/admin/settings.php:567
+msgid "Your last scans"
+msgstr "Tus exploraciones pasadas"
+
+#: free/admin/settings.php:555
+msgid "Tweet this"
+msgstr "Tuitea esto"
+
+#: free/admin/settings.php:81 free/admin/settings.php:106
+#: free/admin/settings.php:147 free/admin/settings.php:228
+msgid "OK"
+msgstr "Aceptar"
+
+#: free/admin/settings.php:173
+msgid "IP removed."
+msgstr "IP quitada."
+
+#: free/admin/settings.php:484
+msgid "How does it work?"
+msgstr "¿Cómo funciona?"
+
+#: free/admin/settings.php:656
+msgid "Scan results"
+msgstr "Resultados de la exploración"
+
+#: free/admin/settings.php:470
+msgid "Here’s how it’s going to work"
+msgstr "Así es como va a funcionar"
+
+#: free/admin/settings.php:469
+msgid "First scan"
+msgstr "Primera exploración"
+
+#: free/admin/settings.php:443
+msgid "%1$s&nbsp;/&nbsp;%2$s points"
+msgstr "%1$s&nbsp;/&nbsp;%2$s puntos"
+
+#: free/admin/settings.php:440
+msgid "Currently scanning"
+msgstr "Explorando actualmente"
+
+#: free/admin-bar.php:81 free/admin/settings.php:335
+#: free/classes/settings/class-secupress-settings-modules.php:229
+msgid "Modules"
+msgstr "Módulos"
+
+#: free/admin/settings.php:792
+msgid "Go further and take a look at the items you have to fix with specific operations."
+msgstr "Ve más allá y echa un vistazo a los elementos que tienes que corregir con operaciones específicas."
+
+#: free/admin/settings.php:781
+msgid "Launch the auto-fix on selected issues."
+msgstr "Inicia la corrección automática de los problemas seleccionados."
+
+#: free/admin/settings.php:716 free/admin/settings.php:801
+msgid "Resolution Report"
+msgstr "Informe de resolución"
+
+#: free/admin/settings.php:715 free/admin/settings.php:790
+msgid "Manual Operations"
+msgstr "Operaciones manuales"
+
+#: free/admin/settings.php:714 free/admin/settings.php:779
+msgid "Auto-Fix"
+msgstr "Corrección automática"
+
+#: free/admin/settings.php:713
+msgid "Security Report"
+msgstr "Informe de seguridad"
+
+#: free/admin/settings.php:679
+msgid "Click to launch first scan"
+msgstr "Haz clic para iniciar la primera exploración"
+
+#: free/admin/scanner-step-1.php:69
+msgid "Doubts? Try a new scan."
+msgstr "¿Dudas? Prueba una nueva exploración."
+
+#: free/admin/settings.php:638
+msgid "View your previous scans"
+msgstr "Ver tus exploraciones anteriores"
+
+#: free/admin/settings.php:637
+msgid "Latest scans"
+msgstr "Últimas exploraciones"
+
+#: free/admin/settings.php:624
+msgid "Available in the PRO version"
+msgstr "Disponible en la versión PRO"
+
+#: free/admin/settings.php:607 free/admin/settings.php:622
+msgid "Schedule your next analysis"
+msgstr "Programa tus siguientes análisis"
+
+#: free/admin/settings.php:603 free/admin/settings.php:618
+msgid "Next automatic scan: %s"
+msgstr "Próxima exploración automática: %s"
+
+#: free/admin/settings.php:599 free/admin/settings.php:614
+msgid "Last automatic scan: %s"
+msgstr "Última exploración automática: %s"
+
+#: free/classes/admin/class-secupress-admin-notices.php:345
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: free/admin/settings.php:901
+msgctxt "hidden text"
+msgid "Give us five stars"
+msgstr "Danos cinco estrellas"
+
+#: free/admin/settings.php:892
+msgid "Please take a few seconds to rate us on %1$sWordPress.org%2$s"
+msgstr "Tómate unos segundos para calificarnos en %1$sWordPress.org%2$s"
+
+#: free/admin/settings.php:890
+msgid "Do you like this plugin?"
+msgstr "¿Te gusta este plugin?"
+
+#: free/classes/common/class-secupress-log.php:248
+msgid "Filter logs with the user ID %d"
+msgstr "Filtrar registros con el ID de usuario %d"
+
+#: free/classes/common/class-secupress-log.php:243
+msgid "Filter logs with the IP address %s"
+msgstr "Filtrar registros con la dirección IP %s"
+
+#: free/classes/admin/class-secupress-admin-wp-background-process.php:780
+msgid "Every %d Minutes"
+msgstr "Cada %d minutos"
+
+#: free/classes/common/class-secupress-logs-list-table.php:383
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todo <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: free/classes/common/class-secupress-log.php:335
+msgctxt "priority level"
+msgid "Unknown"
+msgstr "desconocido"
+
+#: free/classes/common/class-secupress-log.php:333
+#: free/classes/common/class-secupress-logs.php:618
+msgctxt "priority level"
+msgid "Low"
+msgstr "Baja"
+
+#: free/classes/common/class-secupress-log.php:331
+#: free/classes/common/class-secupress-logs.php:610
+msgctxt "priority level"
+msgid "Normal"
+msgstr "Normal"
+
+#: free/classes/common/class-secupress-log.php:329
+#: free/classes/common/class-secupress-logs.php:602
+msgctxt "priority level"
+msgid "High"
+msgstr "Alta"
+
+#: free/classes/common/class-secupress-log.php:324
+msgid "Unknown priority"
+msgstr "Prioridad desconocida"
+
+#: free/classes/common/class-secupress-log.php:322
+msgid "Low priority"
+msgstr "Baja prioridad"
+
+#: free/classes/common/class-secupress-log.php:320
+msgid "Normal priority"
+msgstr "Prioridad normal"
+
+#: free/classes/common/class-secupress-log.php:318
+msgid "High priority"
+msgstr "Alta prioridad"
+
+#: free/classes/common/class-secupress-log.php:285
+#: free/classes/common/class-secupress-logs.php:1377
+msgid "Login"
+msgstr "Acceso"
+
+#: free/classes/common/class-secupress-log.php:284
+#: free/classes/common/class-secupress-logs.php:1376
+msgid "ID"
+msgstr "ID"
+
+#: free/classes/common/class-secupress-log.php:283
+#: free/classes/common/class-secupress-log.php:294
+#: free/classes/common/class-secupress-logs.php:1375
+#: free/classes/common/class-secupress-logs.php:1384
+msgid "IP"
+msgstr "IP"
+
+#: free/classes/common/class-secupress-log.php:265
+msgid "Profile"
+msgstr "Perfil"
+
+#: free/classes/common/class-secupress-logs-list.php:270
+msgid "Delete log"
+msgstr "Borrar registro"
+
+#: free/classes/common/class-secupress-logs-list.php:265
+msgid "Log Details"
+msgstr "Registro de detalles"
+
+#: free/classes/common/class-secupress-logs-list-table.php:820
+msgid "View this log details"
+msgstr "Ver los detalles del registro"
+
+#: free/classes/common/class-secupress-logs-list-table.php:818
+msgid "Delete this item permanently"
+msgstr "Borrar este elemento permanentemente"
+
+#: free/classes/common/class-secupress-logs-list-table.php:726
+msgid "\\<\\b\\>Y/m/d\\<\\/\\b\\> g:i:s a"
+msgstr "\\<\\b\\>Y/m/d\\<\\/\\b\\> g:i:s a"
+
+#: free/classes/common/class-secupress-logs-list-table.php:698
+msgid "View &#8220;%s&#8221;"
+msgstr "Ver &#8220;%s&#8221;"
+
+#: free/classes/common/class-secupress-logs-list-table.php:650
+msgid "Select &#8220;%s&#8221;"
+msgstr "Seleccionar &#8220;%s&#8221;"
+
+#: free/classes/common/class-secupress-logs-list-table.php:573
+msgid "Date"
+msgstr "Fecha"
+
+#: free/classes/common/class-secupress-logs-list-table.php:570
+msgid "priority"
+msgstr "prioridad"
+
+#: free/classes/common/class-secupress-logs-list-table.php:567
+msgctxt "column name"
+msgid "Title"
+msgstr "Título"
+
+#: free/classes/common/class-secupress-logs-list-table.php:478
+msgid "Delete All"
+msgstr "Borrar todo"
+
+#: free/classes/common/class-secupress-logs-list-table.php:464
+msgid "Download All"
+msgstr "Descargar todo"
+
+#: free/classes/common/class-secupress-logs.php:485
+msgid "No logs found in Trash."
+msgstr "No se encontraron registros en la papelera."
+
+#: free/classes/common/class-secupress-logs.php:484
+msgid "No logs found."
+msgstr "No se encontraron registros."
+
+#: free/classes/common/class-secupress-logs.php:483
+msgid "Search Logs"
+msgstr "Buscar registros"
+
+#: free/classes/common/class-secupress-logs-list.php:232
+#: free/classes/common/class-secupress-logs-list.php:240
+msgid "No logs selected"
+msgstr "No hay ningún registro seleccionado"
+
+#: free/classes/common/class-secupress-logs-list.php:150
+#: free/functions/modules.php:193
+msgid "Monitor everything"
+msgstr "Seguir todo"
+
+#: free/classes/common/class-secupress-logs.php:481
+msgid "View Log"
+msgstr "Ver registro"
+
+#: free/classes/common/class-secupress-logs.php:480
+msgid "New Log"
+msgstr "Nuevo registro"
+
+#: free/classes/common/class-secupress-logs.php:479
+msgid "Edit Log"
+msgstr "Editar registro"
+
+#: free/classes/common/class-secupress-logs.php:478
+msgid "Add New Log"
+msgstr "Añadir nuevo registro"
+
+#: free/classes/common/class-secupress-logs.php:477
+#: free/modules/logs/plugins/inc/php/404-logs/class-secupress-404-logs.php:43
+#: free/modules/logs/plugins/inc/php/http-logs/class-secupress-http-logs.php:43
+msgctxt "secupress_log"
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: free/classes/common/class-secupress-logs.php:476
+msgid "All Logs"
+msgstr "Todos los registros"
+
+#: free/classes/common/class-secupress-logs.php:474
+msgctxt "post type singular name"
+msgid "Log"
+msgstr "Registro"
+
+#: free/admin-bar.php:122 free/admin/functions/admin.php:246
+#: free/classes/common/class-secupress-logs.php:473
+#: free/classes/common/class-secupress-logs.php:475
+#: free/classes/common/class-secupress-logs.php:482
+#: free/classes/common/class-secupress-logs.php:655
+#: free/classes/common/class-secupress-logs.php:656
+#: free/modules/logs/settings/logs.php:11
+msgctxt "post type general name"
+msgid "Logs"
+msgstr "Registros"
+
+#: free/classes/common/class-secupress-logs-list.php:304
+msgid "Delete logs with this IP"
+msgstr "Borrar registros con esta IP"
+
+#: free/classes/common/class-secupress-logs-list.php:276
+msgid "Delete logs without user ID"
+msgstr "Borrar registros sin ID de usuario"
+
+#: free/classes/common/class-secupress-logs-list.php:276
+msgid "Delete logs for this user"
+msgstr "Borrar registros de este usuario"
+
+#: free/classes/common/class-secupress-logs.php:972
+#: free/classes/common/class-secupress-logs.php:987
+msgid "Logs deleted."
+msgstr "Registros borrados."
+
+#: free/classes/common/class-secupress-logs.php:492
+msgid "Logs list"
+msgstr "Lista de registros"
+
+#: free/classes/common/class-secupress-logs.php:491
+msgid "Logs list navigation"
+msgstr "Navegación por el listado de registros"
+
+#: free/classes/common/class-secupress-logs.php:490
+msgid "Filter logs list"
+msgstr "Lista de registros filtrados"
+
+#: free/classes/common/class-secupress-logs.php:489
+msgid "Uploaded to this log"
+msgstr "Subido a este registro"
+
+#: free/classes/common/class-secupress-logs.php:488
+msgid "Insert into log"
+msgstr "Insertar en el registro"
+
+#: free/classes/common/class-secupress-logs.php:487
+msgid "Log Archives"
+msgstr "Archivos de registro"
+
+#: free/classes/common/class-secupress-logs.php:486
+msgid "Parent Log:"
+msgstr "Registro padre:"
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:76
+msgid "The username %1$s is invalid because it uses illegal characters. Spot the differences: %2$s."
+msgstr "El nombre de usuario %1$s no es válido porque usa caracteres ilegales. Encuentra las diferencias: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:75
+msgid "Sorry, the username %s already exists!"
+msgstr "Lo siento, ¡el nombre de usuario %s ya existe!"
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:74
+msgid "Cannot create a user with an empty login name!"
+msgstr "¡No se puede crear un usuario con un nombre de acceso vacío!"
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:73
+msgid "Sorry, the username %s is forbidden!"
+msgstr "Lo siento, ¡el nombre de usuario %s está prohibido!"
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:72
+msgid "Because user registrations are open, the %s account should exist (with no role) to prevent someone from registering it."
+msgstr "Debido a que los registros de usuarios están abiertos, la cuenta %s debe existir (sin perfil) para evitar que alguien la registre."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:71
+msgid "The %s account should have no role at all."
+msgstr "La cuenta %s no debe tener ningún perfil."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:69
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:61
+#: free/classes/scanners/class-secupress-scan-wp-config.php:84
+msgid "This fix is <strong>pending</strong>, please reload the page to apply it now."
+msgstr "Esta corrección está <strong>pendiente</strong>, vuelve a cargar la página para aplicarla ahora."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:67
+msgid "The %s account has no role anymore."
+msgstr "La cuenta %s ya no tiene perfil."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:66
+msgid "The %s account is correctly protected."
+msgstr "La cuenta %s está correctamente protegida."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:47
+msgid "You will be asked for a new username and your account will be renamed."
+msgstr "Se te pedirá un nuevo nombre de usuario y tu cuenta será renombrada."
+
+#: free/classes/common/class-secupress-logs.php:1158
+#: free/classes/common/class-secupress-logs.php:1179
+msgid "Log permanently deleted."
+msgstr "Registro borrado permanentemente."
+
+#: free/classes/common/class-secupress-logs.php:1011
+#: free/classes/common/class-secupress-logs.php:1030
+#: free/classes/common/class-secupress-logs.php:1055
+#: free/classes/common/class-secupress-logs.php:1075
+#: free/classes/common/class-secupress-logs.php:1106
+#: free/classes/common/class-secupress-logs.php:1132
+msgid "%s log permanently deleted."
+msgid_plural "%s logs permanently deleted."
+msgstr[0] "%s registro borrado permanentemente."
+msgstr[1] "%s registros borrados permanentemente."
+
+#: free/classes/common/class-secupress-logs-list.php:297
+msgid "Ban this IP"
+msgstr "Prohibir esta IP"
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:51
+msgid "Activate the <strong>%1$s</strong> from the module %2$s."
+msgstr "Activa el <strong>%1$s </strong> desde el módulo %2$s."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:316
+#: free/modules/users-login/plugins/blacklist-logins.php:437
+msgid "Allowed characters: %s."
+msgstr "Caracteres permitidos: %s."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:313
+msgid "Choose a new login for your account:"
+msgstr "Elige un nuevo acceso para tu cuenta:"
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:78
+msgid "Sorry, the %s account could not be created. You should try to create it manually and then remove its role."
+msgstr "Lo siento, no se pudo crear la cuenta %s. Debes intentar crearla manualmente y luego eliminar su perfil."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:77
+msgid "Sorry, the role cannot be removed from the %s account. You should try to remove it manually."
+msgstr "Lo siento, el perfil no se puede eliminar de la cuenta %s. Debes intentar eliminarlo manualmente."
+
+#: free/classes/scanners/class-secupress-scan-admin-user.php:314
+msgid "Your username will be renamed on the next page load."
+msgstr "Tu nombre de usuario se renombrará en la próxima carga de la página."
+
+#: free/modules/welcome/settings/settings-manager.php:21
+msgid "Settings Importer"
+msgstr "Importador de ajustes"
+
+#: free/modules/welcome/settings/settings-manager.php:13
+msgid "Settings Exporter"
+msgstr "Exportador de ajustes"
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:95
+#: free/functions/modules.php:772
+msgid "Your %1$s file is not writable. Please remove any previous %2$s tag and add the following lines inside the tags hierarchy %3$s (create it if does not exist): %4$s"
+msgstr "Tu archivo %1$s no tiene permisos de escritura. Elimina cualquier etiqueta %2$s anterior y añade las siguientes líneas dentro de la jerarquía de etiquetas %3$s (créalo si no existe): %4$s"
+
+#: free/functions/modules.php:674
+msgid "Your %1$s file is not writable, you have to edit it manually. Please remove the rules with %2$s from the %1$s file."
+msgstr "Tu archivo %1$s no tiene permisos de escritura, debes editarlo manualmente. Elimina las reglas con %2$s del archivo %1$s."
+
+#: free/functions/modules.php:660
+msgid "Your %1$s file is not writable, you have to edit it manually. Please remove the rules between %2$s and %3$s from the %1$s file."
+msgstr "Tu archivo %1$s no tiene permisos de escritura, debes editarlo manualmente. Elimina las reglas entre %2$s y %3$s del archivo %1$s."
+
+#: free/functions/modules.php:801
+msgid "Your server runs <strong>Nginx</strong>. You have to edit the configuration file manually. Please add the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>. Tienes que editar el archivo de configuración manualmente. Añade el siguiente código a tu archivo %1$s: %2$s"
+
+#: free/classes/common/class-secupress-log.php:450
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:563
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:564
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:604
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:605
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:717
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:718
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:758
+#: free/modules/logs/plugins/inc/php/action-logs/class-secupress-action-log.php:759
+msgid "empty string"
+msgstr "cadena vacía"
+
+#: free/admin/notices.php:247
+msgid "This module has been activated:"
+msgid_plural "These modules have been activated:"
+msgstr[0] "Este módulo se ha activado:"
+msgstr[1] "Estos módulos se han activado:"
+
+#: free/admin-bar.php:25
+msgid "Grade %s"
+msgstr "Calificación %s"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:78
+msgid "%d theme is deactivated."
+msgid_plural "%d themes are deactivated."
+msgstr[0] "El tema %d está desactivado."
+msgstr[1] "Los temas %d están desactivados."
+
+#: free/classes/scanners/class-secupress-scan.php:1042
+msgid "%s other"
+msgid_plural "%s others"
+msgstr[0] "%s otro"
+msgstr[1] "%s otros"
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:85
+msgid "%s should not be accessible to anyone."
+msgstr "%s no debe ser accesible para nadie."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:89
+msgid "<strong>%1$d plugin</strong> has not been updated for at least 2 years: %2$s."
+msgid_plural "<strong>%1$d plugins</strong> have not been updated for at least 2 years: %2$s."
+msgstr[0] "<strong>%1$d plugin</strong> no se ha actualizado durante al menos 2 años: %2$s."
+msgstr[1] "<strong>Los plugins %1$d</strong> no se han actualizado durante al menos 2 años: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:92
+msgid "<strong>%1$d plugin</strong> is known to be vulnerable: %2$s."
+msgid_plural "<strong>%1$d plugins</strong> are known to be vulnerable: %2$s."
+msgstr[0] "<strong>%1$d plugin</strong> es conocido por ser vulnerable: %2$s."
+msgstr[1] "<strong>%1$d plugins</strong> son conocidos por ser vulnerables: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:87
+msgid "<strong>%1$d plugin</strong> is no longer in the WordPress directory: %2$s."
+msgid_plural "<strong>%1$d plugins</strong> are no longer in the WordPress directory: %2$s."
+msgstr[0] "<strong>%1$d plugin</strong> ya no está en el directorio de WordPress: %2$s."
+msgstr[1] "<strong>%1$d plugins</strong> ya no están en el directorio de WordPress: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:70
+msgid "<strong>%1$d theme</strong> is not up to date: %2$s."
+msgid_plural "<strong>%1$d themes</strong> are not up to date: %2$s."
+msgstr[0] "<strong>%1$d tema</strong> no está actualizado: %2$s."
+msgstr[1] "<strong>%1$d temas</strong> no están actualizados: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:99
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:102
+msgid "<strong>%d</strong> plugin can be <strong>deactivated</strong>."
+msgid_plural "<strong>%d</strong> plugins can be <strong>deactivated</strong>."
+msgstr[0] "<strong>%d</strong> plugin se puede <strong>desactivar</strong>."
+msgstr[1] "<strong>%d</strong> plugins se pueden <strong>desactivar</strong>."
+
+#: free/common.php:135
+msgid "<strong>Error</strong>: the email field is empty."
+msgstr "<strong>Error</strong>: el campo de correo electrónico está vacío."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:47
+msgid "Activate the %1$s protection and/or the %2$s protection from the module %3$s."
+msgstr "Activa la protección %1$s y/o la protección %2$s del módulo %3$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:60
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:45
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:46
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:46
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:47
+msgid "Activate the %1$s protection from the module %2$s."
+msgstr "Activa la protección %1$s del módulo %2$s."
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:44
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:44
+#: free/classes/scanners/class-secupress-scan-bad-usernames.php:45
+#: free/classes/scanners/class-secupress-scan-php-404.php:44
+#: free/classes/scanners/class-secupress-scan-shellshock.php:54
+#: free/classes/scanners/class-secupress-scan-sqli.php:44
+#: free/classes/scanners/class-secupress-scan-subscription.php:61
+msgid "Activate the option %1$s in the %2$s module."
+msgstr "Activa la opción %1$s en el módulo %2$s."
+
+#: free/classes/settings/class-secupress-settings.php:287
+#: free/classes/settings/class-secupress-settings.php:293
+#: free/modules/users-login/settings/double-auth.php:168
+#: free/modules/users-login/settings/double-auth.php:175
+msgid "Affected Roles"
+msgstr "Perfiles afectados"
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:89
+msgid "All file permissions are fixed."
+msgstr "Todos los permisos de archivo se han corregido."
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:88
+msgid "All file permissions are good."
+msgstr "Todos los permisos de archivo son buenos."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:79
+msgid "All plugins known to be vulnerable have been deactivated."
+msgstr "Todos los plugins que se sabe que son vulnerables se han desactivado."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:59
+msgid "All security keys are properly set."
+msgstr "Todas las claves de seguridad están configuradas correctamente."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:64
+msgid "All selected plugins have been deleted (but some are still there)."
+msgstr "Todos los plugins seleccionados se han borrado (pero algunos todavía están allí)."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:67
+msgid "All selected themes have been deleted (but some are still there)."
+msgstr "Todos los temas seleccionados han sido borrados (pero algunos todavía están allí)."
+
+#: free/classes/scanners/class-secupress-scan-bad-usernames.php:64
+msgid "All the usernames are correct."
+msgstr "Todos los nombres de usuario son correctos."
+
+#: free/functions/common.php:266
+msgid "Almost perfect!"
+msgstr "¡Casi perfecto!"
+
+#: free/classes/settings/class-secupress-settings.php:1747
+msgid "Ask for support"
+msgstr "Pide ayuda"
+
+#: free/classes/settings/class-secupress-settings-modules.php:874
+msgid "Backup my database"
+msgstr "Copia de seguridad de mi base de datos"
+
+#: free/classes/settings/class-secupress-settings-modules.php:895
+msgid "Backup my files"
+msgstr "Copia de seguridad de mis archivos"
+
+#: free/functions/common.php:278
+msgid "Better than nothing, but still not good."
+msgstr "Mejor que nada, pero aún no es bueno."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:73
+msgid "But you can activate the %1$s protection and the %2$s protection from the module %3$s."
+msgstr "Pero puede activar la protección %1$s y la protección %2$s desde el módulo %3$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:87
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:86
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:62
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:72
+#: free/classes/scanners/class-secupress-scan-discloses.php:79
+#: free/classes/scanners/class-secupress-scan-php-404.php:62
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:71
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:73
+#: free/classes/scanners/class-secupress-scan-shellshock.php:72
+#: free/classes/scanners/class-secupress-scan-sqli.php:62
+#: free/classes/scanners/class-secupress-scan-subscription.php:88
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:65
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:65
+msgid "But you can activate the %1$s protection from the module %2$s."
+msgstr "Pero puedes activar la protección %1$s desde el módulo %2$s."
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:72
+msgid "Change the files permissions to the recommended one for each."
+msgstr "Cambia los permisos de los archivos al recomendado para cada uno."
+
+#: free/classes/scanners/class-secupress-scan-sqli.php:41
+msgid "Check if basic SQL Injections are blocked or not."
+msgstr "Comprueba si las inyecciones SQL básicas están bloqueadas o no."
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:42
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:42
+msgid "Check if the %s plugin discloses its version."
+msgstr "Comprueba si el plugin %s revela su versión."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:41
+msgid "Check if the security keys are correctly set."
+msgstr "Comprueba si las claves de seguridad están configuradas correctamente."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:56
+msgid "Check if the subscription settings are set correctly."
+msgstr "Comprueba si los ajustes de suscripción están configurados correctamente."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:57
+msgid "Check if there are files using bad extensions are accessible in the uploads folder."
+msgstr "Comprueba si hay archivos con extensiones incorrectas accesibles en la carpeta de cargas."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:48
+msgid "Check if you are using plugins known to be vulnerable."
+msgstr "Comprueba si estás utilizando cplugins que se sabe que son vulnerables."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:41
+msgid "Check if you are using plugins that have been deleted from the official repository or have not been updated for at least two years."
+msgstr "Comprueba si estás utilizando plugins que se han eliminado del repositorio oficial o que no se han actualizado durante al menos dos años."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:41
+msgid "Check if you have some deactivated plugins or themes."
+msgstr "Comprueba si tienes algunos plugins o temas desactivados."
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:41
+msgid "Check if your WordPress core can perform auto-updates for minor versions."
+msgstr "Comprueba si tu núcleo de WordPress puede realizar actualizaciones automáticas para versiones menores."
+
+#: free/functions/common.php:262
+msgid "Congratulations! 🎉"
+msgstr "¡Enhorabuena! 🎉"
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:48
+msgid "Check if your WordPress core is up to date."
+msgstr "Comprueba si tu núcleo de WordPress está actualizado."
+
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:41
+msgid "Check if your WordPress lists the some login errors."
+msgstr "Comprueba si tu WordPress enumera algunos errores de acceso."
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:47
+msgid "Check if your database tables prefix is correct."
+msgstr "Comprueba si el prefijo de las tablas de su base de datos es correcto."
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:70
+msgid "Check if your files and folders have the correct write permissions (chmod)."
+msgstr "Comprueba si tus archivos y carpetas tienen los permisos de escritura correctos (chmod)."
+
+#: free/classes/scanners/class-secupress-scan-phpversion.php:48
+msgid "Check if your installation is using a supported version of PHP."
+msgstr "Comprueba si tu instalación está utilizando una versión compatible de PHP."
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:48
+msgid "Check if your plugins are up to date."
+msgstr "Comprueba si tus plugins están actualizados."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:43
+msgid "Check if your server lists the files in a directory (known as Directory Listing)."
+msgstr "Comprueba si tu servidor enumera los archivos en un directorio (conocido como listado de directorios)."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:48
+msgid "Check if your themes are up to date."
+msgstr "Comprueba si tus temas están actualizados."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:575
+msgid "Checked plugins will be deactivated by Administrators:"
+msgstr "Los plugins marcados serán desactivados por los administradores:"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:573
+msgid "Checked plugins will be deactivated:"
+msgstr "Los plugins marcados se desactivarán:"
+
+#: free/classes/settings/class-secupress-settings.php:1022
+msgid "Choose a file from your computer:"
+msgstr "Elige un archivo de tu ordenador:"
+
+#: free/classes/settings/class-secupress-settings-modules.php:581
+#: free/classes/settings/class-secupress-settings-modules.php:676
+msgid "Clear all IPs"
+msgstr "Borrar todas las IP"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:72
+msgid "Database and FTP passwords seems strong enough."
+msgstr "Las contraseñas de la bases de datos y FTP parecen lo suficientemente fuertes."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:71
+msgid "Database password seems strong enough."
+msgstr "La contraseña de la base de datos parece lo suficientemente segura."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:58
+msgid "Deactivate vulnerable plugins."
+msgstr "Desactivar plugins vulnerables."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:47
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:73
+#: free/functions/modules.php:124
+#: free/modules/sensitive-data/plugins/directory-listing.php:46
+#: free/modules/sensitive-data/plugins/directory-listing.php:86
+#: free/modules/sensitive-data/settings/content-protect.php:121
+msgid "Directory Listing"
+msgstr "Listado de directorios"
+
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:42
+msgid "Error messages displayed on the login page are a useful information for an attacker: they should not be displayed, or at least, should be less specific."
+msgstr "Los mensajes de error que se muestran en la página de acceso son una información útil para un atacante: no deben mostrarse, o al menos, deben ser menos específicos."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:75
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:72
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:82
+msgid "Error, could not read %s."
+msgstr "Error, no se pudo leer %s."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:94
+msgid "Files that use bad extensions are protected."
+msgstr "Los archivos que usan extensiones malas están protegidos."
+
+#: free/classes/settings/class-secupress-settings-modules.php:560
+msgid "G:i"
+msgstr "G:i"
+
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:43
+msgid "Hide errors on login page to avoid being read by attackers."
+msgstr "Ocultar errores en la página de acceso para evitar ser leídos por los atacantes."
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:46
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:46
+msgid "Hide the %1$s version to prevent giving too much information to attackers. The %2$s protection from the module %3$s will be activated."
+msgstr "Oculta la versión %1$s para evitar dar demasiada información a los atacantes. Se activará la protección %2$s del módulo %3$s."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:89
+msgid "In your %1$s file, the PHP constant %2$s should be set."
+msgstr "En tu archivo %1$s, se debe establecer la constante PHP %2$s."
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:49
+msgid "It is very important to keep your WordPress installation up to date. If you cannot update because of a plugin, contact its author and submit your issue."
+msgstr "Es muy importante mantener actualizada tu instalación de WordPress. Si no puedes actualizar debido a un plugin, ponte en contacto con su autor y envíale tu problema."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:49
+msgid "It is very important to keep your WordPress installation up to date. If you cannot update because of a theme, contact its author and submit your issue."
+msgstr "Es muy importante mantener actualizada tu instalación de WordPress. Si no puedes actualizar debido a un tema, ponte en contacto con su autor y envíale tu problema."
+
+#: free/classes/settings/class-secupress-settings-modules.php:469
+#: free/classes/settings/class-secupress-settings-modules.php:480
+#: free/classes/settings/class-secupress-settings-modules.php:491
+msgid "Learn more about SecuPress Pro"
+msgstr "Obtén más información sobre SecuPress Pro"
+
+#: free/functions/common.php:548
+msgid "Logged Details:"
+msgstr "Detalles registrados:"
+
+#: free/common.php:205
+msgid "Message sent"
+msgstr "Mensaje enviado"
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:45
+msgid "Minor updates"
+msgstr "Actualizaciones menores"
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:49
+msgid "Never use a plugin with a known vulnerability, you should update or remove it as soon as possible!"
+msgstr "Nunca uses un plugin con una vulnerabilidad conocida, ¡debes actualizarlo o eliminarlo lo antes posible!"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:478
+msgid "No inactive plugins"
+msgstr "No hay plugins inactivos"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:515
+msgid "No inactive themes"
+msgstr "No hay temas inactivos"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:81
+msgid "No plugins nor themes selected."
+msgstr "No hay plugins ni temas seleccionados."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:79
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:86
+msgid "No plugins selected for deactivation."
+msgstr "No hay plugins seleccionados para la desactivación."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:103
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:106
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:63
+msgid "No plugins selected."
+msgstr "No hay plugins seleccionados."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:88
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:66
+msgid "No themes selected."
+msgstr "No hay temas seleccionados."
+
+#: free/functions/common.php:270
+msgid "Not bad, but try to fix more items."
+msgstr "No está mal, pero intenta arreglar más elementos."
+
+#: free/functions/common.php:282
+msgid "Not good at all, fix more issues."
+msgstr "No es nada bueno, soluciona más problemas."
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:47
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:72
+#: free/functions/modules.php:125
+#: free/modules/sensitive-data/plugins/php-easter-egg.php:45
+#: free/modules/sensitive-data/plugins/php-easter-egg.php:69
+#: free/modules/sensitive-data/settings/content-protect.php:178
+msgid "PHP Disclosure"
+msgstr "Divulgación de PHP"
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:49
+#: free/classes/scanners/class-secupress-scan-discloses.php:75
+#: free/functions/modules.php:126
+#: free/modules/discloses/plugins/no-x-powered-by.php:59
+#: free/modules/discloses/plugins/no-x-powered-by.php:71
+#: free/modules/sensitive-data/settings/content-protect.php:237
+msgid "PHP Version Disclosure"
+msgstr "Divulgación de la versión de PHP"
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:44
+msgid "PHP contains a flaw that discloses sensitive information about installed modules, resulting in a loss of confidentiality."
+msgstr "PHP contiene un fallo que revela información confidencial sobre los módulos instalados, lo que resulta en una pérdida de confidencialidad."
+
+#: free/classes/settings/class-secupress-settings-modules.php:513
+msgid "Specify an IP to ban."
+msgstr "Especifica una IP a prohibir."
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:64
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:70
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:60
+#: free/classes/scanners/class-secupress-scan-php-404.php:70
+#: free/classes/scanners/class-secupress-scan-sqli.php:70
+msgid "Protection activated"
+msgstr "Protección activada"
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:62
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:89
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:47
+#: free/classes/scanners/class-secupress-scan-bad-url-access.php:88
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:48
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:74
+#: free/classes/scanners/class-secupress-scan-discloses.php:50
+#: free/classes/scanners/class-secupress-scan-discloses.php:76
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:48
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:73
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:49
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:75
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:49
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:67
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:49
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:67
+#: free/functions/modules.php:112
+msgid "Sensitive Data"
+msgstr "Informacion sensible"
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:49
+msgid "Rename all your database table names, then update your configuration with a new and more secure one."
+msgstr "Renombra todos los nombres de las tablas de la base de datos, luego actualiza tu configuración con una nueva y más segura."
+
+#: free/classes/settings/class-secupress-settings.php:268
+msgid "Roles"
+msgstr "Perfiles"
+
+#: free/classes/settings/class-secupress-settings.php:1514
+msgid "Save All Changes"
+msgstr "Guardar todos los cambios"
+
+#: free/classes/settings/class-secupress-settings-modules.php:535
+#: free/classes/settings/class-secupress-settings-modules.php:537
+#: free/classes/settings/class-secupress-settings-modules.php:632
+#: free/classes/settings/class-secupress-settings-modules.php:634
+msgid "Search IP"
+msgstr "Buscar IP"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:80
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:87
+msgid "Selected plugin has been deactivated (but some are still there)."
+msgid_plural "All selected plugins have been deactivated (but some are still there)."
+msgstr[0] "El plugin seleccionado se ha desactivado (pero algunos todavía están allí)."
+msgstr[1] "Todos los plugins seleccionados se han desactivado (pero algunos todavía están allí)."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:128
+msgid "Some PHP constants could not be set correctly: %s."
+msgstr "Algunas constantes PHP no se pudieron establecer correctamente: %s."
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:72
+msgid "Some plugins could not be updated correctly."
+msgstr "Algunos plugins no se pudieron actualizar correctamente."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:72
+msgid "Some themes could not be updated correctly."
+msgstr "Algunos temas no se han podido actualizar correctamente."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:81
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:88
+msgid "Sorry, the following plugin could not be deactivated: %s."
+msgid_plural "Sorry, the following plugins could not be deactivated: %s."
+msgstr[0] "Lo siento, el siguiente plugin no se pudo desactivar: %s."
+msgstr[1] "Lo siento, los siguientes plugins no se pudieron desactivar: %s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:94
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:97
+msgid "Sorry, this plugin could not be deactivated."
+msgid_plural "Sorry, those plugins could not be deactivated."
+msgstr[0] "Lo siento, este plugin no se pudo desactivar."
+msgstr[1] "Lo sienot, estos plugins no se pudieron desactivar."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:49
+msgid "Test the strength of WordPress database and FTP passwords."
+msgstr "Prueba la fortaleza de la base de datos de WordPress y las contraseñas FTP."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:52
+msgid "Test the strength of WordPress database password."
+msgstr "Prueba la fortaleza de la contraseña de la base de datos de WordPress."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:89
+msgid "The %1$s and/or %2$s files should not be accessible to anyone because they are revealing sensitive information."
+msgstr "Los archivos %1$s y /o %2$s no deberían estar accesibles para nadie porque revelan información confidencial."
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:79
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:79
+msgid "The %1$s plugin displays its version in the source code of your homepage (%2$s)."
+msgstr "El plugin %1$s muestra tu versión en el código fuente de tu página de inicio (%2$s)."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:111
+msgid "The %s file is now protected from revealing your <strong>WordPress version</strong>."
+msgstr "El archivo %s ahora está protegido de revelar su <strong>versión de WordPress</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:97
+msgid "The %s file should not be accessible by anyone to avoid to reveal your <strong>WordPress version</strong>."
+msgstr "Nadie debe tener acceso al archivo %s para evitar revelar tu <strong>versión de WordPress</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:81
+msgid "The %s files are protected from revealing sensitive information."
+msgstr "Los archivos %s están protegidos de revelar información confidencial."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:115
+msgid "The <strong>WordPress version</strong> should now be removed from your scripts URLs."
+msgstr "La <strong>versión de WordPress</strong> ahora debería eliminarse de las URL de tus scripts."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:114
+msgid "The <strong>WordPress version</strong> should now be removed from your styles URLs."
+msgstr "La <strong>versión de WordPress</strong> ahora debería eliminarse de las URL de tus estilos."
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:69
+msgid "The database user cannot alter tables and so the database tables prefix could not be changed."
+msgstr "El usuario de la base de datos no puede alterar las tablas y, por lo tanto, el prefijo de las tablas de la base de datos no se pudo cambiar."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:576
+msgid "The following plugin is activated in some of your sites and must be deactivated first. Administrators will be asked to do so."
+msgid_plural "The following plugins are activated in some of your sites and must be deactivated first. Administrators will be asked to do so."
+msgstr[0] "El siguiente plugin se activa en algunos de tus sitios y debe desactivarse primero. Se les pedirá a los administradores que lo hagan."
+msgstr[1] "Los siguientes plugins se activan en algunos de tus sitios y deben desactivarse primero. Se les pedirá a los administradores que lo hagan."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:64
+msgid "The following security keys are not set correctly:"
+msgstr "Las siguientes claves de seguridad no están configuradas correctamente:"
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:53
+msgid "The password of the database has to be strong to avoid a possible brute-force attack."
+msgstr "La contraseña de la base de datos debe ser fuerte para evitar un posible ataque de fuerza bruta."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:50
+msgid "The passwords of the database and FTP have to be strong to avoid a possible brute-force attack."
+msgstr "Las contraseñas de la base de datos y FTP deben ser fuertes para evitar un posible ataque de fuerza bruta."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:87
+msgid "The protection preventing your site to disclose your <strong>PHP version</strong> has been activated."
+msgstr "Se ha activado la protección que impide que tu sitio divulgue tu <strong>versión de PHP</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:88
+msgid "The protection preventing your site to disclose your <strong>WordPress version</strong> has been activated."
+msgstr "Se ha activado la protección que impide que tu sitio divulgue tu <strong>versión de WordPress</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:72
+msgid "The security keys fix has been applied but there is still keys that could not be modified so far."
+msgstr "La corrección de claves de seguridad se ha aplicado, pero todavía hay claves que no se pudieron modificar hasta ahora."
+
+#: free/classes/scanners/class-secupress-scan.php:1150
+#: free/classes/scanners/class-secupress-scan.php:1156
+#: free/classes/scanners/class-secupress-scan.php:1162
+#: free/functions/files.php:638
+msgid "The temporary directory could not be created."
+msgstr "No se pudo crear el directorio temporal."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:95
+msgid "The website displays the <strong>WordPress version</strong> in the homepage source code (%s)."
+msgstr "La web muestra la <strong>versión de WordPress</strong> en el código fuente de la página de inicio ( %s)."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:84
+msgid "This cannot be fixed automatically, you have to manually change your database password in your server administration."
+msgstr "Esto no se puede arreglar automáticamente, debes cambiar manualmente la contraseña de tu base de datos en la administración de tu servidor."
+
+#: free/classes/settings/class-secupress-settings-modules.php:470
+#: free/classes/settings/class-secupress-settings-modules.php:481
+#: free/classes/settings/class-secupress-settings-modules.php:492
+msgid "This feature is available in SecuPress Pro"
+msgstr "Esta característica está disponible en SecuPress Pro"
+
+#: free/functions/common.php:551
+msgid "Time: %s"
+msgstr "Hora: %s"
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:76
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:76
+msgid "Unable to determine if %s is disclosing its version on your homepage."
+msgstr "No se puede determinar si %s está revelando tu versión en tu página de inicio."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:92
+msgid "Unable to determine if the %s file is disclosing your <strong>WordPress version</strong>."
+msgstr "No se puede determinar si el archivo %s está revelando tu <strong>versión de WordPress</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-sqli.php:72
+msgid "Unable to determine if your homepage is blocking SQL Injection."
+msgstr "No se puede determinar si tu página de inicio está bloqueando la inyección de SQL."
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:82
+msgid "Unable to determine if your homepage is disclosing the PHP modules."
+msgstr "No se puede determinar si tu página de inicio está revelando los módulos PHP."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:90
+msgid "Unable to determine if your homepage is disclosing your <strong>WordPress version</strong> or <strong>PHP version</strong>."
+msgstr "No se puede determinar si tu página de inicio está revelando tu <strong>versión de WordPress</strong> o <strong>PHP</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-chmods.php:91
+msgid "Unable to determine the file permissions of %s."
+msgstr "No se pueden determinar los permisos de archivo de %s."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:86
+msgid "Unable to determine the status of the %s files that may reveal sensitive information."
+msgstr "No se puede determinar el estado de los archivos %s que pueden revelar información confidencial."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:98
+msgid "Unable to determine the status of the bad file extensions test file."
+msgstr "No se puede determinar el estado del archivo de prueba de extensiones de archivo mala."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:99
+msgid "Unable to determine the status of your subscription settings."
+msgstr "No se puede determinar el estado de los ajustes de tu suscripción."
+
+#: free/classes/scanners/class-secupress-scan-phpversion.php:72
+msgid "Unable to determine version of PHP."
+msgstr "No se puede determinar la versión de PHP."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:100
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:103
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:79
+msgid "Unable to locate WordPress Plugin directory."
+msgstr "No se puede localizar el directorio de plugins de WordPress."
+
+#: free/functions/common.php:543
+msgid "You are not allowed to access the requested page."
+msgstr "No tienes permisos para acceder a la página solicitada."
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:329
+msgid "Unknown tables"
+msgstr "Tablas desconocidas"
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:50
+msgid "Update all your plugins that are not up to date."
+msgstr "Actualiza todos tus plugins que no estén actualizados."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:50
+msgid "Update all your themes that are not up to date."
+msgstr "Actualiza todos tus temas que no están actualizados."
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:50
+msgid "Update your WordPress installation right away."
+msgstr "Actualiza tu instalación de WordPress de inmediato."
+
+#: free/classes/scanners/class-secupress-scan-bad-usernames.php:47
+#: free/classes/scanners/class-secupress-scan-easy-login.php:53
+#: free/classes/scanners/class-secupress-scan-subscription.php:63
+#: free/classes/scanners/class-secupress-scan-subscription.php:90
+#: free/functions/modules.php:35
+msgid "Users & Login"
+msgstr "Usuarios y acceso"
+
+#: free/functions/common.php:291
+msgid "Very bad. You should take some actions."
+msgstr "Muy mal. Deberías tomar algunas medidas."
+
+#: free/functions/common.php:297
+msgid "Very very, really very bad."
+msgstr "Muy muy, muy muy mal."
+
+#: free/classes/settings/class-secupress-settings.php:1158
+#: free/modules/backups/settings/backups-storage.php:75
+#: free/modules/backups/settings/backups-storage.php:77
+msgid "Warning: "
+msgstr "Advertencia: "
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:42
+msgid "When a minor update is released, WordPress can install it automatically. By doing so you are always up to date when a security flaw is discovered in the WordPress Core."
+msgstr "Cuando se lanza una actualización menor, WordPress puede instalarla automáticamente. Al hacerlo, siempre estarás actualizado cuando se descubra un fallo de seguridad en el núcleo de WordPress."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:48
+#: free/classes/scanners/class-secupress-scan-discloses.php:74
+#: free/classes/scanners/class-secupress-scan-discloses.php:80
+#: free/classes/scanners/class-secupress-scan-discloses.php:81
+#: free/modules/discloses/plugins/wp-version.php:46
+#: free/modules/discloses/plugins/wp-version.php:64
+#: free/modules/sensitive-data/settings/content-protect.php:294
+msgid "WordPress Version Disclosure"
+msgstr "Divulgación de la versión de WordPress"
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:70
+msgid "WordPress core is <strong>not up to date</strong>."
+msgstr "El núcleo de WordPress <strong>no está actualizado</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:66
+msgid "WordPress core is up to date."
+msgstr "El núcleo de WordPress está actualizado."
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:67
+msgid "WordPress has been updated to version <strong>%s</strong>."
+msgstr "WordPress se ha actualizado a la versión <strong>%s</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:336
+#: free/classes/settings/class-secupress-settings.php:979
+msgid "WordPress tables (mandatory)"
+msgstr "Tablas de WordPress (obligatorio)"
+
+#: free/classes/scanners/class-secupress-scan-sqli.php:69
+msgid "You are currently blocking simple SQL Injection."
+msgstr "Actualmente estás bloqueando la inyección SQL simple."
+
+#: free/classes/scanners/class-secupress-scan-login-errors-disclose.php:59
+msgid "You are currently not displaying <strong>login errors</strong>."
+msgstr "Actualmente no muestra errores de <strong>acceso</strong>."
+
+#: free/classes/scanners/class-secupress-scan-phpversion.php:67
+msgid "You are using <strong>PHP v%s</strong>."
+msgstr "Estás utilizando <strong>PHP v %s</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:61
+msgid "You can use the %s file to improve the security of your website."
+msgstr "Puedes usar el archivo %s para mejorar la seguridad de tu web."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:83
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:77
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:70
+#: free/classes/scanners/class-secupress-scan-subscription.php:101
+msgid "You have a big network, %s must work on some data before being able to perform this scan."
+msgstr "Tienes una red grande, %s debes trabajar en algunos datos antes de poder realizar esta exploración."
+
+#: free/classes/scanners/class-secupress-scan-core-update.php:73
+msgid "You have the latest version of WordPress."
+msgstr "Tienes la última versión de WordPress."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:80
+msgid "Your %s file is correct."
+msgstr "Tu archivo %s es correcto."
+
+#: free/functions/ip.php:829
+msgid "Your IP address %1$s has been banned for %2$s minute, please do not retry until then."
+msgid_plural "Your IP address %1$s has been banned for %2$s minutes, please do not retry until then."
+msgstr[0] "Tu dirección IP %1$s ha sido bloqueada durante %2$s minuto, no vuelvas a intentarlo hasta entonces."
+msgstr[1] "Tu dirección IP %1$s ha sido bloqueada durante %2$s minutos, no vuelvas a intentarlo hasta entonces."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:560
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:588
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:468
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:504
+msgid "symlinked"
+msgstr "con enlace simbólico"
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:104
+msgid "The registration page is <strong>not protected</strong> from bots."
+msgstr "La página de registro <strong>no está protegida</strong> contra robots."
+
+#: free/common.php:238
+msgid "Your IP address <code>%s</code> has been banned."
+msgstr "Tu dirección IP <code>%s</code> ha sido prohibida."
+
+#: free/functions/common.php:550
+msgid "Your IP: %s"
+msgstr "Tu IP: %s"
+
+#: free/classes/scanners/class-secupress-scan-db-prefix.php:65
+msgid "Your database tables prefix is correct."
+msgstr "El prefijo de las tablas de la base de datos es correcto."
+
+#: free/common.php:246
+msgid "Your email address:"
+msgstr "Tu correo electrónico:"
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:63
+msgid "Your installation <strong>can auto-update</strong> itself."
+msgstr "Tu instalación <strong>puede actualizarse automáticamente</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:66
+msgid "Your installation <strong>cannot auto-update</strong> itself."
+msgstr "Tu instalación <strong>no puede actualizarse automáticamente</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:67
+msgid "Your installation contains <strong>%1$d old file</strong>: %2$s."
+msgid_plural "Your installation contains <strong>%1$d old files</strong>: %2$s."
+msgstr[0] "Tu instalación contiene <strong>%1$d archivo antiguo</strong>: %2$s."
+msgstr[1] "Tu instalación contiene <strong>%1$d archivos antiguos</strong>: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:63
+msgid "Your installation is free of old files."
+msgstr "Tu instalación está libre de archivos antiguos."
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:66
+msgid "Your plugins are up to date."
+msgstr "Tus plugins están actualizados."
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:88
+msgid "Your server runs <strong>Nginx</strong>, PHP modules disclosure cannot be protected automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, la divulgación de los módulos PHP no se pueden proteger automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %1$s: a tu archivo %2$s"
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:92
+msgid "Your server runs <strong>Nginx</strong>, the %1$s files cannot be protected automatically but you can do it yourself by adding the following code to your %2$s file: %3$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, los archivos %1$s no se pueden proteger automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %2$s a tu archivo: %3$s"
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:106
+msgid "Your server runs <strong>Nginx</strong>, the <strong>PHP version</strong> disclosure cannot be fixed automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, la divulgación de la <strong>versión de PHP</strong> no puede repararse automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %1$s a tu archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:100
+msgid "Your server runs <strong>Nginx</strong>, the <strong>WordPress version</strong> and <strong>PHP version</strong> disclosure cannot be fixed automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, la divulgación de la <strong>versión de WordPress</strong> y <strong>PHP</strong> no se puedes arreglar automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %1$s a tu archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:108
+msgid "Your server runs <strong>Nginx</strong>, the <strong>WordPress version</strong> disclosure cannot be fixed automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, la divulgación de la <strong>versión de WordPress</strong> no puede repararse automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %1$s a tu archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:90
+msgid "Your server runs <strong>Nginx</strong>, the directory listing disclosure cannot be fixed automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, la divulgación de la lista de directorios no se puede corregir automáticamente, pero puedes hacerlo tú mismo añadiendo el siguiente código %1$s a tu archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:104
+msgid "Your server runs <strong>Nginx</strong>, the files that use bad extensions cannot be protected automatically but you can do it yourself by adding the following code to your %1$s file: %2$s"
+msgstr "Tu servidor ejecuta <strong>Nginx</strong>, los archivos que usan extensiones incorrectas no pueden protegerse automáticamente, pero puedes hacerlo tú mismo agregando el siguiente código %1$s a tu archivo: %2$s"
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:89
+msgid "Your server runs an unrecognized system. PHP modules disclosure cannot be protected automatically."
+msgstr "Tu servidor ejecuta un sistema no reconocido. La divulgación de módulos PHP no se puede proteger automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:94
+msgid "Your server runs an unrecognized system. The %s files cannot be protected automatically."
+msgstr "Tu servidor ejecuta un sistema no reconocido. Los archivos %s no pueden protegerse automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:116
+msgid "Your server runs an unrecognized system. The <strong>WordPress version</strong> and <strong>PHP version</strong> disclosure cannot be fixed automatically."
+msgstr "Tu servidor ejecuta un sistema no reconocido. La <strong>versión de WordPress</strong> y la divulgación de la <strong>versión de PHP</strong> no se pueden corregir automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:91
+msgid "Your server runs an unrecognized system. The directory listing disclosure cannot be fixed automatically."
+msgstr "Tu servidor ejecuta un sistema no reconocido. La divulgación de la lista de directorios no se puede corregir automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:105
+msgid "Your server runs an unrecognized system. The files that use bad extensions cannot be protected automatically."
+msgstr "Tu servidor ejecuta un sistema no reconocido. Los archivos que usan extensiones malas no pueden protegerse automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:86
+msgid "Your site does not reveal either your <strong>WordPress version</strong> or <strong>PHP version</strong>."
+msgstr "Tu sitio no revela tu <strong>versión de WordPress</strong> ni tu <strong>versión de PHP</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:78
+msgid "Your site does not reveal the PHP modules."
+msgstr "Tu sitio no revela los módulos PHP."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:79
+msgid "Your site does not reveal the files list."
+msgstr "Tu sitio no revela la lista de archivos."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:95
+msgid "Your subscription settings are set correctly."
+msgstr "Los ajustes de tu suscripción están configurados correctamente."
+
+#: free/classes/scanners/class-secupress-scan-themes-update.php:66
+msgid "Your themes are up to date."
+msgstr "Tus temas están actualizados."
+
+#: free/classes/scanners/class-secupress-scan-sqli.php:74
+msgid "Your website should block <strong>SQL Injection</strong>."
+msgstr "Tu web debe bloquear la <strong>inyección de SQL</strong> ."
+
+#: free/common.php:173
+msgid "unlock yourself"
+msgstr "desbloquéate"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:68
+msgid "The following file could not be deleted: %s."
+msgid_plural "The following files could not be deleted: %s."
+msgstr[0] "No se pudo borrar el siguiente archivo: %s."
+msgstr[1] "No se pudieron borrar los siguientes archivos: %s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:64
+msgid "All old files have been deleted."
+msgstr "Todos los archivos antiguos han sido borrados."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-files.php:45
+msgid "Delete all old files because your actual installation does not need it."
+msgstr "Borra todos los archivos antiguos porque tu instalación actual no los necesita."
+
+#: free/functions/common.php:294
+msgid "Very very bad, please fix something!"
+msgstr "Muy muy mal, ¡por favor corrige algo!"
+
+#: free/admin/scanner-step-3.php:143
+msgid "Ignore all &amp; Go to the next step"
+msgstr "Ignorar todo e ir al siguiente paso"
+
+#: free/classes/settings/class-secupress-settings.php:1022
+msgid "Maximum size: %s"
+msgstr "Tamaño máximo: %s"
+
+#: free/classes/settings/class-secupress-settings.php:1013
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Antes de que puedas subir tu archivo de importación tendrás que corregir el siguiente error::"
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:87
+msgid "The PHP constant %s is defined with the default value, it should be modified."
+msgstr "La constante de PHP %s está definida con el valor por defecto, debe modificarse."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:63
+msgid "Set some PHP constants in your %s file to improve the security of your website."
+msgstr "Establece algunas constantes PHP en tu archivo %s para mejorar la seguridad de tu web."
+
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:73
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:73
+msgid "The %s plugin does not reveal sensitive information."
+msgstr "El plugin %s no revela información confidencial."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:105
+msgid "The default role is not %2$s in %1$s of your sites."
+msgid_plural "The default role is not %2$s in %1$s of your sites."
+msgstr[0] "El perfil por defecto no es %2$s en %1$s de tus sitios."
+msgstr[1] "El perfil por defecto no es %2$s en %1$s de tus sitios."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:103
+msgid "The default role in your installation is <strong>%1$s</strong> and it should be <strong>%2$s</strong>, or registrations should be <strong>closed</strong>."
+msgstr "El perfil por defecto en tu instalación es <strong>%1$s</strong> y debería ser <strong>%2$s</strong>, o los registros deberían <strong>cerrarse</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:83
+msgid "The rules forbidding access to your %1$s files have been successfully added to your %2$s file."
+msgstr "Las reglas que prohíben el acceso a tus archivos %1$s se han añadido con éxito a tu archivo %2$s."
+
+#: free/classes/scanners/class-secupress-scan-readme-discloses.php:44
+msgid "Check if the %s files from your plugins and themes are protected."
+msgstr "Comprueba si los archivos %s de tus plugins y temas están protegidos."
+
+#: free/classes/scanners/class-secupress-scan-plugins-update.php:70
+msgid "<strong>%1$d plugin</strong> is not up to date: %2$s."
+msgid_plural "<strong>%1$d plugins</strong> are not up to date: %2$s."
+msgstr[0] "<strong>%1$d plugin</strong> no está al actualizado a fecha: %2$s."
+msgstr[1] "<strong>%1$d plugins</strong> no están actualizados a fecha: %2$s."
+
+#: free/classes/scanners/class-secupress-scan-phpversion.php:76
+msgid "Cannot be fixed automatically. You have to contact you host provider to ask him to <strong>upgrade you version of PHP</strong>."
+msgstr "No se puede corregir automáticamente. Debes ponerte en contacto con tu proveedor de hosting para pedirle que <strong>actualice tu versión de PHP</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:85
+msgid "This cannot be fixed automatically, you have to manually change your FTP password in your server administration."
+msgstr "Esto no se puede corregir automáticamente, debes cambiar manualmente tu contraseña FTP en la administración de tu servidor."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:86
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:75
+msgid "Sorry, this theme could not be deleted."
+msgid_plural "Sorry, those themes could not be deleted."
+msgstr[0] "Lo siento, este tema no se pudo borrar."
+msgstr[1] "Lo siento, estos temas no se pudieron borrar."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:75
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:68
+msgid "Sorry, the following theme could not be deleted: %s."
+msgid_plural "Sorry, the following themes could not be deleted: %s."
+msgstr[0] "Lo siento, el siguiente tema no se pudo borrar: %s."
+msgstr[1] "Lo siento los siguientes temas no se pudieron borrar: %s."
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:48
+msgid "Check if your login page is protected by double authentication."
+msgstr "Comprueba si tu página de acceso está protegida por doble identificación."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:113
+#: free/classes/scanners/class-secupress-scan-woocommerce-discloses.php:81
+#: free/classes/scanners/class-secupress-scan-wpml-discloses.php:81
+msgid "The generator meta tag should not be displayed anymore."
+msgstr "El generador de meta etiquetas ya no debería mostrarse."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:112
+msgid "The website does not display the <strong>PHP version</strong> in the request headers anymore."
+msgstr "La web ya no muestra la <strong>versión de PHP</strong> en las cabeceras de solicitud."
+
+#: free/common.php:206
+msgid "Everything went fine, your message is on its way to your mailbox."
+msgstr "Todo salió bien, tu mensaje está de camino a tu buzón de correo electrónico."
+
+#: free/classes/settings/class-secupress-settings-modules.php:560
+msgid "M jS Y"
+msgstr "M jS Y"
+
+#: free/classes/settings/class-secupress-settings-modules.php:636
+msgid "Reset"
+msgstr "Restablecer"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:502
+msgid "default theme"
+msgstr "tema por defecto"
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:80
+msgid "Unable to locate WordPress theme directory."
+msgstr "No ha sido posible localizar el directorio de temas de WordPress."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:43
+msgid "Delete every inactive plugin and theme you have."
+msgstr "Borra todos los plugins y temas inactivos que tengas."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:77
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:78
+msgid "All plugins known to be vulnerable have been deleted."
+msgstr "Se han borrado todos los plugins que se sabe que son vulnerables."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:56
+msgid "Delete vulnerable plugins."
+msgstr "Borrar plugins vulnerables."
+
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:52
+msgid "Select and delete vulnerable plugins."
+msgstr "Seleccionar y borrar plugins vulnerables."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:78
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:85
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:65
+msgid "Sorry, the following plugin could not be deleted: %s."
+msgid_plural "Sorry, the following plugins could not be deleted: %s."
+msgstr[0] "Lo siento, el siguiente plugin no se pudo borrar: %s."
+msgstr[1] "Lo siento, los siguientes plugins no se pudieron borrar: %s."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:77
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:84
+msgid "Selected plugin has been deleted (but some are still there)."
+msgid_plural "All selected plugins have been deleted (but some are still there)."
+msgstr[0] "El plugin seleccionado ha sido borrado (pero algunos todavía están allí)."
+msgstr[1] "Todos los plugins seleccionados se han borrado (pero algunos todavía están allí)."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:76
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:83
+msgid "No plugins selected for deletion."
+msgstr "No hay plugins seleccionados para su borrado."
+
+#: free/functions/common.php:285
+msgid "Bad, fix issues right away!"
+msgstr "Mal, ¡corrige los problemas de inmediato!"
+
+#: free/functions/common.php:288
+msgid "Still very bad, start fixing things!"
+msgstr "Todavía muy mal, ¡empieza a corregir cosas!"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-themes.php:400
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:484
+msgid "Checked themes will be deleted:"
+msgstr "Se borrarán los temas seleccionados:"
+
+#: free/classes/scanners/class-secupress-scan-auto-update.php:46
+#: free/functions/modules.php:87
+msgid "WordPress Core"
+msgstr "Núcleo de WordPress"
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:67
+msgid "<strong>&middot; Too Short:</strong> %s."
+msgid_plural "<strong>&middot; Too Short:</strong> %s."
+msgstr[0] "<strong>&middot; Demasiado corto:</strong> %s."
+msgstr[1] "<strong>&middot; Demasiado cortos:</strong> %s."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:66
+msgid "<strong>&middot; Default Value:</strong> %s."
+msgid_plural "<strong>&middot; Default Value:</strong> %s."
+msgstr[0] "<strong>&middot; Valor por defecto:</strong> %s."
+msgstr[1] "<strong>&middot; Valores por defecto:</strong> %s."
+
+#: free/classes/scanners/class-secupress-scan-salt-keys.php:65
+msgid "<strong>&middot; Not Set:</strong> %s."
+msgid_plural "<strong>&middot; Not Set:</strong> %s."
+msgstr[0] "<strong>&middot; No establecido:</strong> %s."
+msgstr[1] "<strong>&middot; No establecidos:</strong> %s."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:77
+msgid "%d plugin is deactivated."
+msgid_plural "%d plugins are deactivated."
+msgstr[0] "%d plugin está desactivado."
+msgstr[1] "%d plugins están desactivados."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:550
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:458
+msgid "Checked plugins will be deleted:"
+msgstr "Los plugins marcados se borrarán:"
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:92
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:95
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:74
+msgid "Sorry, this plugin could not be deleted."
+msgid_plural "Sorry, those plugins could not be deleted."
+msgstr[0] "Lo siento, este plugin no se pudo borrar."
+msgstr[1] "Lo siento, estos plugins no se pudieron borrar."
+
+#: free/classes/scanners/class-secupress-scan-bad-old-plugins.php:91
+#: free/classes/scanners/class-secupress-scan-bad-vuln-plugins.php:94
+msgid "You should delete the plugin %s."
+msgstr "Debes borrar el plugin %s."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:67
+msgid "If the default user role is not %1$s in some of your websites, administrators will be asked to set the default user role to %1$s."
+msgstr "Si el perfil de usuario por defecto no es %1$s en algunos de tus sitios web, se les pedirá a los administradores que establezcan el perfil de usuario por defecto en %1$s."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:59
+msgid "If user registrations are open, the default user role should be %s. Moreover, your registration page should be protected from bots."
+msgstr "Si los registros de usuario están abiertos, el perfil de usuario por defecto debería ser %s. Además, tu página de registro debe estar protegida de los robots."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:97
+msgid "The user role for new registrations has been set to <strong>%s</strong>."
+msgstr "El perfil de usuario para los nuevos registros se ha establecido en <strong>%s</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:72
+msgid "If user registrations are open, the default user role should be %s."
+msgstr "Si los registros de usuarios están abiertos, el perfil de usuario por defecto debería ser %s."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:130
+msgid "Impossible to create a <a href=\"https://codex.wordpress.org/Must_Use_Plugins\">must-use plugin</a> but the default value for %s needs to be changed."
+msgstr "Es imposible crear un <a href=\"https://codex.wordpress.org/Must_Use_Plugins\">plugin imprescindible,</a> pero el valor por defecto para %s necesita cambiarse."
+
+#: free/classes/scanners/class-secupress-scan-wp-config.php:82
+msgid "A <a href=\"https://codex.wordpress.org/Must_Use_Plugins\" hreflang=\"en\">must-use plugin</a> has been added in order to change the default value for %s."
+msgstr "Se ha añadido un <a href=\"https://codex.wordpress.org/Must_Use_Plugins\" hreflang=\"en\">plugin imprescindible</a> para cambiar el valor por defecto de %s."
+
+#: free/classes/scanners/class-secupress-scan-php-disclosure.php:80
+msgid "The rules forbidding access to the <strong>PHP Easter Egg</strong> have been successfully added to your %s file."
+msgstr "Las reglas que prohíben el acceso al <strong>huevo de pascua de PHP</strong> se han añadido correctamente a tu archivo %s."
+
+#: free/classes/scanners/class-secupress-scan-passwords-strength.php:83
+msgid "This cannot be fixed automatically, you have to manually change your database and FTP password in your server administration."
+msgstr "Esto no se puede corregir automáticamente, debes cambiar manualmente tu base de datos y contraseña FTP en la administración de tu servidor."
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:49
+msgid "The login vector is often use in web attacks, every hour your website is the target of random bots whom try to log in your site. Adding another layer of login can improve the security."
+msgstr "El vector de acceso a menudo se usa en ataques web, cada hora tu web es el objetivo de bots que intentan acceder aleatoriamente a tu sitio. Añadir otra capa de acceso puede mejorar la seguridad."
+
+#: free/classes/scanners/class-secupress-scan-discloses.php:94
+msgid "The website displays the <strong>PHP version</strong> in the request headers."
+msgstr "La web muestra la <strong>versión de PHP</strong> en las cabeceras de solicitud."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:84
+msgid "Unable to determine the status of %1$s to read the directory listing."
+msgstr "No ha sido posible determinar el estado de %1$s para leer el listado del directorios."
+
+#: free/classes/scanners/class-secupress-scan-directory-listing.php:81
+msgid "The rules forbidding access to directory listing have been successfully added to your %s file."
+msgstr "Las reglas que prohíben el acceso al listado de directorios se han añadido correctamente a tu archivo %s."
+
+#: free/classes/scanners/class-secupress-scan-bad-user-agent.php:74
+msgid "Your website should block <code>HTTP</code> requests for <strong>bad User Agents</strong>."
+msgstr "Tu web debe bloquear las solicitudes <code>HTTP</code> para <strong>agentes de usuario malos</strong>."
+
+#: free/classes/settings/class-secupress-settings.php:297
+msgid "Future roles will be automatically checked."
+msgstr "Los futuros perfiles se comprobarán automáticamente."
+
+#: free/classes/scanners/class-secupress-scan-subscription.php:96
+msgid "A captcha module has been activated to block bot registration."
+msgstr "Se ha activado un módulo captcha para bloquear el registro de bots."
+
+#: free/classes/scanners/class-secupress-scan-inactive-plugins-themes.php:60
+msgid "All inactive plugins have been deleted."
+msgstr "Todos los plugins inactivos se han eliminado."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:96
+msgid "The rules forbidding access to files that use bad extensions have been successfully added to your %s file."
+msgstr "Las reglas que prohíben el acceso a los archivos que usan extensiones malas se han añadido correctamente a tu archivo %s."
+
+#: free/classes/settings/class-secupress-settings.php:1062
+#: free/classes/settings/class-secupress-settings.php:1071
+msgid "Download settings"
+msgstr "Descargar archivo de ajustes"
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:61
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:88
+#: free/modules/sensitive-data/plugins/bad-file-extensions.php:45
+#: free/modules/sensitive-data/plugins/bad-file-extensions.php:68
+msgid "Bad File Extensions"
+msgstr "Extensiones de archivo malas"
+
+#: free/classes/scanners/class-secupress-scan-easy-login.php:74
+msgid "Your login system is <strong>not strong enough</strong>, you need a <strong>double authentication system</strong>."
+msgstr "Tu sistema de acceso <strong>no es lo suficientemente fuerte</strong>, necesitas un <strong>sistema de doble identificación</strong> ."
+
+#: free/classes/scanners/class-secupress-scan-bad-file-extensions.php:58
+msgid "The uploads folder should only contain files like images, pdf, or zip archives. Other files should not be accessible by their URL."
+msgstr "La carpeta de subidas solo debe contener archivos como imágenes, pdf, o archivos zip. Otros archivos no deben ser accesibles por su URL."
+
+#: free/classes/scanners/class-secupress-scan-bad-config-files.php:63
+msgid "Sorry, this file could not be renamed: %s"
+msgid_plural "Sorry, those files could not be renamed: %s"
+msgstr[0] "Lo siento, este archivo no se pudo renombrar: %s"
+msgstr[1] "Lo siento, estos archivos no se pudieron renombrar: %s"
+
+#: free/admin/settings.php:184
+msgid "Show More"
+msgstr "Mostrar más"

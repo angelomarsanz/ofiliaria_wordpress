@@ -1,0 +1,14 @@
+export { Balance } from "./Balance";
+export { CargarArchivos } from "./CargarArchivos";
+export { CargarArchivosServidor } from "./CargarArchivosServidor";
+export { Cargo } from "./Cargo";
+export { CertDgiCaja } from "./CertDgiCaja";
+export { CertIngMod } from "./CertIngMod";
+export { CertUni } from "./CertUni";
+export { ContratoSocial } from "./ContratoSocial";
+export { Dgi } from "./Dgi";
+export { Identidad } from "./Identidad";
+export { Ingreso } from "./Ingreso";
+export { RecSueldo } from "./RecSueldo";
+export { Rut } from "./Rut";
+export { Sueldo } from "./Sueldo";

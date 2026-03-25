@@ -1,0 +1,154 @@
+/* Estilos para la vista de tarjetas en dispositivos móviles */
+.contratos-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.contrato-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+}
+
+.contrato-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contrato-card-header {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.contrato-nombre {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contrato-estado {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.estado-activo {
+    background-color: #e6f4ea;
+    color: #28a745;
+}
+
+.estado-por-vencer {
+    background-color: #fff8e6;
+    color: #ff9600;
+}
+
+.estado-vencido {
+    background-color: #fde8e8;
+    color: #dc3545;
+}
+
+.contrato-card-body {
+    padding: 15px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #666;
+}
+
+.info-value {
+    text-align: right;
+}
+
+.contrato-card-footer {
+    padding: 15px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.btn-group-vertical {
+    width: 100%;
+}
+
+.btn-group-vertical .btn {
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.btn-group-vertical .btn:last-child {
+    margin-bottom: 0;
+}
+.btn-outline-primary {
+    color: #6c5dd3;
+    border-color: #6c5dd3;
+}
+.btn-outline-primary:hover {
+    background-color: #6c5dd3;
+    border-color: #6c5dd3;
+    color: #fff;
+}
+.col-md-4.d-flex.align-items-end{
+    margin-top: 20px;
+}
+/* Ajustes responsivos adicionales */
+@media (max-width: 576px) {
+    .contrato-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contrato-estado {
+        margin-top: 8px;
+    }
+    
+    .info-item {
+        flex-direction: column;
+    }
+    
+    .info-value {
+        text-align: left;
+        margin-top: 4px;
+    }
+}
+
+/* Ocultar/mostrar vistas según el dispositivo */
+.contratos-table-container {
+    display: block;
+    margin-top: 40px;
+}
+
+.contratos-cards-container {
+    display: none;+
+}
+
+@media (max-width: 767.98px) {
+    .contratos-table-container {
+        display: none;
+    }
+    
+    .contratos-cards-container {
+        display: grid;
+    }
+}

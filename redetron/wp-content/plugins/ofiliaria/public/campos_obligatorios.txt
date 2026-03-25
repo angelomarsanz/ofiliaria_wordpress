@@ -1,0 +1,252 @@
+
+    public $vectorCamposWpMeli = 
+        [  
+            [
+                'wp' => 'post_title',
+                'meli' => 'title',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Título',
+                'requerido' => true
+            ],  
+            [
+                'wp' => 'post_content',
+                'meli' => 'description',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Descripción',
+                'requerido' => true
+            ],  
+            [
+                'wp' => '_ofiliaria_nombre_categoria_meli',
+                'meli' => 'category_id->name',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Nombre de la categoría MELI',
+                'requerido' => true
+            ],      
+			[
+                'wp' => 'property_action_category', **** Nota: Esta es la taxonomía tipo de propiedad
+                'meli' => 'category_id',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Tipo de operación MELI',
+                'requerido' => true
+            ],                     
+            [
+                'wp' => 'property_price',
+                'meli' => 'price',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Precio',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_divisa',
+                'meli' => 'currency_id',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Id de la moneda',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_cantidad_disponible_propiedad', ***** Nota: Si la cantidad del inmueble siempre es "uno", no hace falta colocar el campo
+                'meli' => 'available_quantity',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Cantidad disponible',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_address',
+                'meli' => 'location->address_line',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Dirección',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'hidden_address', **** Nota: Taxonomía Barrio
+                'meli' => 'location->neighborhood',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Barrio',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'hidden_address', **** Nota: Taxonomía ciudad
+                'meli' => 'location->city',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Ciudad',
+                'requerido' => true
+            ],
+			[
+                'wp' => 'hidden_address', *** Nota: Taxonomía estado
+                'meli' => 'location->state',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Estado',
+                'requerido' => true
+            ],
+			[
+                'wp' => 'property_country', **** Nota: Taxonomía país
+                'meli' => 'location->country',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'País',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_zip', ******** Nota: Tengo que probar si Mercado Libre acepta la publicación sin el código postal
+                'meli' => 'location->zip_code',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Código postal',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_latitude',
+                'meli' => 'location->latitude',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Latitud',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_longitude',
+                'meli' => 'location->longitude',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Longitud',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_thumbnail_id',
+                'meli' => 'thumbnail',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Miniatura',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_media', ***** Nota: Estas son las imágenes. Al menos una requerida
+                'meli' => 'pictures',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Imágenes',
+                'requerido' => true
+            ],
+			[
+                'wp' => 'embed_video_type', **** Nota: Tengo probar si me acepta sin video
+                'meli' => 'video_id[1]',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Tipo de video',
+                'requerido' => true
+			],
+            [
+                'wp' => 'embed_video_id', **** Nota: Tengo probar si me acepta sin video
+                'meli' => 'video_id[0]',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Video del inmueble',
+                'requerido' => true
+			],
+            [
+                'wp' => 'embed_virtual_tour', **** Nota: Tengo probar si me acepta sin el video 3D
+                'meli' => 'video_id[0]',
+				'js' => '',
+                'tipo' => 'General',
+                'descripción' => 'Tour virtual',
+                'requerido' => true
+			],
+            [
+                'wp' => 'property_lot_size',
+                'meli' => 'TOTAL_AREA',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Superficie total',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_size',
+                'meli' => 'COVERED_AREA',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Área cubierta',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_bedrooms',
+                'meli' => 'BEDROOMS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Dormitorios',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'estacionamiento',
+                'meli' => 'PARKING_LOTS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Cocheras',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_huespedes_propiedad',
+                'meli' => 'GUESTS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Huéspedes',
+                'requerido' => true
+            ],
+            [
+                'wp' => 'property_bathrooms',
+                'meli' => 'FULL_BATHROOMS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Baños',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_nombre_modelo_emprendimientos', *** Nota: Esto es para proyectos de construcción
+                'meli' => 'MODEL_NAME',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Nombre del modelo',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_nombre_unidad_emprendimientos', *** Nota: Esto es para proyectos de construcción
+                'meli' => 'UNIT_NAME',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Nombre de la unidad',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_nombre_emprendimiento', *** Nota: Esto es para proyectos de construcción
+                'meli' => 'DEVELOPMENT_NAME',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Nombre del emprendimiento',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_estatus_proyecto_emprendimiento', *** Nota: Esto es para proyectos de construcción
+                'meli' => 'POSSESSION_STATUS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Estado del proyecto',
+                'requerido' => true
+            ],
+            [
+                'wp' => '_ofiliaria_acceso_lote_terreno',
+                'meli' => 'LAND_ACCESS',
+				'js' => '',
+                'tipo' => 'Específico',
+                'descripción' => 'Acceso',
+                'requerido' => true
+			],
+        ];
