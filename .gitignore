@@ -30,19 +30,25 @@ vendor/
 /backend_ofiliaria/.phpunit.result.cache
 
 # --- REGLAS WORDPRESS (redetron) ---
-# Ignoramos todo el directorio de WordPress por defecto
+# 1. Ignoramos TODO lo que esté dentro de la carpeta wordpress
 /redetron/*
 
-# Excluimos de la ignorancia (permitimos) tu tema hijo
+# 2. Permitimos entrar a wp-content (pero no sus archivos)
 !/redetron/wp-content/
-!/redetron/wp-content/themes/
-!/redetron/wp-content/themes/wpresidence-child/
 
-# Excluimos tu plugin
+# 3. Permitimos entrar a themes y plugins (pero no su contenido aún)
+!/redetron/wp-content/themes/
 !/redetron/wp-content/plugins/
+
+# 4. Bloqueamos todas las carpetas dentro de themes y plugins primero
+/redetron/wp-content/themes/*
+/redetron/wp-content/plugins/*
+
+# 5. AHORA SÍ: Permitimos EXCLUSIVAMENTE tus carpetas de desarrollo
+!/redetron/wp-content/themes/wpresidence-child/
 !/redetron/wp-content/plugins/ofiliaria/
 
-# --- REGLAS INTERNAS DEL PLUGIN (REACT Y JQUERY-VITE) ---
+# --- REGLAS INTERNAS DEL PLUGIN ---
 /redetron/wp-content/plugins/ofiliaria/**/node_modules/
 /redetron/wp-content/plugins/ofiliaria/**/dist/
 /redetron/wp-content/plugins/ofiliaria/**/*.local
