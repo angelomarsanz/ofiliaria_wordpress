@@ -15,7 +15,7 @@ else
     exit 1
 fi
 
-# --- 1. SELECCIÓN DE AMBIENTE ---
+# SELECCIÓN DE AMBIENTE ---
 echo -e "${YELLOW}¿A qué ambiente desea subir los archivos?${NC}"
 read -p "Escriba 'P' para Producción o 'D' para Desarrollo: " AMBIENTE
 
@@ -44,76 +44,16 @@ case $AMBIENTE in
         ;;
 esac
 
-# --- 2. COMPILACIÓN Y SUBIDA DE APP GARANTIAS (React) ---
-read -p "¿Desea compilar y subir la aplicación de GARANTÍAS? (S/N): " COMPILAR_GARANTIAS
-
-if [[ "$COMPILAR_GARANTIAS" =~ ^[sS]$ ]]; then
-    echo -e "${YELLOW}Compilando la aplicación de Garantías...${NC}"
-    GARANTIAS_APP_DIR="wordpress/wp-content/plugins/ofiliaria/public/app_react/garantias"
-    (cd $GARANTIAS_APP_DIR && npm run build)
-    if [ $? -ne 0 ]; then
-        echo -e "${RED}Error durante la compilación de Garantías con 'npm run build'. Abortando.${NC}"
-        exit 1
-    fi
-    echo -e "${GREEN}Compilación de Garantías finalizada.${NC}"
-
-    echo -e "${YELLOW}Subiendo aplicación de Garantías...${NC}"
-    lftp -c "set ftp:ssl-allow no; open -u $FRONTEND_FTP_USER,$FRONTEND_FTP_PASS $FRONTEND_FTP_HOST; \
-             mkdir -p ${REMOTE_BACKUP_DIR}; \
-             mv ${REMOTE_GARANTIAS_DIR}/main-script.js ${REMOTE_BACKUP_DIR}/garantias_main-script.js; \
-             mv ${REMOTE_GARANTIAS_DIR}/main-style.css ${REMOTE_BACKUP_DIR}/garantias_main-style.css; \
-             put -O ${REMOTE_GARANTIAS_DIR}/ ${GARANTIAS_APP_DIR}/dist/main-script.js; \
-             put -O ${REMOTE_GARANTIAS_DIR}/ ${GARANTIAS_APP_DIR}/dist/main-style.css;"
-
-    if [ $? -eq 0 ]; then
-        echo -e "${GREEN}Aplicación de Garantías subida correctamente.${NC}"
-    else
-        echo -e "${RED}Error al subir la aplicación de Garantías.${NC}"
-        exit 1
-    fi
-fi
-
-# --- 3. COMPILACIÓN Y SUBIDA DE JS_OFILIARIA (JS/jQuery) ---
-read -p "¿Desea compilar y subir js_ofiliaria? (S/N): " COMPILAR_JSOFILIARIA
-
-if [[ "$COMPILAR_JSOFILIARIA" =~ ^[sS]$ ]]; then
-    echo -e "${YELLOW}Compilando js_ofiliaria...${NC}"
-    JSOFILIARIA_DIR="wordpress/wp-content/plugins/ofiliaria/public/js_ofiliaria"
-    (cd $JSOFILIARIA_DIR && npm run build)
-    if [ $? -ne 0 ]; then
-        echo -e "${RED}Error durante la compilación de js_ofiliaria. Abortando.${NC}"
-        exit 1
-    fi    
-    echo -e "${GREEN}Compilación de js_ofiliaria finalizada.${NC}"
-
-    echo -e "${YELLOW}Subiendo js_ofiliaria...${NC}"
-    lftp -c "set ftp:ssl-allow no; open -u $FRONTEND_FTP_USER,$FRONTEND_FTP_PASS $FRONTEND_FTP_HOST; \
-             mkdir -p ${REMOTE_BACKUP_DIR}; \
-             mv ${REMOTE_JSOFILIARIA_DIR}/js_ofiliaria-main-script.js ${REMOTE_BACKUP_DIR}/js_ofiliaria-main-script.js; \
-             mv ${REMOTE_JSOFILIARIA_DIR}/js_ofiliaria-main-style.css ${REMOTE_BACKUP_DIR}/js_ofiliaria-main-style.css; \
-             put -O ${REMOTE_JSOFILIARIA_DIR}/ ${JSOFILIARIA_DIR}/dist/js_ofiliaria-main-script.js; \
-             put -O ${REMOTE_JSOFILIARIA_DIR}/ ${JSOFILIARIA_DIR}/dist/js_ofiliaria-main-style.css;"
-
-    if [ $? -eq 0 ]; then
-        echo -e "${GREEN}js_ofiliaria subido correctamente.${NC}"
-    else
-        echo -e "${RED}Error al subir js_ofiliaria.${NC}"
-        exit 1
-    fi
-fi
-
-# --- 4. SUBIDA DE ARCHIVOS PHP DE WORDPRESS ---
-
-# Carga la lista de archivos de WordPress y Laravel
+# --- SUBIDA DE ARCHIVOS DE WORDPRESS ---
 source ./lista_archivos.sh
-
 
 if [[ ${#ARCHIVOS_WORDPRESS[@]} -gt 0 && "${ARCHIVOS_WORDPRESS[0]}" != "Ninguno" ]]; then
     echo -e "${YELLOW}Subiendo archivos de WordPress...${NC}"
     lftp_commands="set ftp:ssl-allow no; open -u $FRONTEND_FTP_USER,$FRONTEND_FTP_PASS $FRONTEND_FTP_HOST;"
 
     for archivo_local in "${ARCHIVOS_WORDPRESS[@]}"; do
-        archivo_remoto=${archivo_local/wordpress/redetron}
+        # ELIMINAMOS LA TRADUCCIÓN: ahora archivo_remoto es igual a archivo_local
+        archivo_remoto=$archivo_local 
         directorio_remoto=$(dirname "$archivo_remoto")
         nombre_archivo=$(basename "$archivo_remoto")
 

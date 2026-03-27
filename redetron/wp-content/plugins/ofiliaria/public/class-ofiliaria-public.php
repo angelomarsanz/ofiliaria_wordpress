@@ -192,7 +192,7 @@ class Ofiliaria_Public {
         // --- NUEVO: Condición para cargar el CSS del módulo jQuery/JS ---
         // Solo carga el CSS de js_ofiliaria si la página actual NO es una de las páginas de React.
         if (!in_array($current_slug, $this->paginas_usan_react)) {
-            wp_enqueue_style("js_ofiliaria_style", plugin_dir_url(__FILE__) . "js_ofiliaria/js_ofiliaria-main-style.css", array(), time(), 'all');
+            wp_enqueue_style("js_ofiliaria_style", plugin_dir_url(__FILE__) . "js_ofiliaria/dist/js_ofiliaria-main-style.css", array(), time(), 'all');
         }
         // ----------------------------------------------------------------
     }
@@ -246,7 +246,7 @@ class Ofiliaria_Public {
         // --- NUEVO: Condición para cargar el JavaScript del módulo jQuery/JS ---
         // Solo carga el JavaScript de js_ofiliaria si la página actual NO es una de las páginas de React.
         if (!in_array($current_slug, $this->paginas_usan_react)) {
-            wp_enqueue_script("js_ofiliaria_script", plugin_dir_url(__FILE__) . "js_ofiliaria/js_ofiliaria-main-script.js", array( 'jquery' ), time(), true);
+            wp_enqueue_script("js_ofiliaria_script", plugin_dir_url(__FILE__) . "js_ofiliaria/dist/js_ofiliaria-main-script.js", array( 'jquery' ), time(), true);
         }
         // -----------------------------------------------------------------------
     }
@@ -254,8 +254,8 @@ class Ofiliaria_Public {
     public function garantias_shortcode()
     {               
         // Este código sigue siendo el mismo, ya que siempre se cargará cuando el shortcode esté presente.
-        wp_enqueue_script("main_ofiliaria_react", plugin_dir_url(__FILE__) . "app_react/garantias/main-script.js", [ "wp-element"], time(), true);
-        wp_enqueue_style("main_ofiliaria_react_style", plugin_dir_url(__FILE__) . "app_react/garantias/main-style.css", array(), time(), 'all');
+        wp_enqueue_script("main_ofiliaria_react", plugin_dir_url(__FILE__) . "app_react/garantias/dist/main-script.js", [ "wp-element"], time(), true);
+        wp_enqueue_style("main_ofiliaria_react_style", plugin_dir_url(__FILE__) . "app_react/garantias/dist/main-style.css", array(), time(), 'all');
         return "<div class='ra_garantias'></div>";  
     }
 

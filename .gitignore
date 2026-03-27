@@ -3,6 +3,7 @@ node_modules/
 dist/
 dist-ssr/
 vendor/
+backend_ofiliaria/.env*
 .env
 .env.*
 !.env.example

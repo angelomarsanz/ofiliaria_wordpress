@@ -10,10 +10,16 @@ ARCHIVOS_WORDPRESS=(
     #
     # Archivos a subir:
     #"Ninguno"
-    "wordpress/wp-content/plugins/ofiliaria/public/app_react/garantias/src/i18n/es/general.json"
-    "wordpress/wp-content/plugins/ofiliaria/public/app_react/garantias/src/formularios/Arrendatario.jsx"
-    "wordpress/wp-content/plugins/ofiliaria/public/app_react/garantias/src/pasos/ContratoGarantia.jsx"
-    "wordpress/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/webpack.mix.js"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/main.jsx"
+    #redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/index.scss
+    #"redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/vectores_objetos/datosInicio.jsx"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/pasos/ContratoGarantia.jsx"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/package.json"
+    #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/package.json"
+    #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/webpack.mix.js"
+    #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/main.js"
 )
 
 # --- 5. SUBIDA DE ARCHIVOS PHP DE LARAVEL (BACKEND) ---

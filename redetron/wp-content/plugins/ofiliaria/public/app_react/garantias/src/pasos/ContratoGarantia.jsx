@@ -69,7 +69,6 @@ import { convertToHTML, convertFromHTML } from 'draft-convert';
 import DOMPurify from 'dompurify';
 import { renderToString } from 'react-dom/server';
 import { ContratoSura, ContratoPorto, ContratoSancor, ContratoMapfre, ContratoSbi } from '../contratos_garantia';
-import { useReactToPrint } from "react-to-print";
 import { conversionDias, conversionMeses, generarDatosContrato } from "../vectores_objetos";
   
 export const ContratoGarantia = () => {
@@ -186,7 +185,6 @@ export const ContratoGarantia = () => {
   const [vistaContrato, setVistaContrato] = useState('');
 
   const contentRef = useRef(null);
-  const reactToPrintFn = useReactToPrint({ contentRef : contentRef });
   const dataContrato = useRef({});
   const indicadorVerificacionContrato = useRef(false);
   const datosContrato = useRef({});
