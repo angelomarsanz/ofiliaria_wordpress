@@ -1,5 +1,5 @@
 export const datosInicio = {
-    version: 'V0.00070',
+    version: 'V0.00071',
     /*
     ambiente : 'Desarrollo',
     pruebas: 'No',
@@ -10,9 +10,9 @@ export const datosInicio = {
     */      
     ambiente : 'Producción',
     pruebas: 'No',
-    indicador_ambiente_dev : 1, // 0 = Producción, 1 = Desarrollo
-    // endpoint : 'https://backend.ofiliaria.com.uy/public/api/v1',
-    endpoint : 'https://dev-backend.ofiliaria.com/public/api/v1',
+    indicador_ambiente_dev : 0, // 0 = Producción, 1 = Desarrollo
+    endpoint : 'https://backend.ofiliaria.com.uy/public/api/v1',
+    // endpoint : 'https://dev-backend.ofiliaria.com/public/api/v1',
     
     url_almacenamiento : '',
     usuario_administrador : 'Sí',

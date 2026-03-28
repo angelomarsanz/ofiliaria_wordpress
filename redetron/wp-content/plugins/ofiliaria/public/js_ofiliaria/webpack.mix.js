@@ -2,10 +2,12 @@ const mix = require('laravel-mix');
 
 mix.options({
     processCssUrls: false,
-    vue: false // Esto debería evitar que pida cosas de Vue
+    vue: false,
+    terser: {
+      extractComments: false, // Esto evita que se creen archivos .LICENSE.txt innecesarios
+    }
 });
 
-// Cambiamos .sass por .styles para archivos CSS puros
 mix.js('src/main.js', 'dist/js_ofiliaria-main-script.js')
    .styles('src/index.css', 'dist/js_ofiliaria-main-style.css')
    .setPublicPath('dist');

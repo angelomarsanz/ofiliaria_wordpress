@@ -14,13 +14,12 @@ mix.react('src/main.jsx', 'dist/main-script.js')
            rules: [
                {
                    test: /\.js$|jsx/,
-                   include: [
-                       /node_modules\/@mui/,
-                       /node_modules\/@emotion/,
-                       /node_modules\/react-i18next/,
-                       // Adaptamos la ruta al entorno actual de WordPress
-                       /public\/app_react\/garantias\/src/ 
-                   ],
+                    include: [
+                        /node_modules\/@mui/,
+                        /node_modules\/@emotion/,
+                        /node_modules\/react-i18next/,
+                        require('path').resolve(__dirname, 'src') // Esto detecta la carpeta src donde sea que esté
+                    ],
                    use: [{
                        loader: 'babel-loader',
                        options: {
