@@ -13,7 +13,6 @@ ARCHIVOS_WORDPRESS=(
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/webpack.mix.js"
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/main.jsx"
     #redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/index.scss
-    #"redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/vectores_objetos/datosInicio.jsx"
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/pasos/ContratoGarantia.jsx"
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/package.json"
@@ -27,6 +26,8 @@ ARCHIVOS_WORDPRESS=(
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/subir_garantias_produccion.sh"
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/subir_integraciones_produccion.sh"
     "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/vectores_objetos/datosInicio.jsx"
+    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/pasos/Indice.jsx"
+    "redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
 )
 
 # --- 5. SUBIDA DE ARCHIVOS PHP DE LARAVEL (BACKEND) ---

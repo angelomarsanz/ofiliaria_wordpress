@@ -1891,6 +1891,7 @@ class Ofiliaria_Public {
 	}
 	public function verificar_usuario_conectado()
 	{
+		error_log('Ejecutando la función verificar_usuario_conectado');
 		$usuario_administrador = '';
 		$id_usuario_agencia = 0;
 		$id_usuario_conectado = 0;

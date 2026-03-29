@@ -1,5 +1,5 @@
 export const datosInicio = {
-    version: 'V0.00071',
+    version: 'V0.00072',
     /*
     ambiente : 'Desarrollo',
     pruebas: 'No',

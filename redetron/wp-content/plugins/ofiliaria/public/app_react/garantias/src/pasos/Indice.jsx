@@ -302,6 +302,7 @@ export const Indice = () => {
   }
 
   const verificarUsuarioConectado = async () => {
+    console.log('verificarUsuarioConectado, inicio de la función');
     const ajaxUrlReact = typeof variables_php_javascript !== 'undefined' ? variables_php_javascript.ajax_url : '/wp-admin/admin-ajax.php';
     var params = new URLSearchParams();
     params.append('action', 'verificar_usuario_conectado');
