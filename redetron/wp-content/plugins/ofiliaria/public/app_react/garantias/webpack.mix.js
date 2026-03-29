@@ -1,16 +1,22 @@
 const mix = require('laravel-mix');
 
-// Desactivamos Vue para evitar conflictos
+// Detectamos si es una compilación especial de producción
+const isProdCustom = process.env.BUILD_TARGET === 'prod_deploy';
+
+// Definimos nombres de archivos dinámicos
+const jsName = isProdCustom ? 'main-script-produccion.js' : 'main-script.js';
+const cssName = isProdCustom ? 'main-style-produccion.css' : 'main-style.css';
+
 mix.options({
     processCssUrls: false,
     vue: false 
 });
 
-mix.react('src/main.jsx', 'dist/main-script.js')
-   .sass('src/index.scss', 'dist/main-style.css')
+mix.react('src/main.jsx', `dist/${jsName}`)
+   .sass('src/index.scss', `dist/${cssName}`)
    .setPublicPath('dist')
    .webpackConfig({
-       module: {
+    module: {
            rules: [
                {
                    test: /\.js$|jsx/,

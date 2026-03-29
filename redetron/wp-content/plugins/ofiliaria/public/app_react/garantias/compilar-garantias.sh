@@ -13,7 +13,8 @@ cd "$DIR_ACTUAL"
 
 echo -e "${YELLOW}Ejecutando en: $DIR_ACTUAL${NC}"
 
-# Ejecutar como el usuario del dominio para mantener permisos
-sudo -u devofilya npm run prod
+# Ejecutamos 'dev' o 'development' en lugar de 'prod'
+# Esto asegura que process.env.NODE_ENV no sea 'production'
+sudo -u devofilya npm run dev
 
 echo -e "${GREEN}✅ Archivos minificados generados en la carpeta /dist${NC}"

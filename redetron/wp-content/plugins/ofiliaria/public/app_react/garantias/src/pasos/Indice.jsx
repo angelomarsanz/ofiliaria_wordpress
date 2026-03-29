@@ -344,6 +344,7 @@ export const Indice = () => {
   }
 
   const obtenerGarantias = async (page = 1, per_page = 20, desde = 0) => {
+    console.log('obtenerGarantias, inicio de la función');
     if (tokenLaravel.current === '') {
       setGarantias([]);
       setMetaPaginacion(null);

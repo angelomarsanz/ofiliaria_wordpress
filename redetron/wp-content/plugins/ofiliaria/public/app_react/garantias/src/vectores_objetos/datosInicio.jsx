@@ -1,5 +1,5 @@
 export const datosInicio = {
-    version: 'V0.00072',
+    version: 'V0.00074',
     /*
     ambiente : 'Desarrollo',
     pruebas: 'No',
@@ -10,9 +10,14 @@ export const datosInicio = {
     */      
     ambiente : 'Producción',
     pruebas: 'No',
-    indicador_ambiente_dev : 0, // 0 = Producción, 1 = Desarrollo
-    endpoint : 'https://backend.ofiliaria.com.uy/public/api/v1',
-    // endpoint : 'https://dev-backend.ofiliaria.com/public/api/v1',
+
+    // Si la variable de entorno existe y es 'production', usamos 0, de lo contrario 1
+    indicador_ambiente_dev : process.env.NODE_ENV === 'production' ? 0 : 1, 
+    
+    // El endpoint se elige automáticamente
+    endpoint : process.env.NODE_ENV === 'production' 
+        ? 'https://backend.ofiliaria.com.uy/public/api/v1'
+        : 'https://dev-backend.ofiliaria.com/public/api/v1',    
     
     url_almacenamiento : '',
     usuario_administrador : 'Sí',

@@ -20,14 +20,17 @@ ARCHIVOS_WORDPRESS=(
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/webpack.mix.js"
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/main.js"
     #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/compilar-garantias.sh"
-    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/webpack.mix.js"
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/compilar-integraciones.sh"
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/webpack.mix.js"
-    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/subir_garantias_produccion.sh"
     #"redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/subir_integraciones_produccion.sh"
-    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/vectores_objetos/datosInicio.jsx"
+    #"redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/webpack.mix.js"
+    #"redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
+    
     "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/pasos/Indice.jsx"
-    "redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
+    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/src/vectores_objetos/datosInicio.jsx"
+    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/webpack.mix.js"
+    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/compilar-garantias.sh"
+    "redetron/wp-content/plugins/ofiliaria/public/app_react/garantias/compilar-garantias-produccion.sh"
 )
 
 # --- 5. SUBIDA DE ARCHIVOS PHP DE LARAVEL (BACKEND) ---
