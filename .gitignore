@@ -30,6 +30,9 @@ backend_ofiliaria/.env*
 /backend_ofiliaria/public/hot
 /backend_ofiliaria/.phpunit.result.cache
 
+# Bloquea cualquier archivo que contenga .env en cualquier parte del nombre
+**/.env*
+
 # --- REGLAS WORDPRESS (redetron) ---
 # 1. Ignoramos TODO lo que esté dentro de la carpeta wordpress
 /redetron/*
