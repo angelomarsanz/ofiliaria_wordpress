@@ -53,3 +53,7 @@ backend_ofiliaria/.env*
 /redetron/wp-content/plugins/ofiliaria/**/node_modules/
 /redetron/wp-content/plugins/ofiliaria/**/dist/
 /redetron/wp-content/plugins/ofiliaria/**/*.local
+
+# Reglas específicas para asegurar el bloqueo
+backend_ofiliaria/.env_produccion
+backend_ofiliaria/.env_gemini

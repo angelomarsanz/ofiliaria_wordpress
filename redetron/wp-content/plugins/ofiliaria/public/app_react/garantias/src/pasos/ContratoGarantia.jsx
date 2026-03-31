@@ -1233,7 +1233,7 @@ export const ContratoGarantia = () => {
 
     const prepararTextoContrato = (data) => {
       dataContrato.current = {...data, fecha_inicio_alquiler : fechaInicioDelAlquilerTexto.current, fecha_inicio_alquiler_desglosada : fechaInicioAlquilerDesglosada.current, personas : state.personas };
-      if (state.texto_contrato != null && state.texto_contrato != '')
+      if (state.texto_contrato != null && state.texto_contrato != '' && state.texto_contrato != '<p></p>')
       {
         modalVerificacionContrato();
       }
