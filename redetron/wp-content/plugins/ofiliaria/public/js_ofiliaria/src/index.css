@@ -1,3 +1,35 @@
-.algunaClase {
-  color : black;
+/* Nueva clase para el estatus (Cuadrito + Texto) */
+.ofiliaria-status-item {
+    position: relative !important;
+    padding-left: 25px !important; /* Espacio para que el cuadrito no toque el texto */
+    display: inline-block !important;
+    margin-bottom: 5px !important;
+    line-height: 1.5 !important;
+    font-weight: 400 !important; /* Texto normal, no negrita */
+    color: #000000 !important;   /* Texto negro */
+    width: auto !important;
+}
+
+/* El cuadrito decorativo */
+.ofiliaria-status-item:before {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 4px !important; /* Ajuste para centrar verticalmente con el texto */
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 3px !important;
+    display: block !important;
+}
+
+/* Colores de los cuadritos */
+.ofiliaria-status-item.of-publish:before { background-color: #50cd89 !important; } /* Verde */
+.ofiliaria-status-item.of-pending:before { background-color: #009ef7 !important; } /* Azul */
+.ofiliaria-status-item.of-expired:before { background-color: #f1416c !important; } /* Rojo */
+.ofiliaria-status-item.of-disabled:before { background-color: #b5b5c3 !important; } /* Gris */
+
+/* Asegurar que los enlaces dentro sean negros */
+.ofiliaria-status-item a {
+    color: #000000 !important;
+    text-decoration: none !important;
 }
