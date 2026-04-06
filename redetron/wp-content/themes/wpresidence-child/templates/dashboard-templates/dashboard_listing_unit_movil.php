@@ -127,35 +127,34 @@ if ($paid_submission_status=='per listing'){
         </div>
     </div>
 
-    <!-- Property Types Section -->
     <div class="col-md-2">
         <?php
-        if (!empty($agentes_agencia))
-        { ?>
-            <br />
+        if (!empty($agentes_agencia)) { ?>
             <div class="row">
                 <div class="col-md-12">                        
-                    <label for="<?php echo 'agentes_agencia_'.$post_id ?>">Agente:</label>
-                    <select name="<?php echo 'agentes_agencia_'.$post_id ?>" id="<?php echo 'agentes_agencia_'.$post_id ?>" class="select-submit2 agentes_agencia">
-                        <?php
-                        foreach ($agentes_agencia as $id_usuario_agente => $agente) 
-                        {
-                            $selected = ($id_usuario_agente == $id_autor_publicacion) ? 'selected' : '';
-                            echo '<option value="' . htmlspecialchars($id_usuario_agente) . '" ' . $selected . '>' . htmlspecialchars($agente) . '</option>';
-                        }
-                        ?>
-                    </select>
+                    <label for="<?php echo 'agentes_agencia_'.$post_id ?>"><?php esc_html_e('Agente:', 'wpresidence'); ?></label>
+                    <input type="hidden" name="<?php echo 'agentes_agencia_'.$post_id ?>" id="<?php echo 'agentes_agencia_'.$post_id ?>" class="agentes_agencia" value="<?php echo $id_autor_publicacion; ?>">
+                    
+                    <div class="dropdown wpresidence_dropdown wpestate_dashhboard_filter">
+                        <button type="button" class="btn btn-default dropdown-toggle property_dashboard_actions_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?php echo isset($agentes_agencia[$id_autor_publicacion]) ? htmlspecialchars($agentes_agencia[$id_autor_publicacion]) : esc_html__('Seleccionar Agente', 'wpresidence'); ?> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <?php
+                            foreach ($agentes_agencia as $id_usuario_agente => $agente) {
+                                echo '<li><a href="#" class="ofiliaria_custom_select" data-value="' . htmlspecialchars($id_usuario_agente) . '" data-input-id="' . 'agentes_agencia_'.$post_id . '">' . htmlspecialchars($agente) . '</a></li>';
+                            }
+                            ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
         <?php
         }
 
-        // Inicio cambios Ofiliaria
-        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active')
-        {
+        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active') {
             $destaque_actual_mercado_libre = $publicacion_meli->listing_type_id; 
-            $destaques_mercado_libre = 
-            [
+            $destaques_mercado_libre = [
                 'silver'       => 'Plata',
                 'gold'         => 'Oro',
                 'gold_premium' => 'Oro Premium' 
@@ -165,22 +164,26 @@ if ($paid_submission_status=='per listing'){
             <div class="row">   
                 <div class="col-md-12">
                     <input type='hidden' name="<?php echo 'id_meli_publicacion_'.$post_id ?>" id="<?php echo 'id_meli_publicacion_'.$post_id ?>" value="<?php echo $id_meli_publicacion; ?>">    
-                    <input type='hidden' name="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" id="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" value="<?php echo $destaque_actual_mercado_libre; ?>">    
-                    <label for="<?php echo 'destaques_mercado_libre_'.$post_id ?>">Destaque Mercado Libre:</label>
-                    <select name="<?php echo 'destaques_mercado_libre_'.$post_id ?>" id="<?php echo 'destaques_mercado_libre_'.$post_id ?>" class="select-submit2 destaques_mercado_libre">
-                        <?php
-                        foreach ($destaques_mercado_libre as $value => $label) 
-                        {
-                            $selected = ($value === $destaque_actual_mercado_libre) ? 'selected' : '';
-                            echo '<option value="' . htmlspecialchars($value) . '" ' . $selected . '>' . htmlspecialchars($label) . '</option>';
-                        }
-                        ?>
-                    </select>
+                    <input type='hidden' name="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" id="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" class="destaques_mercado_libre" value="<?php echo $destaque_actual_mercado_libre; ?>">    
+                    
+                    <label for=""><?php esc_html_e('Destaque Mercado Libre:', 'wpresidence'); ?></label>
+                    
+                    <div class="dropdown wpresidence_dropdown wpestate_dashhboard_filter">
+                        <button type="button" class="btn btn-default dropdown-toggle property_dashboard_actions_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?php echo isset($destaques_mercado_libre[$destaque_actual_mercado_libre]) ? htmlspecialchars($destaques_mercado_libre[$destaque_actual_mercado_libre]) : esc_html__('Seleccionar Destaque', 'wpresidence'); ?> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <?php
+                            foreach ($destaques_mercado_libre as $value => $label) {
+                                echo '<li><a href="#" class="ofiliaria_custom_select" data-value="' . htmlspecialchars($value) . '" data-input-id="' . 'destaque_actual_mercado_libre_'.$post_id . '">' . htmlspecialchars($label) . '</a></li>';
+                            }
+                            ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
         <?php
-        } 
-        // Fin cambios Ofiliaria?>
+        } ?>
     </div>
 
     <!-- Status, Payment Status, and Price Sections -->

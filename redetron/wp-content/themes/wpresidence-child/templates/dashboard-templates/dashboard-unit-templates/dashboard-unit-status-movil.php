@@ -44,36 +44,27 @@ if ($paid_submission_status == 'per listing') {
 // Display status with appropriate CSS class
 ?>
 <br />
-<div class="property_list_status_label <?php echo sanitize_key($post_status); ?>">
+<div class="ofiliaria-status-item of-<?php echo sanitize_key($post_status); ?>">
     <?php echo esc_html($status).' <span>#'.$post_id.'</span>' ?>
 </div>
 <br />
+
 <?php
-if ($id_meli_publicacion != '')
-{ 
-    if ($publicacion_meli->status == 'active')
-    { ?>
-        <div class="property_list_status_label publish">
-            <a href="<?php echo $publicacion_meli->permalink; ?>" target="_blank">Mercado Libre: <?php echo $publicacion_meli->status.' <span style="font-size: 0.75rem">#'.$id_meli_publicacion ?></span></a>
-        </div>
-    <?php
-    }
-    else
-    { ?>
-        <div class="property_list_status_label expired">
-            <a href="<?php echo $publicacion_meli->permalink; ?>" target="_blank">Mercado Libre: <?php echo $publicacion_meli->status.' <span style="font-size: 0.75rem">#'.$id_meli_publicacion ?></span></a>
-        </div>
-    <?php
-    }
-}
-else
-{ ?>
-    <div class="property_list_status_label disabled">
+if ($id_meli_publicacion != '') { 
+    // Usamos 'of-publish' para activo y 'of-expired' para el resto
+    $meli_class = ($publicacion_meli->status == 'active') ? 'of-publish' : 'of-expired';
+    ?>
+    <div class="ofiliaria-status-item <?php echo $meli_class; ?>">
+        <a href="<?php echo $publicacion_meli->permalink; ?>" target="_blank">
+            Mercado Libre: <?php echo $publicacion_meli->status.' <span style="font-size: 0.75rem">#'.$id_meli_publicacion ?></span>
+        </a>
+    </div>
+<?php } else { ?>
+    <div class="ofiliaria-status-item of-disabled">
         <span>Mercado Libre: No Sincronizada</span>
     </div>
-<?php
-} ?>
-<?php
+<?php } 
+
 $id_infocasas_agencia_agente = '';
 if ($id_post_agencia_agente != '')
 {
@@ -105,25 +96,20 @@ if ($id_infocasas_agencia_agente != '')
 } ?>
 <br />
 <?php
-if ($indicador_publicacion_en_infocasas == 0)
-{ ?>      
-    <div class="property_list_status_label publish">
-        <a href="<?php echo $url_infocasas; ?>" target="_blank">Infocasas: Enviada <span style="font-size: 0.75rem">#<?php echo $post_id ?></span></a>
+// ... Tu lógica de Infocasas se mantiene igual ...
+if ($indicador_publicacion_en_infocasas == 0) { ?>      
+    <div class="ofiliaria-status-item of-publish">
+        <a href="<?php echo $url_infocasas; ?>" target="_blank">
+            Infocasas: Enviada <span style="font-size: 0.75rem">#<?php echo $post_id ?></span>
+        </a>
     </div>
-<?php
-}
-else if ($indicador_publicacion_en_infocasas == 1)
-{ ?>
-    <div class="property_list_status_label pending">
+<?php } else if ($indicador_publicacion_en_infocasas == 1) { ?>
+    <div class="ofiliaria-status-item of-pending">
         <span>Infocasas: Por enviar</span>
     </div>
-<?php
-} 
-else 
-{ ?>
-    <div class="property_list_status_label disabled">
+<?php } else { ?>
+    <div class="ofiliaria-status-item of-disabled">
         <span>Infocasas: No sincronizada</span>
     </div>
-<?php
-} ?>
+<?php } ?>
 <br />

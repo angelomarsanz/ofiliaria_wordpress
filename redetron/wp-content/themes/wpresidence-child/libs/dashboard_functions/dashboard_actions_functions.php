@@ -826,17 +826,16 @@ if( !function_exists('wpestate_dashboard_property_list') ):
         $paid_submission_status         =   esc_html ( wpresidence_get_option('wp_estate_paid_submission','') );
         if ($paid_submission_status=='per listing'){
               print '<div class="col-md-3">'.esc_html__('Property','wpresidence').'</div>';
-              print '<div class="col-md-2">'.esc_html__('Agente / Destaque','wpresidence').'</div>';
               print '<div class="col-md-2">'.esc_html__('Status','wpresidence').'</div>';
               print '<div class="col-md-2">'.esc_html__('Pay Status','wpresidence').'</div>';
               print '<div class="col-md-1">'.esc_html__('Price','wpresidence').'</div>';
+              print '<div class="col-md-2">'.esc_html__('Agente / Destaque','wpresidence').'</div>';
         }else{
               print '<div class="col-md-4">'.esc_html__('Property','wpresidence').'</div>';
-              print '<div class="col-md-2">'.esc_html__('Agente / Destaque','wpresidence').'</div>';
               print '<div class="col-md-2">'.esc_html__('Status','wpresidence').'</div>';
               print '<div class="col-md-2">'.esc_html__('Price','wpresidence').'</div>';
+              print '<div class="col-md-2">'.esc_html__('Agente / Destaque','wpresidence').'</div>';
         }
-
 
         print '<div class="col-md-2 property_dashboard_action">'.esc_html__('Actions','wpresidence').'</div>';
       print'</div>';

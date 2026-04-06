@@ -127,6 +127,26 @@ if ($paid_submission_status=='per listing'){
         </div>
     </div>
 
+    <!-- Status, Payment Status, and Price Sections -->
+    <?php if ($paid_submission_status == 'per listing') : ?>
+        <div class="col-md-2">
+            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php')); ?>
+        </div>
+        <div class="col-md-2 property_dashboard_status">
+            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-paystatus.php')); ?>
+        </div>
+        <div class="col-md-1 property_dashboard_price">
+            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-price.php')); ?>
+        </div>
+    <?php else : ?>
+        <div class="col-md-2">
+            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php')); ?>
+        </div>
+        <div class="col-md-2 property_dashboard_price">
+            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-price.php')); ?>
+        </div>
+    <?php endif; ?>
+
     <div class="col-md-2">
         <?php
         if (!empty($agentes_agencia)) { ?>
@@ -185,26 +205,6 @@ if ($paid_submission_status=='per listing'){
         <?php
         } ?>
     </div>
-
-    <!-- Status, Payment Status, and Price Sections -->
-    <?php if ($paid_submission_status == 'per listing') : ?>
-        <div class="col-md-2">
-            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php')); ?>
-        </div>
-        <div class="col-md-2 property_dashboard_status">
-            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-paystatus.php')); ?>
-        </div>
-        <div class="col-md-1 property_dashboard_price">
-            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-price.php')); ?>
-        </div>
-    <?php else : ?>
-        <div class="col-md-2">
-            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php')); ?>
-        </div>
-        <div class="col-md-2 property_dashboard_price">
-            <?php include(locate_template('templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-price.php')); ?>
-        </div>
-    <?php endif; ?>
 
     <!-- Actions Section -->
     <div class="col-md-2 property_dashboard_action">
