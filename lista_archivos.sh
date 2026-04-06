@@ -14,6 +14,7 @@ ARCHIVOS_WORDPRESS=(
     "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard_listing_unit.php"
     "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php"
     "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/index.css"
+    "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/vistas/ListaPropiedades/indexListaPropiedades.js"
 )
 
 # --- 5. SUBIDA DE ARCHIVOS PHP DE LARAVEL (BACKEND) ---

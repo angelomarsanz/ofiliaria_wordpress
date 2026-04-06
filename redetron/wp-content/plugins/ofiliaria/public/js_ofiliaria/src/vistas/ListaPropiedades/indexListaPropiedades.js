@@ -126,31 +126,60 @@ export const indexListaPropiedades = () =>
             };
                 
             $(function() {
-                $('.destaques_mercado_libre').on( 'change', function(event) 
-                {
-                    event.preventDefault();
-                    let vector_id_select = $(this).attr('id').split('_');
-                    let id_post = vector_id_select[3];
-                    let id_meli_publicacion = $(`#id_meli_publicacion_${id_post}`).val();
-                    let destaque_actual_mercado_libre = $(`#destaque_actual_mercado_libre_${id_post}`).val(); 
-                    let nuevo_destaque_mercado_libre = $(this).val();
-
-                    $(`#ofiliaria_gif_espere_mensajes_${id_post}`).html(
-                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' 
-                            alt='Por favor espere' style="width: 50px; height: 50px" />`);
-                    destaquePublicacionMeli(id_post, id_meli_publicacion, destaque_actual_mercado_libre, nuevo_destaque_mercado_libre);
+                $('.ofiliaria_custom_select').on('click', function(e) {
+                    e.preventDefault();
+                    
+                    let nuevoValor = $(this).data('value');
+                    let inputId = $(this).data('input-id');
+                    let textoSeleccionado = $(this).text();
+                    let $inputHidden = $('#' + inputId);
+                    
+                    // CAPTURAMOS el valor que tiene justo ahora (el actual real)
+                    let valorAnterior = $inputHidden.val();
+                    
+                    // Actualizamos la interfaz
+                    $(this).closest('.dropdown').find('.dropdown-toggle').html(textoSeleccionado + ' <span class="caret"></span>');
+                    
+                    // Actualizamos el valor del input hidden con el nuevo
+                    $inputHidden.val(nuevoValor);
+                    
+                    // Disparamos el evento pasando el valorAnterior como argumento
+                    if ($inputHidden.hasClass('agentes_agencia')) {
+                        $inputHidden.trigger('ofiliaria_change_agente');
+                    } else if ($inputHidden.hasClass('destaques_mercado_libre')) {
+                        $inputHidden.trigger('ofiliaria_change_destaque', [valorAnterior]);
+                    }
                 });
-                $('.agentes_agencia').on( 'change', function(event) 
-                {
-                    event.preventDefault();
-                    let vector_id_select_agentes = $(this).attr('id').split('_');
-                    let id_post = vector_id_select_agentes[2];
+
+                $('.agentes_agencia').on('ofiliaria_change_agente', function() {
+                    let id_post = $(this).attr('id').split('_')[2];
                     let id_usuario_agente = $(this).val();
+                    console.log('ofiliaria_change_agente: id_post', id_post);
+                    console.log('ofiliaria_change_agente: id_usuario_agente', id_usuario_agente);
 
                     $(`#ofiliaria_gif_espere_mensajes_${id_post}`).html(
-                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' 
-                            alt='Por favor espere' style="width: 50px; height: 50px" />`);
+                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' alt='...' style="width: 50px; height: 50px" />`
+                    );
                     reasignacionDeAgente(id_post, id_usuario_agente);
+                });
+
+                $('.destaques_mercado_libre').on('ofiliaria_change_destaque', function(event, destaque_actual_real) {
+                    let id_post = $(this).attr('id').split('_')[4];
+                    let id_meli_publicacion = $(`#id_meli_publicacion_${id_post}`).val();
+                    
+                    // 'destaque_actual_real' viene del trigger. 
+                    // 'this.value' es el nuevo valor que ya se asignó en el input hidden.
+                    let nuevo_destaque = $(this).val();
+
+                    console.log('Destaque Real (Anterior):', destaque_actual_real);
+                    console.log('Destaque Nuevo:', nuevo_destaque);
+
+                    $(`#ofiliaria_gif_espere_mensajes_${id_post}`).html(
+                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' alt='...' style="width: 50px; height: 50px" />`
+                    );
+
+                    // Enviamos a la función de AJAX los valores correctos
+                    destaquePublicacionMeli(id_post, id_meli_publicacion, destaque_actual_real, nuevo_destaque);
                 });
             });
         }    
