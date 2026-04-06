@@ -79,7 +79,6 @@ if ($paid_submission_status=='per listing'){
     $blog_listing_image_class= 'col-xl-3';
 }
 ?>
-<div id="<?php echo 'ofiliaria_gif_espere_mensajes_'.$post_id ?>" style="text-align: center;"></div>
 <div class="row property_wrapper_dash flex-md-row flex-column">
     <!-- Property Image and Basic Info Section -->
     <div class="blog_listing_image col-12 col-md-12 col-lg-12 <?php echo esc_attr($blog_listing_image_class);?> col-md-<?php echo esc_attr($image_class); ?>">
@@ -148,62 +147,58 @@ if ($paid_submission_status=='per listing'){
     <?php endif; ?>
 
     <div class="col-md-2">
+
         <?php
         if (!empty($agentes_agencia)) { ?>
-            <div class="row">
-                <div class="col-md-12">                        
-                    <label for="<?php echo 'agentes_agencia_'.$post_id ?>"><?php esc_html_e('Agente:', 'wpresidence'); ?></label>
-                    <input type="hidden" name="<?php echo 'agentes_agencia_'.$post_id ?>" id="<?php echo 'agentes_agencia_'.$post_id ?>" class="agentes_agencia" value="<?php echo $id_autor_publicacion; ?>">
-                    
-                    <div class="dropdown wpresidence_dropdown wpestate_dashhboard_filter">
-                        <button type="button" class="btn btn-default dropdown-toggle property_dashboard_actions_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <?php echo isset($agentes_agencia[$id_autor_publicacion]) ? htmlspecialchars($agentes_agencia[$id_autor_publicacion]) : esc_html__('Seleccionar Agente', 'wpresidence'); ?> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <?php
-                            foreach ($agentes_agencia as $id_usuario_agente => $agente) {
-                                echo '<li><a href="#" class="ofiliaria_custom_select" data-value="' . htmlspecialchars($id_usuario_agente) . '" data-input-id="' . 'agentes_agencia_'.$post_id . '">' . htmlspecialchars($agente) . '</a></li>';
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </div>
+            <div class="ofiliaria-meli-select-container">
+                <label class="ofiliaria-meli-label">Agente:</label>
+                <select 
+                    id="agentes_agencia_<?php echo $post_id; ?>" 
+                    class="form-select ofiliaria-select-bootstrap agentes_agencia" 
+                    data-postid="<?php echo $post_id; ?>"
+                >
+                    <?php
+                    foreach ($agentes_agencia as $id_usuario_agente => $agente) {
+                        $selected = ($id_usuario_agente == $id_autor_publicacion) ? 'selected' : '';
+                        echo '<option value="' . htmlspecialchars($id_usuario_agente) . '" ' . $selected . '>' . 
+                                htmlspecialchars($agente) . 
+                            '</option>';
+                    }
+                    ?>
+                </select>
             </div>
         <?php
-        }
+        }        
 
-        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active') {
-            $destaque_actual_mercado_libre = $publicacion_meli->listing_type_id; 
+        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active'): 
             $destaques_mercado_libre = [
                 'silver'       => 'Plata',
                 'gold'         => 'Oro',
                 'gold_premium' => 'Oro Premium' 
-            ];
-            ?>    
-            <br />
-            <div class="row">   
-                <div class="col-md-12">
-                    <input type='hidden' name="<?php echo 'id_meli_publicacion_'.$post_id ?>" id="<?php echo 'id_meli_publicacion_'.$post_id ?>" value="<?php echo $id_meli_publicacion; ?>">    
-                    <input type='hidden' name="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" id="<?php echo 'destaque_actual_mercado_libre_'.$post_id ?>" class="destaques_mercado_libre" value="<?php echo $destaque_actual_mercado_libre; ?>">    
-                    
-                    <label for=""><?php esc_html_e('Destaque Mercado Libre:', 'wpresidence'); ?></label>
-                    
-                    <div class="dropdown wpresidence_dropdown wpestate_dashhboard_filter">
-                        <button type="button" class="btn btn-default dropdown-toggle property_dashboard_actions_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <?php echo isset($destaques_mercado_libre[$destaque_actual_mercado_libre]) ? htmlspecialchars($destaques_mercado_libre[$destaque_actual_mercado_libre]) : esc_html__('Seleccionar Destaque', 'wpresidence'); ?> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <?php
-                            foreach ($destaques_mercado_libre as $value => $label) {
-                                echo '<li><a href="#" class="ofiliaria_custom_select" data-value="' . htmlspecialchars($value) . '" data-input-id="' . 'destaque_actual_mercado_libre_'.$post_id . '">' . htmlspecialchars($label) . '</a></li>';
-                            }
-                            ?>
-                        </ul>
-                    </div>
-                </div>
+            ]; ?>
+            <div class="ofiliaria-meli-select-container">
+                <label class="ofiliaria-meli-label">Destaque Meli:</label>
+                <select 
+                    id="destaque_actual_mercado_libre_<?php echo $post_id; ?>" 
+                    class="form-select ofiliaria-select-bootstrap destaques_mercado_libre" 
+                    data-postid="<?php echo $post_id; ?>"
+                >
+                    <?php
+                    foreach ($destaques_mercado_libre as $value => $label) {
+                        $selected = ($destaque_actual_mercado_libre == $value) ? 'selected' : '';
+                        echo '<option value="' . htmlspecialchars($value) . '" ' . $selected . '>' . 
+                                htmlspecialchars($label) . 
+                            '</option>';
+                    }
+                    ?>
+                </select>
+                <input type="hidden" id="prev_val_destaque_<?php echo $post_id; ?>" value="<?php echo $destaque_actual_mercado_libre; ?>">
             </div>
-        <?php
-        } ?>
+        <?php 
+        endif; ?>
+
+        <div id="ofiliaria_gif_espere_mensajes_<?php echo $post_id; ?>" class="ofiliaria-loader-container"></div>
+        <input type="hidden" id="id_meli_publicacion_<?php echo $post_id; ?>" value="<?php echo $id_meli_publicacion; ?>">
     </div>
 
     <!-- Actions Section -->
