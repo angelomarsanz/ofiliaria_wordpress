@@ -133,7 +133,7 @@ export const indexListaPropiedades = () =>
                     const id_agente = $el.val();
 
                     $(`#ofiliaria_gif_espere_mensajes_${id_post}`).html(
-                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' style="width: 25px;" />`
+                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' style="width: 40px;" />`
                     );
 
                     // Llamada AJAX Original
@@ -149,7 +149,7 @@ export const indexListaPropiedades = () =>
 
                     // Mostrar Loader
                     $(`#ofiliaria_gif_espere_mensajes_${id_post}`).html(
-                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' style="width: 25px;" />`
+                        `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' style="width: 40px;" />`
                     );
 
                     // Llamada AJAX Original

@@ -35,7 +35,7 @@
     text-decoration: none !important;
 }
 
-/* Estilos para los select de reasignación de agente y destaque */
+/* Estilos para el select de reasignación de agentes y destaque de Mercado Libre */
 /* ==========================================================================
    SELECT ESTILO BOOTSTRAP PERSONALIZADO (OFILIARIA)
    ========================================================================== */
@@ -83,26 +83,4 @@
 .ofiliaria-loader-container {
     height: 30px;
     margin-top: 5px;
-}
-/* Corrección para vista móvil */
-@media screen and (max-width: 768px) {
-    /* Forzamos que el contenedor no tenga márgenes que lo saquen de la pantalla */
-    .ofiliaria-meli-select-container {
-        width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        padding: 5px 0 !important;
-    }
-
-    /* El select debe ocupar todo el ancho disponible para que el dropdown nativo se centre */
-    .ofiliaria-select-bootstrap {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-    }
-}
-
-/* Prevenir que el contenedor de la columna tenga overflow visible que rompa el layout */
-.property_dashboard_status {
-    overflow: visible !important;
 }

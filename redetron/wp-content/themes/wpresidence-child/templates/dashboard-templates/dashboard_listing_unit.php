@@ -79,6 +79,7 @@ if ($paid_submission_status=='per listing'){
     $blog_listing_image_class= 'col-xl-3';
 }
 ?>
+<div id="<?php echo 'ofiliaria_gif_espere_mensajes_'.$post_id ?>" style="text-align: center;"></div>
 <div class="row property_wrapper_dash flex-md-row flex-column">
     <!-- Property Image and Basic Info Section -->
     <div class="blog_listing_image col-12 col-md-12 col-lg-12 <?php echo esc_attr($blog_listing_image_class);?> col-md-<?php echo esc_attr($image_class); ?>">
@@ -147,12 +148,12 @@ if ($paid_submission_status=='per listing'){
     <?php endif; ?>
 
     <div class="col-md-2">
-
         <?php
         if (!empty($agentes_agencia)) { ?>
             <div class="ofiliaria-meli-select-container">
                 <label class="ofiliaria-meli-label">Agente:</label>
                 <select 
+                    name="<?php echo 'agentes_agencia_'.$post_id ?>" 
                     id="agentes_agencia_<?php echo $post_id; ?>" 
                     class="form-select ofiliaria-select-bootstrap agentes_agencia" 
                     data-postid="<?php echo $post_id; ?>"
@@ -163,22 +164,24 @@ if ($paid_submission_status=='per listing'){
                         echo '<option value="' . htmlspecialchars($id_usuario_agente) . '" ' . $selected . '>' . 
                                 htmlspecialchars($agente) . 
                             '</option>';
-                    }
-                    ?>
+                    } ?>
                 </select>
             </div>
         <?php
         }        
 
-        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active'): 
+        if ($id_meli_publicacion != '' && $publicacion_meli->status == 'active'):
+            $destaque_actual_mercado_libre = $publicacion_meli->listing_type_id; 
             $destaques_mercado_libre = [
                 'silver'       => 'Plata',
                 'gold'         => 'Oro',
                 'gold_premium' => 'Oro Premium' 
             ]; ?>
+
             <div class="ofiliaria-meli-select-container">
                 <label class="ofiliaria-meli-label">Destaque Meli:</label>
                 <select 
+                    name="<?php echo 'destaques_mercado_libre_'.$post_id ?>" 
                     id="destaque_actual_mercado_libre_<?php echo $post_id; ?>" 
                     class="form-select ofiliaria-select-bootstrap destaques_mercado_libre" 
                     data-postid="<?php echo $post_id; ?>"
@@ -194,10 +197,10 @@ if ($paid_submission_status=='per listing'){
                 </select>
                 <input type="hidden" id="prev_val_destaque_<?php echo $post_id; ?>" value="<?php echo $destaque_actual_mercado_libre; ?>">
             </div>
+
         <?php 
         endif; ?>
 
-        <div id="ofiliaria_gif_espere_mensajes_<?php echo $post_id; ?>" class="ofiliaria-loader-container"></div>
         <input type="hidden" id="id_meli_publicacion_<?php echo $post_id; ?>" value="<?php echo $id_meli_publicacion; ?>">
     </div>
 
