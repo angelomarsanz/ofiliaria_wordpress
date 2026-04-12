@@ -10,9 +10,9 @@ ARCHIVOS_WORDPRESS=(
     #
     # Archivos a subir:
     #"Ninguno"   
-    #"redetron/wp-content/themes/wpresidence-child/libs/dashboard_functions/dashboard_actions_functions.php"
+    "redetron/wp-content/themes/wpresidence-child/libs/dashboard_functions/dashboard_actions_functions.php"
     "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard_listing_unit.php"
-    #"redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php"
+    "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php"
     "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/index.css"
     "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/vistas/ListaPropiedades/indexListaPropiedades.js"
 )
