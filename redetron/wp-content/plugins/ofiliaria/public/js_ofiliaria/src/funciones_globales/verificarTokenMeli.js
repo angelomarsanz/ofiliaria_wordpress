@@ -64,8 +64,8 @@ export const verificarTokenMeli = (ajaxurl) => {
             {
                 let respuesta = {
                     codigo_respuesta : 5,
-                    mensaje_respuesta : 'Error en el servidor',
-                    token_meli : 'Error en el servidor'
+                    mensaje_respuesta : 'Error en el servidor de Ofiliaria: ' + xt,
+                    token_meli : 'Error en el servidor de Ofiliaria: ' + xt
                 }
                 console.log('error', JSON.stringify(x));
                 resolve(respuesta);

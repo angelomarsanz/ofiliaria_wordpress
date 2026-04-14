@@ -10,11 +10,10 @@ ARCHIVOS_WORDPRESS=(
     #
     # Archivos a subir:
     #"Ninguno"   
-    "redetron/wp-content/themes/wpresidence-child/libs/dashboard_functions/dashboard_actions_functions.php"
-    "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard_listing_unit.php"
-    "redetron/wp-content/themes/wpresidence-child/templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php"
-    "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/index.css"
-    "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/vistas/ListaPropiedades/indexListaPropiedades.js"
+    "redetron/wp-content/themes/wpresidence-child/templates/submit_templates/ofiliaria_publicar_meli.php"
+    "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/vistas/AniadirNuevaPropiedad/indexAniadirNuevaPropiedad.js"
+    "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/funciones_globales/verificarTokenMeli.js"
+    "redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
 )
 
 # --- 5. SUBIDA DE ARCHIVOS PHP DE LARAVEL (BACKEND) ---

@@ -220,6 +220,36 @@ export const indexAniadirNuevaPropiedad = () =>
                 `<img src='https://dev-backend.ofiliaria.com/public/imagenes/loading.gif' 
                 alt='Por favor espere' style="width: 90px; height: 90px" />`;
 
+            var conectandoConMeli = 
+                `<div class="alert alert-info alert-dismissible">
+                    Estamos tratando de conectarnos con Mercado Libre.
+                </div>`;
+
+            var tokenMeliExitoso =
+                `<div class="alert alert-success alert-dismissible">
+                    Su token para la conexión con Mercado Libre se obtuvo exitosamente.
+                </div>`;
+
+            var tokenVencido =
+                `<div class="alert alert-warning alert-dismissible">
+                    Su token está vencido. Estamos intentando refrescarlo para usted.
+                </div>`;
+            
+            var verificandoPublicacionMeli = 
+                `<div class="alert alert-info alert-dismissible">
+                    Estamos verificando el estado de su publicación en Mercado Libre.
+                </div>`;
+
+            var republicarMeli =
+                `<div class="alert alert-warning alert-dismissible">
+                    Su publicación en Mercado Libre se encuentra cerrada. Puede marcar la casilla para volver a publicarla.
+                </div>`;
+
+            var verificacionExitosaPublicacionMeli = 
+                `<div class="alert alert-success alert-dismissible">
+                    Se verificó exitosamente el estado de su publicación en Mercado Libre. Puede seguir editando su propiedad o marcar la casilla para sincronizarla con Mercado Libre si aún no lo ha hecho.
+                </div>`;
+                
             var contenidoPublicarMeli = 
                 `<input type="checkbox" id="ofiliaria_publicar_meli" name="ofiliaria_publicar_meli" ${$("#check_ofiliaria_publicar_meli").val()}>
                 <label class="checklabel" for="ofiliaria_publicar_meli">Sincronizar con Mercado Libre</label>
@@ -244,52 +274,107 @@ export const indexAniadirNuevaPropiedad = () =>
                     },
                     beforeSend: function() 
                     {
-                        //
+                        $("#div_ofiliaria_publicar_meli").html(gifEspere);
+                        $("#mensajes_generales").html(verificandoPublicacionMeli);
                     },
                     success: function(data) 
                     {
-                        $("#div_ofiliaria_publicar_meli").html(contenidoPublicarMeli);
                         if (data.codigo_retorno == 0)
                         {
                             $("#estatus_publicacion_meli").val(data.vector_publicacion_meli.status);
                             if (data.vector_publicacion_meli.status == 'closed')
                             {
+                                $("#div_ofiliaria_publicar_meli").html('');
+                                $("#mensajes_generales").html(republicarMeli);
                                 $("#div_ofiliaria_republicar_meli").html(contenidoRepublicarMeli);
+                            }
+                            else
+                            {
+                                $("#div_ofiliaria_publicar_meli").html(contenidoPublicarMeli);
+                                $("#mensajes_generales").html(verificacionExitosaPublicacionMeli);
                             }
                         }
                         else
                         {
-                            $("#div_ofiliaria_republicar_meli").html('');
+                            $("#div_ofiliaria_publicar_meli").html('');
+                            let noSePudoVerificarPublicacionMeli = 
+                                `<div class="alert alert-danger alert-dismissible">
+                                    No se pudo verificar el estado de su publicación en Mercado Libre. Por los siguientes motivos: <br />
+                                    - Código de retorno: ${data.codigo_retorno} <br />
+                                    - Mensaje ${data.mensaje} <br />
+                                    - Error devuelto por Mercado Libre: ${data.error_meli} <br />
+                                    - Estatus devuelto por Mercado Libre: ${data.estatus_meli} <br />
+                                </div>`;
+
+                            $("#mensajes_generales").html(noSePudoVerificarPublicacionMeli);
                         }
                     },
                     error: function (x, xs, xt) 
                     {
                         console.log('error', JSON.stringify(x));
                         $("#div_ofiliaria_publicar_meli").html('');
-                        alert('Hubo un error en el servidor');
+                        let errorVerificacionPublicacionMeli = 
+                            `<div class="alert alert-danger alert-dismissible">
+                                No se pudo obtener el estado de su publicación en Mercado Libre por los siguientes errores técnicos en el servidor de Ofiliaria: <br />
+                                - ${xt} <br />
+                                - ${JSON.stringify(x)} <br />
+                            </div>`;
+                        $("#mensajes_generales").html(errorVerificacionPublicacionMeli);
                     }
                 });
             }
     
             async function obtenerTokenMeliAP() {
                 $("#div_ofiliaria_publicar_meli").html(gifEspere);
+                $("#mensajes_generales").html(conectandoConMeli);
                 const respuestaVerificarToken = await verificarTokenMeli(ajaxurl);
                 token_meli = respuestaVerificarToken.token_meli;
-                if (respuestaVerificarToken.codigo_respuesta == 4)
+                if (respuestaVerificarToken.codigo_respuesta == 0)
                 {
+                    mostrarInputCheckMeli();
+                    $("#mensajes_generales").html(tokenMeliExitoso);
+                }
+                else if (respuestaVerificarToken.codigo_respuesta == 4)
+                {
+                    $("#mensajes_generales").html(tokenVencido);
                     refresh_token_meli = respuestaVerificarToken.refresh_token_meli;
-                    usuario_duenio_token = respuestaVerificarToken.usuario_duenio_token;
+                    let usuario_duenio_token = respuestaVerificarToken.usuario_duenio_token;
                     const respuestaRefrescarToken = await refrescarTokenMeli(client_id_meli, client_secret_meli, refresh_token_meli);
                     if (respuestaRefrescarToken.codigo_respuesta == 0) {
                         token_meli = respuestaRefrescarToken.token_meli;
                         refresh_token_meli = respuestaRefrescarToken.refresh_token_meli;
                         guardarTokenMeli("refrescar", token_meli, refresh_token_meli, ajaxurl, usuario_duenio_token);
+                        mostrarInputCheckMeli();
+                        $("#mensajes_generales").html(tokenMeliExitoso);
                     } else {
                         error_token_meli = respuestaRefrescarToken.error;
                         mensaje_error_token_meli = respuestaRefrescarToken.mensaje_error;
                         errorTokenMeli(error_token_meli, mensaje_error_token_meli, ajaxurl);
+                        let noSePudoRefrescarToken =
+                            `<div class="alert alert-danger alert-dismissible">
+                                No se pudo refrescar su token por los siguientes motivos: <br />
+                                - ${error_token_meli} <br />
+                                - ${mensaje_error_token_meli} <br />
+                            </div>`;
+                        $("#div_ofiliaria_publicar_meli").html('');
+                        $("#mensajes_generales").html(noSePudoRefrescarToken);
                     }   
                 }
+                else
+                {
+                    $("#div_ofiliaria_publicar_meli").html('');
+                    let mensajeErrorVerificacionToken = 
+                        `<div class="alert alert-danger alert-dismissible">
+                            No se pudo verificar su token por los siguientes motivos: <br />
+                            - ${respuestaVerificarToken.codigo_respuesta} <br />
+                            - ${respuestaVerificarToken.mensaje_respuesta} <br />
+                        </div>`;
+                    $("#mensajes_generales").html(mensajeErrorVerificacionToken);
+                }
+            }
+
+            function mostrarInputCheckMeli()
+            {
                 if ($('#id_publicacion_meli').val() != 0)
                 {
                     obtenerPublicacionMeli(token_meli, $('#id_publicacion_meli').val());

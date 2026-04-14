@@ -1497,6 +1497,8 @@ class Ofiliaria_Public {
 			[
 				'codigo_retorno' => $codigo_retorno,
 				'mensaje' => $mensaje,
+				'error_meli' => $vector_publicacion_meli->error,
+				'estatus_meli' => $vector_publicacion_meli->status,
 				'vector_publicacion_meli' => $vector_publicacion_meli
 			];
 

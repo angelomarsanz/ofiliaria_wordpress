@@ -35,10 +35,12 @@ else
 <input type='hidden' id='estatus_publicacion_meli' name='estatus_publicacion_meli' value='No publicada'>
 <input type='hidden' id='check_ofiliaria_publicar_meli' name='check_ofiliaria_publicar_meli' value='<?php echo $check_ofiliaria_publicar_meli; ?>'> 
 <div class="profile-onprofile row">
-    <div id='titulo_publicar_mercado_libre' class="wpestate_dashboard_section_title">
+    <div class='wpestate_dashboard_section_title' id='titulo_publicar_mercado_libre'>
         <?php esc_html_e('Mercado Libre','wpresidence');?>
     </div>
-    <div id='div_ofiliaria_publicar_meli' class="col-md-12">
+    <div class='col-md-12' id='div_ofiliaria_publicar_meli'>
+    </div>
+    <div class='col-md-12' id='mensajes_generales'>
     </div>
     <div class="col-md-12" id="mensaje_no_conectado_meli">
         <div class="alert alert-warning alert-dismissible">
@@ -51,8 +53,8 @@ else
             <br />
         </div>
     </div>
-    <div id='div_ofiliaria_republicar_meli' class="col-md-12">
+    <div class='col-md-12' id='div_ofiliaria_republicar_meli'>
     </div>
-    <div class="col-md-12" id="mensaje_publicacion_exitosa">
+    <div class='col-md-12' id="mensaje_publicacion_exitosa">
     </div>
 </div>
