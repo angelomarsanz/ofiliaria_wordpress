@@ -53,8 +53,6 @@ else
             <br />
         </div>
     </div>
-    <div class='col-md-12' id='div_ofiliaria_republicar_meli'>
-    </div>
     <div class='col-md-12' id="mensaje_publicacion_exitosa">
     </div>
 </div>

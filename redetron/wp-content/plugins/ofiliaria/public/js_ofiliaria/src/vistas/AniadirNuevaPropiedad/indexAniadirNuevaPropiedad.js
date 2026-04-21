@@ -256,8 +256,8 @@ export const indexAniadirNuevaPropiedad = () =>
                 <br /><br />`;
 
             var contenidoRepublicarMeli = 
-                `<input type="checkbox" id="ofiliaria_republicar_meli" name="ofiliaria_republicar_meli" ?>
-                <label class="checklabel" for="ofiliaria_republicar_meli">Republicar en Mercado Libre</label>
+                `<input type="checkbox" id="ofiliaria_publicar_meli" name="ofiliaria_publicar_meli" ?>
+                <label class="checklabel" for="ofiliaria_publicar_meli">Republicar en Mercado Libre</label>
                 <br /><br />`;
 
             function obtenerPublicacionMeli(tokenMeli, idPublicacionMeli)
@@ -284,9 +284,8 @@ export const indexAniadirNuevaPropiedad = () =>
                             $("#estatus_publicacion_meli").val(data.vector_publicacion_meli.status);
                             if (data.vector_publicacion_meli.status == 'closed')
                             {
-                                $("#div_ofiliaria_publicar_meli").html('');
+                                $("#div_ofiliaria_publicar_meli").html(contenidoRepublicarMeli);
                                 $("#mensajes_generales").html(republicarMeli);
-                                $("#div_ofiliaria_republicar_meli").html(contenidoRepublicarMeli);
                             }
                             else
                             {
