@@ -161,6 +161,7 @@ export const indexAniadirNuevaPropiedad = () =>
                     '_ofiliaria_cantidad_plantas_propiedad',
                     '_ofiliaria_gastos_comunes_propiedad',
                     '_ofiliaria_estadia_minima_noches',
+                    '_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre',
                 ];
 
             // Funciones de filtrado para provincia->ciudad y ciudad->área

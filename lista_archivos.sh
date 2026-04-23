@@ -10,7 +10,9 @@ ARCHIVOS_WORDPRESS=(
     #
     # Archivos a subir:
     #"Ninguno"   
-    "redetron/wp-content/themes/wpresidence-child/templates/submit_templates/ofiliaria_publicar_meli.php"
+    "redetron/wp-content/plugins/ofiliaria/includes/tablas/campos_wp_meli.php"
+    "redetron/wp-content/plugins/ofiliaria/public/class-ofiliaria-public.php"
+    "redetron/wp-content/themes/wpresidence-child/templates/submit_templates/property_details.php"
     "redetron/wp-content/plugins/ofiliaria/public/js_ofiliaria/src/vistas/AniadirNuevaPropiedad/indexAniadirNuevaPropiedad.js"
 )
 

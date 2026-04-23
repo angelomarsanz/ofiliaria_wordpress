@@ -3470,7 +3470,7 @@ class Ofiliaria_Public {
 
 		// Campos adicionales
 
-		$_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre = isset($_POST['_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre']) ? sanitize_text_field($_POST['_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre']) : '';    
+		$_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre = isset($_POST['_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre']) ? $_POST['_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre'] : '';    
 		update_post_meta($id_post_publicacion, '_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre', $_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre);
 
 		$_ofiliaria_adicional_servicios_acceso_a_internet = isset($_POST['_ofiliaria_adicional_servicios_acceso_a_internet']) ? sanitize_text_field($_POST['_ofiliaria_adicional_servicios_acceso_a_internet']) : 'No disponible';    

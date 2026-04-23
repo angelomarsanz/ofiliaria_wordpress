@@ -965,8 +965,8 @@ if ($show_property_details) : ?>
 
     <div id="div_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre" class="col-md-6 ofiliaria_detalle_anuncio">
 
-        <label for="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre">Número de torre</label>
-        <input type="text" id="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre" class="form-control" name="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre" value="<?php echo $_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre; ?>">
+        <label for="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre">Número de torre (solo números)</label>
+        <input type="number" id="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre" class="form-control" name="_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre" value="<?php echo $_ofiliaria_adicional_comodidades_equipamiento_numero_de_torre; ?>">
 
     </div>
 
