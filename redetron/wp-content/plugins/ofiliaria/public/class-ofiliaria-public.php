@@ -3266,29 +3266,62 @@ class Ofiliaria_Public {
 							}
 							else
 							{
+								$error_list_html = '';
+								if (isset($respuesta_objeto->message) && !empty($respuesta_objeto->message)) {
+									$error_list_html .= '<ul>';
+									
+									// Agregamos el mensaje principal
+									$error_list_html .= '<li><strong>Error:</strong> ' . esc_html($respuesta_objeto->message) . '</li>';
+
+									// Verificamos si hay causas detalladas (es un array)
+									if (isset($respuesta_objeto->cause) && is_array($respuesta_objeto->cause)) {
+										foreach ($respuesta_objeto->cause as $causa) {
+											if (isset($causa->message)) {
+												// Escapamos el mensaje por seguridad
+												$error_list_html .= '<li>' . esc_html($causa->message) . '</li>';
+											}
+										}
+									}
+									
+									$error_list_html .= '</ul>';
+								}
+								$final_message = !empty($error_list_html) ?
+									__('La publicación se envió a Mercado Libre, pero hubo un error al guardar la descripción.', 'wpresidence').$error_list_html.'Si puede corregir el error, por favor hágalo, de lo contrario contacte al personal de soporte de Ofiliaria' :
+									__('La publicación se envió a Mercado Libre, pero al guardar la descripción ocurrió un error pero no se logró identificar sus causas. Por favor contacte al personal de soporte de Ofiliaria', 'wpresidence');
+
 								$message_data = [
-									'message' => __( 'La publicación se envió a Mercado Libre, pero hubo un error al guardar la descripción.', 'wpresidence' ),
+									'message' => $final_message,
 									'type'    => 'danger',
 								];
 								set_transient( 'wpestate_flash_message_' . $usuario->ID, $message_data, 60 );
+
+
 							}
 						}
 						else
 						{
 							$error_list_html = '';
-							// Verificar si hay un array de 'cause' en la respuesta de error
-							if (isset($respuesta_objeto->message) && is_array($respuesta_objeto->message) && !empty($respuesta_objeto->message)) {
+							if (isset($respuesta_objeto->message) && !empty($respuesta_objeto->message)) {
 								$error_list_html .= '<ul>';
-								$error_list_html .= '<li>Mensaje: '.$respuesta_objeto->message.'</li>';
-								if (isset($respuesta_objeto->cause) && is_array($respuesta_objeto->cause) && !empty($respuesta_objeto->cause)) {
-									$error_list_html .= '<li>Causa: '.$respuesta_objeto->cause.'</li>';
+								
+								// Agregamos el mensaje principal
+								$error_list_html .= '<li><strong>Error:</strong> ' . esc_html($respuesta_objeto->message) . '</li>';
+
+								// Verificamos si hay causas detalladas (es un array)
+								if (isset($respuesta_objeto->cause) && is_array($respuesta_objeto->cause)) {
+									foreach ($respuesta_objeto->cause as $causa) {
+										if (isset($causa->message)) {
+											// Escapamos el mensaje por seguridad
+											$error_list_html .= '<li>' . esc_html($causa->message) . '</li>';
+										}
+									}
 								}
+								
 								$error_list_html .= '</ul>';
 							}
-
 							$final_message = !empty($error_list_html) ?
-								__('La publicación no se replicó en Mercado Libre por los siguientes motivos:', 'wpresidence').$error_list_html.'<br />Por favor intente nuevamente más tarde, si persiste el problema contacte al personal de soporte de Ofiliaria' :
-								__('La publicación no se replicó en Mercado Libre debido a un error desconocido. Por favor intente nuevamente más tarde, si persiste el problema contacte al personal de soporte de Ofiliaria', 'wpresidence');
+								__('La publicación no se replicó en Mercado Libre por los siguientes motivos:', 'wpresidence').$error_list_html.'Si puede corregir el error, por favor hágalo, de lo contrario contacte al personal de soporte de Ofiliaria' :
+								__('La publicación no se replicó en Mercado Libre debido a un error desconocido. Por favor contacte al personal de soporte de Ofiliaria', 'wpresidence');
 
 							$message_data = [
 								'message' => $final_message,
